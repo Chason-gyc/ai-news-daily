@@ -11,7 +11,7 @@
       <section class="hero">
         <p class="eyebrow">Daily AI Brief</p>
         <h1>AI 动态与算力参考</h1>
-        <p class="intro">每天汇总 AI 新闻进展，同时整理大模型训练与推理常用显卡的性能、显存和选型信息。</p>
+        <p class="intro">每天汇总 AI 新闻进展，同时整理大模型、训练显卡与推理部署的能力参考。</p>
         <div class="meta">
           <span id="updatedAt">加载中...</span>
           <button id="refreshButton" type="button">刷新页面</button>
@@ -21,6 +21,7 @@
       <nav class="tabs" aria-label="内容分类">
         <button class="tab-button active" type="button" data-tab-target="newsTab" aria-selected="true">AI 新闻</button>
         <button class="tab-button" type="button" data-tab-target="gpuTab" aria-selected="false">显卡排名</button>
+        <button class="tab-button" type="button" data-tab-target="modelTab" aria-selected="false">模型排名</button>
       </nav>
 
       <section id="newsTab" class="tab-panel active">
@@ -57,6 +58,27 @@
             <span>按场景</span>
           </div>
           <div id="gpuGuidance" class="guidance-grid"></div>
+        </section>
+      </section>
+
+      <section id="modelTab" class="tab-panel">
+        <section class="panel gpu-panel">
+          <div class="panel-title">
+            <h2>大模型能力排名</h2>
+            <span id="modelUpdatedAt">按公开榜单整理</span>
+          </div>
+          <p class="rank-note">
+            模型排名会随版本、榜单口径和任务类型快速变化。这里按综合能力、代码与 Agent、开源/可自部署、真实使用热度分别展示，不把它们混成单一绝对分数。
+          </p>
+          <div id="modelRankings" class="ranking-grid"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">
+            <h2>模型选型建议</h2>
+            <span>按任务</span>
+          </div>
+          <div id="modelGuidance" class="guidance-grid"></div>
         </section>
       </section>
     </main>

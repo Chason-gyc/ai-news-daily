@@ -1,0 +1,233 @@
+{
+  "updatedAt": "2026-04-27",
+  "itemsCount": 18,
+  "rankings": [
+    {
+      "title": "综合能力排名",
+      "description": "通用问答、推理、代码、多模态、工具调用综合参考",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Google Gemini 3.1 Pro Preview",
+          "bestFor": "综合基准、多模态、超长上下文",
+          "specs": [
+            { "label": "类型", "value": "闭源旗舰" },
+            { "label": "强项", "value": "综合基准" },
+            { "label": "多模态", "value": "顶级" },
+            { "label": "榜单", "value": "AA #1" }
+          ],
+          "reason": "Artificial Analysis Intelligence Index 当前位居前列，适合多模态、长上下文和高难综合任务。"
+        },
+        {
+          "rank": 2,
+          "name": "OpenAI GPT-5.4 (xhigh)",
+          "bestFor": "复杂推理、代码、Agent、长链路任务",
+          "specs": [
+            { "label": "类型", "value": "闭源旗舰" },
+            { "label": "强项", "value": "高难推理" },
+            { "label": "代码", "value": "顶级" },
+            { "label": "榜单", "value": "AA 并列顶级" }
+          ],
+          "reason": "在综合推理和复杂任务上处于第一梯队，适合作为高难任务和 Agent 工作流主模型。"
+        },
+        {
+          "rank": 3,
+          "name": "Anthropic Claude Opus 4.7 Thinking",
+          "bestFor": "长文理解、代码审查、严谨写作",
+          "specs": [
+            { "label": "类型", "value": "闭源旗舰" },
+            { "label": "强项", "value": "文本竞技" },
+            { "label": "代码", "value": "顶级" },
+            { "label": "榜单", "value": "Arena 文本 #1" }
+          ],
+          "reason": "Arena 文本和代码分项表现非常强，适合长文、代码库和需要严谨表达的任务。"
+        },
+        {
+          "rank": 4,
+          "name": "OpenAI GPT-5.3 Codex (xhigh)",
+          "bestFor": "复杂代码、软件工程、自动化开发",
+          "specs": [
+            { "label": "类型", "value": "闭源旗舰" },
+            { "label": "强项", "value": "代码" },
+            { "label": "Agent", "value": "很强" },
+            { "label": "榜单", "value": "AA #3" }
+          ],
+          "reason": "代码和工程任务能力突出，适合复杂软件修改、测试修复和开发自动化。"
+        },
+        {
+          "rank": 5,
+          "name": "Anthropic Claude Opus 4.6 / Sonnet 4.6",
+          "bestFor": "长文分析、代码审查、日常高质量问答",
+          "specs": [
+            { "label": "类型", "value": "闭源旗舰" },
+            { "label": "强项", "value": "稳定输出" },
+            { "label": "代码", "value": "顶级" },
+            { "label": "榜单", "value": "AA / Arena 前列" }
+          ],
+          "reason": "综合稳定性、代码审查和长上下文表现强，是生产场景常用的一线模型。"
+        },
+        {
+          "rank": 6,
+          "name": "GLM-5 / GLM-5.1",
+          "bestFor": "中文复杂任务、代码、开源生态",
+          "specs": [
+            { "label": "类型", "value": "开放生态" },
+            { "label": "强项", "value": "中文/代码" },
+            { "label": "代码", "value": "Arena 前列" },
+            { "label": "部署", "value": "可自部署" }
+          ],
+          "reason": "在中文和代码榜单上表现突出，适合国内私有化和工程应用。"
+        },
+        {
+          "rank": 7,
+          "name": "xAI Grok 4.20 Beta",
+          "bestFor": "实时语境、开放式推理、社交信息",
+          "specs": [
+            { "label": "类型", "value": "闭源旗舰" },
+            { "label": "强项", "value": "开放讨论" },
+            { "label": "推理", "value": "很强" },
+            { "label": "榜单", "value": "AA / Arena 前列" }
+          ],
+          "reason": "推理能力位于前列，适合实时信息和开放式分析，但企业稳定性要按接口实测。"
+        },
+        {
+          "rank": 8,
+          "name": "Kimi K2.6 / DeepSeek V3.2 / Qwen 3.6",
+          "bestFor": "中文、开源生态、真实使用热度",
+          "specs": [
+            { "label": "类型", "value": "商业/开放生态" },
+            { "label": "强项", "value": "中文和成本" },
+            { "label": "中文", "value": "很强" },
+            { "label": "热度", "value": "OpenRouter 前列" }
+          ],
+          "reason": "在真实使用量和中文生态中活跃，适合成本敏感、中文业务和批量推理。"
+        }
+      ]
+    },
+    {
+      "title": "代码与 Agent 排名",
+      "description": "代码生成、代码库理解、工具调用和自动化任务",
+      "items": [
+        {
+          "rank": 1,
+          "name": "OpenAI GPT-5.3 Codex / GPT-5.4",
+          "bestFor": "复杂代码任务、跨文件修改、自动化交付",
+          "specs": [
+            { "label": "代码", "value": "顶级" },
+            { "label": "Agent", "value": "顶级" },
+            { "label": "工具调用", "value": "成熟" },
+            { "label": "适合", "value": "生产开发" }
+          ],
+          "reason": "复杂工程任务完成度高，适合代码审查、重构、测试修复和端到端交付。"
+        },
+        {
+          "rank": 2,
+          "name": "Claude Opus 4.7 / Sonnet 4.6",
+          "bestFor": "代码审查、重构、架构分析",
+          "specs": [
+            { "label": "代码", "value": "顶级" },
+            { "label": "长上下文", "value": "强" },
+            { "label": "审查", "value": "强" },
+            { "label": "风格", "value": "稳" }
+          ],
+          "reason": "读代码和解释复杂系统很强，适合审查、设计讨论和高质量重构。"
+        },
+        {
+          "rank": 3,
+          "name": "DeepSeek V3.2 / Coder",
+          "bestFor": "高性价比代码生成、数学推理",
+          "specs": [
+            { "label": "代码", "value": "很强" },
+            { "label": "成本", "value": "优势" },
+            { "label": "中文", "value": "强" },
+            { "label": "部署", "value": "灵活" }
+          ],
+          "reason": "代码和推理能力强，成本优势明显，适合批量代码辅助和中文开发。"
+        },
+        {
+          "rank": 4,
+          "name": "Qwen 3.6 Plus / Coder",
+          "bestFor": "国内工程场景、私有化代码助手",
+          "specs": [
+            { "label": "代码", "value": "很强" },
+            { "label": "中文", "value": "强" },
+            { "label": "生态", "value": "国内友好" },
+            { "label": "私有化", "value": "可选" }
+          ],
+          "reason": "国内企业系统集成便利，代码和中文业务理解都比较均衡。"
+        }
+      ]
+    },
+    {
+      "title": "开源/可自部署排名",
+      "description": "更看权重可用性、社区生态、微调和私有化",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Llama 4.1 系列",
+          "bestFor": "通用私有化、研究和生态兼容",
+          "specs": [
+            { "label": "权重", "value": "开放" },
+            { "label": "生态", "value": "最广" },
+            { "label": "微调", "value": "成熟" },
+            { "label": "部署", "value": "灵活" }
+          ],
+          "reason": "社区工具链、量化、推理框架和微调资料最丰富。"
+        },
+        {
+          "rank": 2,
+          "name": "DeepSeek V4 / V3.2 系列",
+          "bestFor": "中文推理、代码、低成本部署",
+          "specs": [
+            { "label": "权重", "value": "开放生态" },
+            { "label": "推理", "value": "强" },
+            { "label": "代码", "value": "强" },
+            { "label": "成本", "value": "优势" }
+          ],
+          "reason": "中文和代码场景性价比高，适合自托管推理和企业内网应用。"
+        },
+        {
+          "rank": 3,
+          "name": "Qwen 3 系列",
+          "bestFor": "中文业务、工具调用、私有知识库",
+          "specs": [
+            { "label": "权重", "value": "开放生态" },
+            { "label": "中文", "value": "强" },
+            { "label": "工具", "value": "强" },
+            { "label": "部署", "value": "国内友好" }
+          ],
+          "reason": "中文生态和企业落地成熟，适合国内业务系统。"
+        },
+        {
+          "rank": 4,
+          "name": "GLM-5 / Kimi 开放模型",
+          "bestFor": "中文长文本、研究和应用集成",
+          "specs": [
+            { "label": "中文", "value": "强" },
+            { "label": "长文本", "value": "强" },
+            { "label": "生态", "value": "增长中" },
+            { "label": "部署", "value": "可选" }
+          ],
+          "reason": "中文应用体验好，适合文档理解、总结和知识库类任务。"
+        }
+      ]
+    }
+  ],
+  "guidance": [
+    {
+      "title": "默认高难任务",
+      "text": "优先选综合推理和工具调用最强的闭源旗舰，适合复杂分析、跨文件代码和 Agent 自动化。",
+      "choices": ["Gemini 3.1 Pro", "GPT-5.4", "Claude Opus 4.7"]
+    },
+    {
+      "title": "代码与工程",
+      "text": "看代码库理解、补丁稳定性和测试修复能力。成本敏感时可用 DeepSeek 或 Qwen 做批量辅助。",
+      "choices": ["GPT-5.3 Codex", "Claude Sonnet/Opus", "DeepSeek Coder", "Qwen Coder"]
+    },
+    {
+      "title": "私有化部署",
+      "text": "优先选开放权重和生态成熟的模型，再按中文、代码、长文本和硬件成本做二次筛选。",
+      "choices": ["Llama", "DeepSeek", "Qwen", "GLM"]
+    }
+  ]
+}

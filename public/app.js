@@ -9,6 +9,9 @@ const tabPanels = document.querySelectorAll('.tab-panel');
 const gpuRankings = document.querySelector('#gpuRankings');
 const gpuGuidance = document.querySelector('#gpuGuidance');
 const gpuUpdatedAt = document.querySelector('#gpuUpdatedAt');
+const modelRankings = document.querySelector('#modelRankings');
+const modelGuidance = document.querySelector('#modelGuidance');
+const modelUpdatedAt = document.querySelector('#modelUpdatedAt');
 
 const formatter = new Intl.NumberFormat('zh-CN');
 
@@ -76,8 +79,8 @@ function activateTab(targetId) {
   }
 }
 
-function renderGpuRankings(rankings) {
-  gpuRankings.replaceChildren();
+function renderRankings(container, rankings) {
+  container.replaceChildren();
 
   for (const group of rankings) {
     const section = document.createElement('section');
@@ -131,12 +134,12 @@ function renderGpuRankings(rankings) {
     }
 
     section.append(title, list);
-    gpuRankings.append(section);
+    container.append(section);
   }
 }
 
-function renderGuidance(guidance) {
-  gpuGuidance.replaceChildren();
+function renderGuidance(container, guidance) {
+  container.replaceChildren();
 
   for (const item of guidance) {
     const card = document.createElement('article');
@@ -157,7 +160,7 @@ function renderGuidance(guidance) {
     }
 
     card.append(title, text, chips);
-    gpuGuidance.append(card);
+    container.append(card);
   }
 }
 
@@ -184,12 +187,28 @@ async function loadGpuRanking() {
 
     const data = await response.json();
     gpuUpdatedAt.textContent = `更新：${data.updatedAt} · ${formatter.format(data.itemsCount)} 款 GPU`;
-    renderGpuRankings(data.rankings || []);
-    renderGuidance(data.guidance || []);
+    renderRankings(gpuRankings, data.rankings || []);
+    renderGuidance(gpuGuidance, data.guidance || []);
   } catch {
     gpuUpdatedAt.textContent = '排名数据暂不可用';
-    renderGpuRankings([]);
-    renderGuidance([]);
+    renderRankings(gpuRankings, []);
+    renderGuidance(gpuGuidance, []);
+  }
+}
+
+async function loadModelRanking() {
+  try {
+    const response = await fetch('./data/model-ranking.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error('model-ranking.json not found');
+
+    const data = await response.json();
+    modelUpdatedAt.textContent = `更新：${data.updatedAt} · ${formatter.format(data.itemsCount)} 个模型`;
+    renderRankings(modelRankings, data.rankings || []);
+    renderGuidance(modelGuidance, data.guidance || []);
+  } catch {
+    modelUpdatedAt.textContent = '模型排名暂不可用';
+    renderRankings(modelRankings, []);
+    renderGuidance(modelGuidance, []);
   }
 }
 
@@ -205,3 +224,4 @@ for (const button of tabButtons) {
 
 loadNews();
 loadGpuRanking();
+loadModelRanking();
