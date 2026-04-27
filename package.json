@@ -5,6 +5,7 @@
   "description": "Collect and display the latest 10 AI news items each day.",
   "type": "module",
   "scripts": {
+    "build": "node src/build-site.js",
     "fetch": "node src/fetch-news.js",
     "fetch:insecure": "node src/fetch-news.js --insecure-tls",
     "serve": "node src/server.js",

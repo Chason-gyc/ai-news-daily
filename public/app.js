@@ -59,7 +59,7 @@ function renderSources(items) {
 
 async function loadNews() {
   try {
-    const response = await fetch('/data/news.json', { cache: 'no-store' });
+    const response = await fetch('./data/news.json', { cache: 'no-store' });
     if (!response.ok) throw new Error('news.json not found');
 
     const data = await response.json();
