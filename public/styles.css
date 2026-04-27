@@ -269,6 +269,10 @@ button {
   overflow: hidden;
 }
 
+.info-panel {
+  margin-top: 24px;
+}
+
 #gpuUpdatedAt {
   color: var(--accent-2);
   font-family: "Trebuchet MS", Verdana, sans-serif;

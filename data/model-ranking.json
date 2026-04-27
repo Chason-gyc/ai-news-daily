@@ -1,6 +1,16 @@
 {
   "updatedAt": "2026-04-27",
   "itemsCount": 12,
+  "sourceLabel": "公开资料汇总",
+  "sourceText": "这份排名综合参考了厂商官方发布、公开 benchmark、Arena 类主观榜单、Artificial Analysis 类综合榜单，以及各模型在代码、长上下文、多模态和可部署性上的公开信息。不同榜单口径不同，因此这里展示的是选型参考，不是绝对分数。",
+  "sourceChips": [
+    "OpenAI 官方发布",
+    "Google / Anthropic 官方发布",
+    "DeepSeek 官方发布",
+    "Artificial Analysis",
+    "LMSYS / Arena",
+    "OpenRouter 热度"
+  ],
   "rankings": [
     {
       "title": "综合能力排名",

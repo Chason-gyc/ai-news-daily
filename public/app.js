@@ -12,6 +12,9 @@ const gpuUpdatedAt = document.querySelector('#gpuUpdatedAt');
 const modelRankings = document.querySelector('#modelRankings');
 const modelGuidance = document.querySelector('#modelGuidance');
 const modelUpdatedAt = document.querySelector('#modelUpdatedAt');
+const modelSourceLabel = document.querySelector('#modelSourceLabel');
+const modelSourceText = document.querySelector('#modelSourceText');
+const modelSourceChips = document.querySelector('#modelSourceChips');
 
 const formatter = new Intl.NumberFormat('zh-CN');
 
@@ -164,6 +167,18 @@ function renderGuidance(container, guidance) {
   }
 }
 
+function renderSourceInfo(label, text, chips) {
+  modelSourceLabel.textContent = label || '公开资料';
+  modelSourceText.textContent = text || '';
+  modelSourceChips.replaceChildren();
+
+  for (const chipText of chips || []) {
+    const chip = document.createElement('span');
+    chip.textContent = chipText;
+    modelSourceChips.append(chip);
+  }
+}
+
 async function loadNews() {
   try {
     const response = await fetch('./data/news.json', { cache: 'no-store' });
@@ -203,10 +218,12 @@ async function loadModelRanking() {
 
     const data = await response.json();
     modelUpdatedAt.textContent = `更新：${data.updatedAt} · ${formatter.format(data.itemsCount)} 个模型`;
+    renderSourceInfo(data.sourceLabel, data.sourceText, data.sourceChips);
     renderRankings(modelRankings, data.rankings || []);
     renderGuidance(modelGuidance, data.guidance || []);
   } catch {
     modelUpdatedAt.textContent = '模型排名暂不可用';
+    renderSourceInfo('公开资料', '当前无法加载模型榜单来源说明。', []);
     renderRankings(modelRankings, []);
     renderGuidance(modelGuidance, []);
   }
