@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-27T02:24:34.988Z",
+  "updatedAt": "2026-04-27T02:54:05.502Z",
   "count": 10,
   "sources": [
     {
@@ -42,7 +42,7 @@
       "publishedAt": "2026-04-26T16:00:00.000Z"
     },
     {
-      "title": "Three reasons why DeepSeek��s new model matters",
+      "title": "Three reasons why DeepSeek’s new model matters",
       "link": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
       "source": "MIT Technology Review AI",
       "sourceHome": "https://www.technologyreview.com/topic/artificial-intelligence/",
@@ -62,7 +62,7 @@
       "link": "https://openai.com/index/introducing-gpt-5-5",
       "source": "OpenAI Blog",
       "sourceHome": "https://openai.com/news/",
-      "summary": "Introducing GPT-5.5, our smartest model yet��faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
+      "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
       "publishedAt": "2026-04-23T11:00:00.000Z"
     },
     {

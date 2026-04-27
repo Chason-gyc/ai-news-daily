@@ -164,7 +164,7 @@ async function fetchWithPowerShell(url, originalError) {
       [
         '-NoProfile',
         '-Command',
-        '& { param($url) $ProgressPreference = "SilentlyContinue"; (Invoke-WebRequest -Uri $url -UseBasicParsing -TimeoutSec 30).Content }',
+        '& { param($url) [Console]::OutputEncoding = [Text.Encoding]::UTF8; $ProgressPreference = "SilentlyContinue"; (Invoke-WebRequest -Uri $url -UseBasicParsing -TimeoutSec 30).Content }',
         url
       ],
       {
