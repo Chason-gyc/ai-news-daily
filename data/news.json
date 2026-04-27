@@ -1,0 +1,117 @@
+{
+  "updatedAt": "2026-04-27T02:24:34.988Z",
+  "count": 10,
+  "sources": [
+    {
+      "name": "OpenAI Blog",
+      "homepage": "https://openai.com/news/"
+    },
+    {
+      "name": "Google DeepMind",
+      "homepage": "https://deepmind.google/discover/blog/"
+    },
+    {
+      "name": "Anthropic News",
+      "homepage": "https://www.anthropic.com/news"
+    },
+    {
+      "name": "Microsoft AI Blog",
+      "homepage": "https://blogs.microsoft.com/ai/"
+    },
+    {
+      "name": "VentureBeat AI",
+      "homepage": "https://venturebeat.com/category/ai/"
+    },
+    {
+      "name": "MIT Technology Review AI",
+      "homepage": "https://www.technologyreview.com/topic/artificial-intelligence/"
+    },
+    {
+      "name": "arXiv cs.AI",
+      "homepage": "https://arxiv.org/list/cs.AI/recent"
+    }
+  ],
+  "failures": [],
+  "items": [
+    {
+      "title": "Our principles",
+      "link": "https://openai.com/index/our-principles",
+      "source": "OpenAI Blog",
+      "sourceHome": "https://openai.com/news/",
+      "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
+      "publishedAt": "2026-04-26T16:00:00.000Z"
+    },
+    {
+      "title": "Three reasons why DeepSeek��s new model matters",
+      "link": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
+      "source": "MIT Technology Review AI",
+      "sourceHome": "https://www.technologyreview.com/topic/artificial-intelligence/",
+      "summary": "On Friday, Chinese AI firm DeepSeek released a preview of V4, its long-awaited new flagship model. Notably, the model can process much longer prompts than its last generation, thanks to a new design that helps it handle large amounts of tex",
+      "publishedAt": "2026-04-24T21:40:58.000Z"
+    },
+    {
+      "title": "GPT-5.5 System Card",
+      "link": "https://openai.com/index/gpt-5-5-system-card",
+      "source": "OpenAI Blog",
+      "sourceHome": "https://openai.com/news/",
+      "summary": "",
+      "publishedAt": "2026-04-23T11:00:00.000Z"
+    },
+    {
+      "title": "Introducing GPT-5.5",
+      "link": "https://openai.com/index/introducing-gpt-5-5",
+      "source": "OpenAI Blog",
+      "sourceHome": "https://openai.com/news/",
+      "summary": "Introducing GPT-5.5, our smartest model yet��faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
+      "publishedAt": "2026-04-23T11:00:00.000Z"
+    },
+    {
+      "title": "Top 10 uses for Codex at work",
+      "link": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+      "source": "OpenAI Blog",
+      "sourceHome": "https://openai.com/news/",
+      "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+      "publishedAt": "2026-04-23T10:00:00.000Z"
+    },
+    {
+      "title": "How to get started with Codex",
+      "link": "https://openai.com/academy/codex-how-to-start",
+      "source": "OpenAI Blog",
+      "sourceHome": "https://openai.com/news/",
+      "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+      "publishedAt": "2026-04-23T10:00:00.000Z"
+    },
+    {
+      "title": "What is Codex?",
+      "link": "https://openai.com/academy/what-is-codex",
+      "source": "OpenAI Blog",
+      "sourceHome": "https://openai.com/news/",
+      "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+      "publishedAt": "2026-04-23T10:00:00.000Z"
+    },
+    {
+      "title": "Automations",
+      "link": "https://openai.com/academy/codex-automations",
+      "source": "OpenAI Blog",
+      "sourceHome": "https://openai.com/news/",
+      "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+      "publishedAt": "2026-04-23T10:00:00.000Z"
+    },
+    {
+      "title": "Codex settings",
+      "link": "https://openai.com/academy/codex-settings",
+      "source": "OpenAI Blog",
+      "sourceHome": "https://openai.com/news/",
+      "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+      "publishedAt": "2026-04-23T10:00:00.000Z"
+    },
+    {
+      "title": "Working with Codex",
+      "link": "https://openai.com/academy/working-with-codex",
+      "source": "OpenAI Blog",
+      "sourceHome": "https://openai.com/news/",
+      "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+      "publishedAt": "2026-04-23T10:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "ai-news-daily",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Collect and display the latest 10 AI news items each day.",
+  "type": "module",
+  "scripts": {
+    "fetch": "node src/fetch-news.js",
+    "fetch:insecure": "node src/fetch-news.js --insecure-tls",
+    "serve": "node src/server.js",
+    "start": "npm run fetch && npm run serve"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

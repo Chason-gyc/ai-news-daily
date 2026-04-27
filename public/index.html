@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI News Daily</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">Daily AI Brief</p>
+        <h1>每天 10 条 AI 最新进展</h1>
+        <p class="intro">自动汇总主流 AI 公司、研究和科技媒体 RSS 来源，按发布时间排序展示。</p>
+        <div class="meta">
+          <span id="updatedAt">加载中...</span>
+          <button id="refreshButton" type="button">刷新页面</button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">
+          <h2>最新消息</h2>
+          <span id="count">0 / 10</span>
+        </div>
+        <ol id="newsList" class="news-list"></ol>
+        <p id="emptyState" class="empty" hidden>还没有采集到新闻。请先运行 npm run fetch。</p>
+      </section>
+
+      <section class="sources">
+        <h2>采集来源</h2>
+        <div id="sources"></div>
+      </section>
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
