@@ -41,8 +41,15 @@ async function serveFile(response, filePath) {
 createServer(async (request, response) => {
   const url = new URL(request.url || '/', `http://${request.headers.host}`);
 
-  if (url.pathname === '/data/news.json') {
-    await serveFile(response, path.join(dataDir, 'news.json'));
+  if (url.pathname.startsWith('/data/')) {
+    const dataPath = safeJoin(dataDir, url.pathname.replace(/^\/data\//, ''));
+    if (!dataPath) {
+      response.writeHead(403, { 'content-type': 'text/plain; charset=utf-8' });
+      response.end('Forbidden');
+      return;
+    }
+
+    await serveFile(response, dataPath);
     return;
   }
 

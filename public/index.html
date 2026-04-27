@@ -10,26 +10,54 @@
     <main class="shell">
       <section class="hero">
         <p class="eyebrow">Daily AI Brief</p>
-        <h1>每天 10 条 AI 最新进展</h1>
-        <p class="intro">自动汇总主流 AI 公司、研究和科技媒体 RSS 来源，按发布时间排序展示。</p>
+        <h1>AI 动态与算力参考</h1>
+        <p class="intro">每天汇总 AI 新闻进展，同时整理大模型训练与推理常用显卡的性能、显存和选型信息。</p>
         <div class="meta">
           <span id="updatedAt">加载中...</span>
           <button id="refreshButton" type="button">刷新页面</button>
         </div>
       </section>
 
-      <section class="panel">
-        <div class="panel-title">
-          <h2>最新消息</h2>
-          <span id="count">0 / 10</span>
+      <nav class="tabs" aria-label="内容分类">
+        <button class="tab-button active" type="button" data-tab-target="newsTab" aria-selected="true">AI 新闻</button>
+        <button class="tab-button" type="button" data-tab-target="gpuTab" aria-selected="false">显卡排名</button>
+      </nav>
+
+      <section id="newsTab" class="tab-panel active">
+        <div class="panel">
+          <div class="panel-title">
+            <h2>最新消息</h2>
+            <span id="count">0 / 10</span>
+          </div>
+          <ol id="newsList" class="news-list"></ol>
+          <p id="emptyState" class="empty" hidden>还没有采集到新闻。请先运行 npm run fetch。</p>
         </div>
-        <ol id="newsList" class="news-list"></ol>
-        <p id="emptyState" class="empty" hidden>还没有采集到新闻。请先运行 npm run fetch。</p>
+
+        <section class="sources">
+          <h2>采集来源</h2>
+          <div id="sources"></div>
+        </section>
       </section>
 
-      <section class="sources">
-        <h2>采集来源</h2>
-        <div id="sources"></div>
+      <section id="gpuTab" class="tab-panel">
+        <section class="panel gpu-panel">
+          <div class="panel-title">
+            <h2>大模型显卡排名</h2>
+            <span id="gpuUpdatedAt">按公开资料整理</span>
+          </div>
+          <p class="rank-note">
+            这个排名面向训练和推理实用价值，优先看显存容量、显存带宽、低精度算力、多卡互联和软件生态，不等同于游戏跑分。
+          </p>
+          <div id="gpuRankings" class="ranking-grid"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">
+            <h2>选型建议</h2>
+            <span>按场景</span>
+          </div>
+          <div id="gpuGuidance" class="guidance-grid"></div>
+        </section>
       </section>
     </main>
 
