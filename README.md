@@ -66,4 +66,11 @@ npm run fetch
 
 ### GitHub Actions
 
-如果后续把项目放到 GitHub，可以增加定时 workflow，每天运行 `npm run fetch` 后提交更新后的 `data/news.json`。
+`.github/workflows/pages.yml` 会在每天 08:10（中国时间）自动运行，也可以手动触发。每次部署都会先执行：
+
+```powershell
+npm run fetch
+npm run build
+```
+
+因此 GitHub Pages 发布的 `dist/data/news.json` 会在部署时重新生成，不依赖仓库里旧的 `data/news.json`。

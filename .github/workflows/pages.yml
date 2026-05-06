@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  schedule:
+    # Run every day at 08:10 Asia/Shanghai.
+    - cron: '10 0 * * *'
   workflow_dispatch:
 
 permissions:
@@ -32,6 +35,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+
+      - name: Fetch latest news
+        run: npm run fetch
 
       - name: Build static site
         run: npm run build
