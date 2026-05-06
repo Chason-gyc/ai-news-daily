@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-27T02:54:05.502Z",
+  "updatedAt": "2026-04-27T04:36:47.050Z",
   "count": 10,
   "sources": [
     {
@@ -34,84 +34,84 @@
   "failures": [],
   "items": [
     {
-      "title": "Our principles",
-      "link": "https://openai.com/index/our-principles",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
-      "publishedAt": "2026-04-26T16:00:00.000Z"
+      "title": "Math Takes Two: A test for emergent mathematical reasoning in communication",
+      "link": "https://arxiv.org/abs/2604.21935",
+      "source": "arXiv cs.AI",
+      "sourceHome": "https://arxiv.org/list/cs.AI/recent",
+      "summary": "arXiv:2604.21935v1 Announce Type: new Abstract: Although language models demonstrate remarkable proficiency on mathematical benchmarks, it remains unclear whether this reflects true mathematical reasoning or statistical pattern matching ove",
+      "publishedAt": "2026-04-27T04:00:00.000Z"
     },
     {
-      "title": "Three reasons why DeepSeek’s new model matters",
-      "link": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
-      "source": "MIT Technology Review AI",
-      "sourceHome": "https://www.technologyreview.com/topic/artificial-intelligence/",
-      "summary": "On Friday, Chinese AI firm DeepSeek released a preview of V4, its long-awaited new flagship model. Notably, the model can process much longer prompts than its last generation, thanks to a new design that helps it handle large amounts of tex",
-      "publishedAt": "2026-04-24T21:40:58.000Z"
+      "title": "An Artifact-based Agent Framework for Adaptive and Reproducible Medical Image Processing",
+      "link": "https://arxiv.org/abs/2604.21936",
+      "source": "arXiv cs.AI",
+      "sourceHome": "https://arxiv.org/list/cs.AI/recent",
+      "summary": "arXiv:2604.21936v1 Announce Type: new Abstract: Medical imaging research is increasingly shifting from controlled benchmark evaluation toward real-world clinical deployment. In such settings, applying analytical methods extends beyond model",
+      "publishedAt": "2026-04-27T04:00:00.000Z"
     },
     {
-      "title": "GPT-5.5 System Card",
-      "link": "https://openai.com/index/gpt-5-5-system-card",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "summary": "",
-      "publishedAt": "2026-04-23T11:00:00.000Z"
+      "title": "MolClaw: An Autonomous Agent with Hierarchical Skills for Drug Molecule Evaluation, Screening, and Optimization",
+      "link": "https://arxiv.org/abs/2604.21937",
+      "source": "arXiv cs.AI",
+      "sourceHome": "https://arxiv.org/list/cs.AI/recent",
+      "summary": "arXiv:2604.21937v1 Announce Type: new Abstract: Computational drug discovery, particularly the complex workflows of drug molecule screening and optimization, requires orchestrating dozens of specialized tools in multi-step workflows, yet cu",
+      "publishedAt": "2026-04-27T04:00:00.000Z"
     },
     {
-      "title": "Introducing GPT-5.5",
-      "link": "https://openai.com/index/introducing-gpt-5-5",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
-      "publishedAt": "2026-04-23T11:00:00.000Z"
+      "title": "Read the Paper, Write the Code: Agentic Reproduction of Social-Science Results",
+      "link": "https://arxiv.org/abs/2604.21965",
+      "source": "arXiv cs.AI",
+      "sourceHome": "https://arxiv.org/list/cs.AI/recent",
+      "summary": "arXiv:2604.21965v1 Announce Type: new Abstract: Recent work has used LLM agents to reproduce empirical social science results with access to both the data and code. We broaden this scope by asking: Can they reproduce results given only a pa",
+      "publishedAt": "2026-04-27T04:00:00.000Z"
     },
     {
-      "title": "Top 10 uses for Codex at work",
-      "link": "https://openai.com/academy/top-10-use-cases-codex-for-work",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
-      "publishedAt": "2026-04-23T10:00:00.000Z"
+      "title": "Rethinking Publication: A Certification Framework for AI-Enabled Research",
+      "link": "https://arxiv.org/abs/2604.22026",
+      "source": "arXiv cs.AI",
+      "sourceHome": "https://arxiv.org/list/cs.AI/recent",
+      "summary": "arXiv:2604.22026v1 Announce Type: new Abstract: AI research pipelines now produce a growing share of publishable academic output, including work that meets existing peer-review standards for quality and novelty. Yet the publication system w",
+      "publishedAt": "2026-04-27T04:00:00.000Z"
     },
     {
-      "title": "How to get started with Codex",
-      "link": "https://openai.com/academy/codex-how-to-start",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
-      "publishedAt": "2026-04-23T10:00:00.000Z"
+      "title": "Sound Agentic Science Requires Adversarial Experiments",
+      "link": "https://arxiv.org/abs/2604.22080",
+      "source": "arXiv cs.AI",
+      "sourceHome": "https://arxiv.org/list/cs.AI/recent",
+      "summary": "arXiv:2604.22080v1 Announce Type: new Abstract: LLM-based agents are rapidly being adopted for scientific data analysis, automating tasks once limited by human time and expertise. This capability is often framed as an acceleration of discov",
+      "publishedAt": "2026-04-27T04:00:00.000Z"
     },
     {
-      "title": "What is Codex?",
-      "link": "https://openai.com/academy/what-is-codex",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
-      "publishedAt": "2026-04-23T10:00:00.000Z"
+      "title": "Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents",
+      "link": "https://arxiv.org/abs/2604.22085",
+      "source": "arXiv cs.AI",
+      "sourceHome": "https://arxiv.org/list/cs.AI/recent",
+      "summary": "arXiv:2604.22085v1 Announce Type: new Abstract: The transition from stateless language model inference to persistent, multi session autonomous agents has revealed memory to be a primary architectural bottleneck in the deployment of producti",
+      "publishedAt": "2026-04-27T04:00:00.000Z"
     },
     {
-      "title": "Automations",
-      "link": "https://openai.com/academy/codex-automations",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
-      "publishedAt": "2026-04-23T10:00:00.000Z"
+      "title": "Emergent Strategic Reasoning Risks in AI: A Taxonomy-Driven Evaluation Framework",
+      "link": "https://arxiv.org/abs/2604.22119",
+      "source": "arXiv cs.AI",
+      "sourceHome": "https://arxiv.org/list/cs.AI/recent",
+      "summary": "arXiv:2604.22119v1 Announce Type: new Abstract: As reasoning capacity and deployment scope grow in tandem, large language models (LLMs) gain the capacity to engage in behaviors that serve their own objectives, a class of risks we term Emerg",
+      "publishedAt": "2026-04-27T04:00:00.000Z"
     },
     {
-      "title": "Codex settings",
-      "link": "https://openai.com/academy/codex-settings",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
-      "publishedAt": "2026-04-23T10:00:00.000Z"
+      "title": "When Does LLM Self-Correction Help? A Control-Theoretic Markov Diagnostic and Verify-First Intervention",
+      "link": "https://arxiv.org/abs/2604.22273",
+      "source": "arXiv cs.AI",
+      "sourceHome": "https://arxiv.org/list/cs.AI/recent",
+      "summary": "arXiv:2604.22273v1 Announce Type: new Abstract: Iterative self-correction is widely used in agentic LLM systems, but when repeated refinement helps versus hurts remains unclear. We frame self-correction as a cybernetic feedback loop in whic",
+      "publishedAt": "2026-04-27T04:00:00.000Z"
     },
     {
-      "title": "Working with Codex",
-      "link": "https://openai.com/academy/working-with-codex",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
-      "publishedAt": "2026-04-23T10:00:00.000Z"
+      "title": "Introducing Background Temperature to Characterise Hidden Randomness in Large Language Models",
+      "link": "https://arxiv.org/abs/2604.22411",
+      "source": "arXiv cs.AI",
+      "sourceHome": "https://arxiv.org/list/cs.AI/recent",
+      "summary": "arXiv:2604.22411v1 Announce Type: new Abstract: Even when decoding with temperature $T=0$, large language models (LLMs) can produce divergent outputs for identical inputs. Recent work by Thinking Machines Lab highlights implementation-level",
+      "publishedAt": "2026-04-27T04:00:00.000Z"
     }
   ]
 }
