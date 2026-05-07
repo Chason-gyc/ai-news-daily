@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-27T04:36:47.050Z",
+  "updatedAt": "2026-05-07T01:06:23.445Z",
   "count": 10,
   "sources": [
     {
@@ -34,84 +34,114 @@
   "failures": [],
   "items": [
     {
-      "title": "Math Takes Two: A test for emergent mathematical reasoning in communication",
-      "link": "https://arxiv.org/abs/2604.21935",
+      "title": "2026智能制造的人工智能和机器学习路线图",
+      "link": "https://arxiv.org/abs/2605.00839",
       "source": "arXiv cs.AI",
       "sourceHome": "https://arxiv.org/list/cs.AI/recent",
-      "summary": "arXiv:2604.21935v1 Announce Type: new Abstract: Although language models demonstrate remarkable proficiency on mathematical benchmarks, it remains unclear whether this reflects true mathematical reasoning or statistical pattern matching ove",
-      "publishedAt": "2026-04-27T04:00:00.000Z"
+      "summary": "arXiv: 2605.00839v1发布类型：新摘要：人工智能(AI)和机器学习(ML)的发展正在通过提供跨行业的效率、适应性和自主性的新功能来重塑智能制造",
+      "publishedAt": "2026-05-06T04:00:00.000Z",
+      "titleOriginal": "2026 Roadmap on Artificial Intelligence and Machine Learning for Smart Manufacturing",
+      "summaryOriginal": "arXiv:2605.00839v1 Announce Type: new Abstract: The evolution of artificial intelligence (AI) and machine learning (ML) is reshaping smart manufacturing by providing new capabilities for efficiency, adaptability, and autonomy across industr",
+      "language": "zh-CN"
     },
     {
-      "title": "An Artifact-based Agent Framework for Adaptive and Reproducible Medical Image Processing",
-      "link": "https://arxiv.org/abs/2604.21936",
+      "title": "可持续中小企业的人工智能代理：绿色ESG评估框架",
+      "link": "https://arxiv.org/abs/2605.00841",
       "source": "arXiv cs.AI",
       "sourceHome": "https://arxiv.org/list/cs.AI/recent",
-      "summary": "arXiv:2604.21936v1 Announce Type: new Abstract: Medical imaging research is increasingly shifting from controlled benchmark evaluation toward real-world clinical deployment. In such settings, applying analytical methods extends beyond model",
-      "publishedAt": "2026-04-27T04:00:00.000Z"
+      "summary": "arXiv: 2605.00841v1公告类型：新摘要：本研究为评估欧洲中小企业（ SME ）的环境、社会和治理（ ESG ）绩效提供了一个新颖的人工智能驱动框架。初始阶段e",
+      "publishedAt": "2026-05-06T04:00:00.000Z",
+      "titleOriginal": "AI Agents for Sustainable SMEs: A Green ESG Assessment Framework",
+      "summaryOriginal": "arXiv:2605.00841v1 Announce Type: new Abstract: This study presents a novel, AI-driven framework for assessing Environmental, Social, and Governance (ESG) performance in European small and medium-sized enterprises (SMEs). An initial phase e",
+      "language": "zh-CN"
     },
     {
-      "title": "MolClaw: An Autonomous Agent with Hierarchical Skills for Drug Molecule Evaluation, Screening, and Optimization",
-      "link": "https://arxiv.org/abs/2604.21937",
+      "title": "通过特征叠加几何理解紧急错位",
+      "link": "https://arxiv.org/abs/2605.00842",
       "source": "arXiv cs.AI",
       "sourceHome": "https://arxiv.org/list/cs.AI/recent",
-      "summary": "arXiv:2604.21937v1 Announce Type: new Abstract: Computational drug discovery, particularly the complex workflows of drug molecule screening and optimization, requires orchestrating dozens of specialized tools in multi-step workflows, yet cu",
-      "publishedAt": "2026-04-27T04:00:00.000Z"
+      "summary": "arXiv: 2605.00842v1公告类型：新摘要：紧急错位，对狭窄、无害的任务进行微调会诱发有害行为，这对LLM的人工智能安全构成了关键挑战。尽管有越来越多的实证证据，但其潜在的",
+      "publishedAt": "2026-05-06T04:00:00.000Z",
+      "titleOriginal": "Understanding Emergent Misalignment via Feature Superposition Geometry",
+      "summaryOriginal": "arXiv:2605.00842v1 Announce Type: new Abstract: Emergent misalignment, where fine-tuning on narrow, non-harmful tasks induces harmful behaviors, poses a key challenge for AI safety in LLMs. Despite growing empirical evidence, its underlying",
+      "language": "zh-CN"
     },
     {
-      "title": "Read the Paper, Write the Code: Agentic Reproduction of Social-Science Results",
-      "link": "https://arxiv.org/abs/2604.21965",
+      "title": "ClinicBot ：基于指南的临床聊天机器人，具有优先证据RAG和可验证的引文",
+      "link": "https://arxiv.org/abs/2605.00846",
       "source": "arXiv cs.AI",
       "sourceHome": "https://arxiv.org/list/cs.AI/recent",
-      "summary": "arXiv:2604.21965v1 Announce Type: new Abstract: Recent work has used LLM agents to reproduce empirical social science results with access to both the data and code. We broaden this scope by asking: Can they reproduce results given only a pa",
-      "publishedAt": "2026-04-27T04:00:00.000Z"
+      "summary": "arXiv: 2605.00846v1公告类型：新摘要：临床诊断需要准确、可验证并明确基于官方指南的答案。虽然大型语言模型擅长自然语言处理，但它们的倾向",
+      "publishedAt": "2026-05-06T04:00:00.000Z",
+      "titleOriginal": "ClinicBot: A Guideline-Grounded Clinical Chatbot with Prioritized Evidence RAG and Verifiable Citations",
+      "summaryOriginal": "arXiv:2605.00846v1 Announce Type: new Abstract: Clinical diagnosis requires answers that are accurate, verifiable, and explicitly grounded in official guidelines. While large language models excel at natural language processing, their tende",
+      "language": "zh-CN"
     },
     {
-      "title": "Rethinking Publication: A Certification Framework for AI-Enabled Research",
-      "link": "https://arxiv.org/abs/2604.22026",
+      "title": "通过结局和Kadi4Mat之间的人工智能接口加速电池研究",
+      "link": "https://arxiv.org/abs/2605.00909",
       "source": "arXiv cs.AI",
       "sourceHome": "https://arxiv.org/list/cs.AI/recent",
-      "summary": "arXiv:2604.22026v1 Announce Type: new Abstract: AI research pipelines now produce a growing share of publishable academic output, including work that meets existing peer-review standards for quality and novelty. Yet the publication system w",
-      "publishedAt": "2026-04-27T04:00:00.000Z"
+      "summary": "arXiv: 2605.00909v1公告类型：新摘要：耗时的形成过程严重影响钠离子硬币电池的寿命和寿命终止（ EOL ）性能。本研究旨在优化持续时间的形成方案",
+      "publishedAt": "2026-05-06T04:00:00.000Z",
+      "titleOriginal": "Accelerating battery research with an AI interface between FINALES and Kadi4Mat",
+      "summaryOriginal": "arXiv:2605.00909v1 Announce Type: new Abstract: The time-consuming formation process critically impacts the longevity of sodium-ion coin cells and End Of Life (EOL) performance. This study aims to optimize formation protocols for duration e",
+      "language": "zh-CN"
     },
     {
-      "title": "Sound Agentic Science Requires Adversarial Experiments",
-      "link": "https://arxiv.org/abs/2604.22080",
+      "title": "人工智能工作流程架构的效果透明治理：语义保留、表达最小值和可决定性边界",
+      "link": "https://arxiv.org/abs/2605.01030",
       "source": "arXiv cs.AI",
       "sourceHome": "https://arxiv.org/list/cs.AI/recent",
-      "summary": "arXiv:2604.22080v1 Announce Type: new Abstract: LLM-based agents are rapidly being adopted for scientific data analysis, automating tasks once limited by human time and expertise. This capability is often framed as an acceleration of discov",
-      "publishedAt": "2026-04-27T04:00:00.000Z"
+      "summary": "arXiv: 2605.01030v2公告类型：新摘要：我们提出了结构化治理的人工智能工作流程架构的机器检查形式化，并证明可以在不减少内部计算经验的情况下实施效果级治理",
+      "publishedAt": "2026-05-06T04:00:00.000Z",
+      "titleOriginal": "Effect-Transparent Governance for AI Workflow Architectures: Semantic Preservation, Expressive Minimality, and Decidability Boundaries",
+      "summaryOriginal": "arXiv:2605.01030v2 Announce Type: new Abstract: We present a machine-checked formalization of structurally governed AI workflow architectures and prove that effect-level governance can be imposed without reducing internal computational expr",
+      "language": "zh-CN"
     },
     {
-      "title": "Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents",
-      "link": "https://arxiv.org/abs/2604.22085",
+      "title": "受控执行的代数语义：单类范畴、效应代数和同调边界",
+      "link": "https://arxiv.org/abs/2605.01032",
       "source": "arXiv cs.AI",
       "sourceHome": "https://arxiv.org/list/cs.AI/recent",
-      "summary": "arXiv:2604.22085v1 Announce Type: new Abstract: The transition from stateless language model inference to persistent, multi session autonomous agents has revealed memory to be a primary architectural bottleneck in the deployment of producti",
-      "publishedAt": "2026-04-27T04:00:00.000Z"
+      "summary": "arXiv: 2605.01032v2公告类型： NEW摘要：我们提出了一种治理执行的代数语义，其中治理是公理化的、组合的、并具有可表达性。该框架在32个Rocq模块中实现了机械化（〜",
+      "publishedAt": "2026-05-06T04:00:00.000Z",
+      "titleOriginal": "Algebraic Semantics of Governed Execution: Monoidal Categories, Effect Algebras, and Coterminous Boundaries",
+      "summaryOriginal": "arXiv:2605.01032v2 Announce Type: new Abstract: We present an algebraic semantics for governed execution in which governance is axiomatized, compositional, and coterminous with expressibility. The framework, mechanized in 32 Rocq modules (~",
+      "language": "zh-CN"
     },
     {
-      "title": "Emergent Strategic Reasoning Risks in AI: A Taxonomy-Driven Evaluation Framework",
-      "link": "https://arxiv.org/abs/2604.22119",
+      "title": "基于知识驱动的LLM决策支持系统，用于激光粉末床融合中的可解释缺陷分析和缓解指导",
+      "link": "https://arxiv.org/abs/2605.01100",
       "source": "arXiv cs.AI",
       "sourceHome": "https://arxiv.org/list/cs.AI/recent",
-      "summary": "arXiv:2604.22119v1 Announce Type: new Abstract: As reasoning capacity and deployment scope grow in tandem, large language models (LLMs) gain the capacity to engage in behaviors that serve their own objectives, a class of risks we term Emerg",
-      "publishedAt": "2026-04-27T04:00:00.000Z"
+      "summary": "arXiv: 2605.01100v1公告类型：新摘要：本工作提出了一个知识驱动的决策支持系统，该系统将结构化缺陷知识与基于LLM的推理相结合，以提供可解释的缺陷诊断和缓解指南",
+      "publishedAt": "2026-05-06T04:00:00.000Z",
+      "titleOriginal": "A Knowledge-Driven LLM-Based Decision-Support System for Explainable Defect Analysis and Mitigation Guidance in Laser Powder Bed Fusion",
+      "summaryOriginal": "arXiv:2605.01100v1 Announce Type: new Abstract: This work presents a knowledge-driven decision-support system that integrates structured defect knowledge with LLM-based reasoning to provide explainable defect diagnosis and mitigation guidan",
+      "language": "zh-CN"
     },
     {
-      "title": "When Does LLM Self-Correction Help? A Control-Theoretic Markov Diagnostic and Verify-First Intervention",
-      "link": "https://arxiv.org/abs/2604.22273",
+      "title": "虚拟言语治疗师：用于个性化和监督治疗的临床医生在环AI言语治疗代理",
+      "link": "https://arxiv.org/abs/2605.01101",
       "source": "arXiv cs.AI",
       "sourceHome": "https://arxiv.org/list/cs.AI/recent",
-      "summary": "arXiv:2604.22273v1 Announce Type: new Abstract: Iterative self-correction is widely used in agentic LLM systems, but when repeated refinement helps versus hurts remains unclear. We frame self-correction as a cybernetic feedback loop in whic",
-      "publishedAt": "2026-04-27T04:00:00.000Z"
+      "summary": "arXiv: 2605.01101v1公告类型：新摘要：本文开发了虚拟言语治疗师(VST) ，这是一个基于智能代理的平台，可简化口吃评估，并通过自动化和广告提供定制的治疗计划",
+      "publishedAt": "2026-05-06T04:00:00.000Z",
+      "titleOriginal": "Virtual Speech Therapist: A Clinician-in-the-Loop AI Speech Therapy Agent for Personalized and Supervised Therapy",
+      "summaryOriginal": "arXiv:2605.01101v1 Announce Type: new Abstract: This paper develops Virtual Speech Therapist (VST), an intelligent agent-based platform that streamlines stuttering assessment and delivers customized therapy planning through automated and ad",
+      "language": "zh-CN"
     },
     {
-      "title": "Introducing Background Temperature to Characterise Hidden Randomness in Large Language Models",
-      "link": "https://arxiv.org/abs/2604.22411",
+      "title": "面向流体动力学中的多Agent自主推理",
+      "link": "https://arxiv.org/abs/2605.01102",
       "source": "arXiv cs.AI",
       "sourceHome": "https://arxiv.org/list/cs.AI/recent",
-      "summary": "arXiv:2604.22411v1 Announce Type: new Abstract: Even when decoding with temperature $T=0$, large language models (LLMs) can produce divergent outputs for identical inputs. Recent work by Thinking Machines Lab highlights implementation-level",
-      "publishedAt": "2026-04-27T04:00:00.000Z"
+      "summary": "arXiv: 2605.01102v1公告类型：新摘要：单代理系统（ SAS ）已成为LLM驱动的科学工作流程的默认模式，但通过单个上下文窗口进行路由规划、工具使用和合成",
+      "publishedAt": "2026-05-06T04:00:00.000Z",
+      "titleOriginal": "Towards Multi-Agent Autonomous Reasoning in Hydrodynamics",
+      "summaryOriginal": "arXiv:2605.01102v1 Announce Type: new Abstract: Single-agent systems (SAS) have become the default pattern for LLM-driven scientific workflows, but routing planning, tool use, and synthesis through a single context window comes with a well-",
+      "language": "zh-CN"
     }
   ]
 }

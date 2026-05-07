@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-04-27",
+  "updatedAt": "2026-05-07",
   "itemsCount": 13,
+  "sourceLabel": "每日刷新：公开规格 + AI 工作负载权重",
+  "sourceText": "显卡榜每天在抓取任务中重算，综合公开规格、显存、带宽、低精度能力、训练/推理适配和软件生态。排名用于 AI 选型参考，不等同于单一游戏或图形 benchmark。",
+  "sourceChips": [
+    "NVIDIA 官方规格",
+    "AMD 官方规格",
+    "AI 推理/训练适配",
+    "显存与带宽",
+    "CUDA / ROCm 生态"
+  ],
   "rankings": [
     {
       "title": "综合排名",
@@ -11,46 +20,94 @@
           "name": "NVIDIA GB200 / B200 NVL72",
           "bestFor": "超大模型训练、万亿参数推理",
           "specs": [
-            { "label": "显存", "value": "机柜级 HBM3E" },
-            { "label": "互联", "value": "72 GPU NVLink 域" },
-            { "label": "低精度", "value": "FP8 / FP4" },
-            { "label": "生态", "value": "CUDA 最成熟" }
+            {
+              "label": "显存",
+              "value": "机柜级 HBM3E"
+            },
+            {
+              "label": "互联",
+              "value": "72 GPU NVLink 域"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / FP4"
+            },
+            {
+              "label": "生态",
+              "value": "CUDA 最成熟"
+            }
           ],
-          "reason": "当前 NVIDIA 最高端大模型平台，强项是多卡互联、推理吞吐和完整软件栈。"
+          "reason": "当前 NVIDIA 最高端的大模型平台之一，强项是多卡互联、推理吞吐和完整软件栈。"
         },
         {
           "rank": 2,
-          "name": "AMD Instinct MI355X",
-          "bestFor": "大模型训练、长上下文推理",
-          "specs": [
-            { "label": "显存", "value": "288GB HBM3E" },
-            { "label": "带宽", "value": "约 8TB/s" },
-            { "label": "低精度", "value": "FP8 / FP6 / FP4" },
-            { "label": "生态", "value": "ROCm" }
-          ],
-          "reason": "显存容量非常强，适合更大模型和长上下文；主要风险是 ROCm 适配和调优成本。"
-        },
-        {
-          "rank": 3,
           "name": "NVIDIA B200",
           "bestFor": "大模型训练、推理",
           "specs": [
-            { "label": "显存", "value": "约 180GB+ HBM3E" },
-            { "label": "带宽", "value": "约 7.7-8TB/s" },
-            { "label": "低精度", "value": "FP8 / FP4" },
-            { "label": "生态", "value": "CUDA / TensorRT" }
+            {
+              "label": "显存",
+              "value": "约 180GB HBM3E"
+            },
+            {
+              "label": "带宽",
+              "value": "约 8TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / FP4"
+            },
+            {
+              "label": "生态",
+              "value": "CUDA / TensorRT"
+            }
           ],
-          "reason": "Blackwell 单卡/节点级核心选择，推理和训练都强，生态优势明显。"
+          "reason": "Blackwell 单卡/节点级核心选择，推理和训练都很强，生态优势明显。"
+        },
+        {
+          "rank": 3,
+          "name": "AMD Instinct MI355X",
+          "bestFor": "大模型训练、长上下文推理",
+          "specs": [
+            {
+              "label": "显存",
+              "value": "288GB HBM3E"
+            },
+            {
+              "label": "带宽",
+              "value": "约 8TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / FP6 / FP4"
+            },
+            {
+              "label": "生态",
+              "value": "ROCm"
+            }
+          ],
+          "reason": "显存容量非常强，适合更大模型和长上下文；主要风险是 ROCm 适配和调优成本。"
         },
         {
           "rank": 4,
           "name": "NVIDIA H200",
           "bestFor": "大模型推理、训练",
           "specs": [
-            { "label": "显存", "value": "141GB HBM3E" },
-            { "label": "带宽", "value": "4.8TB/s" },
-            { "label": "低精度", "value": "FP8 / BF16" },
-            { "label": "生态", "value": "CUDA 成熟" }
+            {
+              "label": "显存",
+              "value": "141GB HBM3E"
+            },
+            {
+              "label": "带宽",
+              "value": "4.8TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / BF16"
+            },
+            {
+              "label": "生态",
+              "value": "CUDA 成熟"
+            }
           ],
           "reason": "比 H100 更适合 70B、百B级模型推理和长上下文服务。"
         },
@@ -59,10 +116,22 @@
           "name": "AMD Instinct MI325X",
           "bestFor": "大模型推理、训练",
           "specs": [
-            { "label": "显存", "value": "256GB HBM3E" },
-            { "label": "带宽", "value": "约 6TB/s" },
-            { "label": "低精度", "value": "FP8 / BF16" },
-            { "label": "生态", "value": "ROCm" }
+            {
+              "label": "显存",
+              "value": "256GB HBM3E"
+            },
+            {
+              "label": "带宽",
+              "value": "约 6TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / BF16"
+            },
+            {
+              "label": "生态",
+              "value": "ROCm"
+            }
           ],
           "reason": "显存容量领先，适合大模型部署；软件栈要提前验证。"
         },
@@ -71,10 +140,22 @@
           "name": "AMD Instinct MI300X",
           "bestFor": "大模型推理、训练",
           "specs": [
-            { "label": "显存", "value": "192GB HBM3" },
-            { "label": "带宽", "value": "约 5.3TB/s" },
-            { "label": "低精度", "value": "FP8 / BF16" },
-            { "label": "生态", "value": "ROCm" }
+            {
+              "label": "显存",
+              "value": "192GB HBM3"
+            },
+            {
+              "label": "带宽",
+              "value": "约 5.3TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / BF16"
+            },
+            {
+              "label": "生态",
+              "value": "ROCm"
+            }
           ],
           "reason": "单卡能容纳更大模型，适合推理和微调，但工程适配成本高于 NVIDIA。"
         },
@@ -83,10 +164,22 @@
           "name": "NVIDIA H100 SXM",
           "bestFor": "主流大模型训练",
           "specs": [
-            { "label": "显存", "value": "80GB HBM3" },
-            { "label": "带宽", "value": "3.35TB/s" },
-            { "label": "低精度", "value": "FP8 / BF16" },
-            { "label": "生态", "value": "事实标准" }
+            {
+              "label": "显存",
+              "value": "80GB HBM3"
+            },
+            {
+              "label": "带宽",
+              "value": "3.35TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / BF16"
+            },
+            {
+              "label": "生态",
+              "value": "事实标准"
+            }
           ],
           "reason": "过去几年大模型训练的标准卡，工具链、案例和稳定性最好。"
         },
@@ -95,46 +188,94 @@
           "name": "NVIDIA H20",
           "bestFor": "中国市场推理/训练折中",
           "specs": [
-            { "label": "显存", "value": "96GB HBM3" },
-            { "label": "带宽", "value": "约 4TB/s" },
-            { "label": "低精度", "value": "FP8" },
-            { "label": "限制", "value": "算力受限" }
+            {
+              "label": "显存",
+              "value": "96GB HBM3"
+            },
+            {
+              "label": "带宽",
+              "value": "约 4TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8"
+            },
+            {
+              "label": "限制",
+              "value": "算力受限"
+            }
           ],
           "reason": "显存和带宽不错，但算力受出口限制影响，训练价值低于 H100。"
         },
         {
           "rank": 9,
-          "name": "NVIDIA A100 80GB",
-          "bestFor": "微调、训练、推理",
-          "specs": [
-            { "label": "显存", "value": "80GB HBM2E" },
-            { "label": "带宽", "value": "约 2TB/s" },
-            { "label": "低精度", "value": "BF16 / FP16" },
-            { "label": "生态", "value": "成熟" }
-          ],
-          "reason": "老但稳定，无 FP8；如果云价格或二手价格合适仍然可用。"
-        },
-        {
-          "rank": 10,
           "name": "RTX PRO 6000 Blackwell",
           "bestFor": "工作站推理、LoRA 微调",
           "specs": [
-            { "label": "显存", "value": "96GB GDDR7" },
-            { "label": "定位", "value": "工作站" },
-            { "label": "低精度", "value": "Blackwell AI" },
-            { "label": "互联", "value": "弱于数据中心卡" }
+            {
+              "label": "显存",
+              "value": "96GB GDDR7"
+            },
+            {
+              "label": "定位",
+              "value": "工作站"
+            },
+            {
+              "label": "低精度",
+              "value": "Blackwell AI"
+            },
+            {
+              "label": "互联",
+              "value": "弱于数据中心卡"
+            }
           ],
           "reason": "适合本地单机跑 70B 量化、RAG 和 Agent 服务，不是集群训练首选。"
+        },
+        {
+          "rank": 10,
+          "name": "NVIDIA A100 80GB",
+          "bestFor": "微调、训练、推理",
+          "specs": [
+            {
+              "label": "显存",
+              "value": "80GB HBM2E"
+            },
+            {
+              "label": "带宽",
+              "value": "约 2TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "BF16 / FP16"
+            },
+            {
+              "label": "生态",
+              "value": "成熟"
+            }
+          ],
+          "reason": "老但稳定，无 FP8；如果云价格或二手价格合适仍然可用。"
         },
         {
           "rank": 11,
           "name": "NVIDIA L40S / RTX 6000 Ada",
           "bestFor": "中小模型推理、微调",
           "specs": [
-            { "label": "显存", "value": "48GB GDDR6" },
-            { "label": "定位", "value": "推理/图像" },
-            { "label": "低精度", "value": "FP8 视型号" },
-            { "label": "生态", "value": "CUDA" }
+            {
+              "label": "显存",
+              "value": "48GB GDDR6"
+            },
+            {
+              "label": "定位",
+              "value": "推理/图像"
+            },
+            {
+              "label": "低精度",
+              "value": "视型号支持"
+            },
+            {
+              "label": "生态",
+              "value": "CUDA"
+            }
           ],
           "reason": "适合企业推理、图像生成、轻量训练，显存限制比 H 系列明显。"
         },
@@ -143,10 +284,22 @@
           "name": "GeForce RTX 5090",
           "bestFor": "本地推理、LoRA",
           "specs": [
-            { "label": "显存", "value": "32GB GDDR7" },
-            { "label": "定位", "value": "个人开发" },
-            { "label": "优势", "value": "单卡性价比" },
-            { "label": "限制", "value": "显存" }
+            {
+              "label": "显存",
+              "value": "32GB GDDR7"
+            },
+            {
+              "label": "定位",
+              "value": "个人开发"
+            },
+            {
+              "label": "优势",
+              "value": "单卡性价比"
+            },
+            {
+              "label": "限制",
+              "value": "显存"
+            }
           ],
           "reason": "个人本地开发很强，适合 7B/14B/32B 和部分量化 70B，训练受显存限制。"
         },
@@ -155,10 +308,22 @@
           "name": "GeForce RTX 4090",
           "bestFor": "本地推理、LoRA",
           "specs": [
-            { "label": "显存", "value": "24GB GDDR6X" },
-            { "label": "定位", "value": "个人开发" },
-            { "label": "优势", "value": "性价比" },
-            { "label": "限制", "value": "70B 吃力" }
+            {
+              "label": "显存",
+              "value": "24GB GDDR6X"
+            },
+            {
+              "label": "定位",
+              "value": "个人开发"
+            },
+            {
+              "label": "优势",
+              "value": "性价比"
+            },
+            {
+              "label": "限制",
+              "value": "70B 吃力"
+            }
           ],
           "reason": "仍是个人 AI 开发常用卡，适合小中模型和 LoRA，不适合大模型全量训练。"
         }
@@ -166,109 +331,301 @@
     },
     {
       "title": "训练优先排名",
-      "description": "更看多卡互联和生态",
+      "description": "更看多卡互联、低精度和生态",
       "items": [
         {
           "rank": 1,
-          "name": "GB200 / B200 NVL72",
-          "bestFor": "超大规模预训练",
+          "name": "NVIDIA GB200 / B200 NVL72",
+          "bestFor": "超大模型训练、万亿参数推理",
           "specs": [
-            { "label": "关键", "value": "NVLink 域" },
-            { "label": "生态", "value": "CUDA" },
-            { "label": "低精度", "value": "FP8 / FP4" },
-            { "label": "风险", "value": "成本最高" }
+            {
+              "label": "显存",
+              "value": "机柜级 HBM3E"
+            },
+            {
+              "label": "互联",
+              "value": "72 GPU NVLink 域"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / FP4"
+            },
+            {
+              "label": "生态",
+              "value": "CUDA 最成熟"
+            }
           ],
-          "reason": "训练集群最看通信和软件栈，NVIDIA 方案综合风险最低。"
+          "reason": "当前 NVIDIA 最高端的大模型平台之一，强项是多卡互联、推理吞吐和完整软件栈。"
         },
         {
           "rank": 2,
-          "name": "H200 / H100 HGX",
-          "bestFor": "主流 LLM 训练",
+          "name": "NVIDIA B200",
+          "bestFor": "大模型训练、推理",
           "specs": [
-            { "label": "关键", "value": "NCCL / NVLink" },
-            { "label": "显存", "value": "80-141GB" },
-            { "label": "生态", "value": "最成熟" },
-            { "label": "适配", "value": "框架优先支持" }
+            {
+              "label": "显存",
+              "value": "约 180GB HBM3E"
+            },
+            {
+              "label": "带宽",
+              "value": "约 8TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / FP4"
+            },
+            {
+              "label": "生态",
+              "value": "CUDA / TensorRT"
+            }
           ],
-          "reason": "工程成熟度高，是多数训练框架最优先适配的平台。"
+          "reason": "Blackwell 单卡/节点级核心选择，推理和训练都很强，生态优势明显。"
         },
         {
           "rank": 3,
-          "name": "MI355X / MI325X / MI300X",
-          "bestFor": "大显存训练",
+          "name": "AMD Instinct MI355X",
+          "bestFor": "大模型训练、长上下文推理",
           "specs": [
-            { "label": "关键", "value": "超大 HBM" },
-            { "label": "显存", "value": "192-288GB" },
-            { "label": "生态", "value": "ROCm" },
-            { "label": "风险", "value": "适配成本" }
+            {
+              "label": "显存",
+              "value": "288GB HBM3E"
+            },
+            {
+              "label": "带宽",
+              "value": "约 8TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / FP6 / FP4"
+            },
+            {
+              "label": "生态",
+              "value": "ROCm"
+            }
           ],
-          "reason": "显存优势明显，但要提前验证框架、算子和通信稳定性。"
+          "reason": "显存容量非常强，适合更大模型和长上下文；主要风险是 ROCm 适配和调优成本。"
         },
         {
           "rank": 4,
-          "name": "A100 80GB",
-          "bestFor": "中等规模训练、微调",
+          "name": "NVIDIA H200",
+          "bestFor": "大模型推理、训练",
           "specs": [
-            { "label": "显存", "value": "80GB" },
-            { "label": "低精度", "value": "BF16 / FP16" },
-            { "label": "限制", "value": "无 FP8" },
-            { "label": "优势", "value": "稳定" }
+            {
+              "label": "显存",
+              "value": "141GB HBM3E"
+            },
+            {
+              "label": "带宽",
+              "value": "4.8TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / BF16"
+            },
+            {
+              "label": "生态",
+              "value": "CUDA 成熟"
+            }
           ],
-          "reason": "不是最新，但训练链路稳定，适合预算受限或已有 A100 集群的场景。"
+          "reason": "比 H100 更适合 70B、百B级模型推理和长上下文服务。"
+        },
+        {
+          "rank": 5,
+          "name": "NVIDIA H100 SXM",
+          "bestFor": "主流大模型训练",
+          "specs": [
+            {
+              "label": "显存",
+              "value": "80GB HBM3"
+            },
+            {
+              "label": "带宽",
+              "value": "3.35TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / BF16"
+            },
+            {
+              "label": "生态",
+              "value": "事实标准"
+            }
+          ],
+          "reason": "过去几年大模型训练的标准卡，工具链、案例和稳定性最好。"
+        },
+        {
+          "rank": 6,
+          "name": "AMD Instinct MI325X",
+          "bestFor": "大模型推理、训练",
+          "specs": [
+            {
+              "label": "显存",
+              "value": "256GB HBM3E"
+            },
+            {
+              "label": "带宽",
+              "value": "约 6TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / BF16"
+            },
+            {
+              "label": "生态",
+              "value": "ROCm"
+            }
+          ],
+          "reason": "显存容量领先，适合大模型部署；软件栈要提前验证。"
         }
       ]
     },
     {
       "title": "推理优先排名",
-      "description": "更看显存容量和带宽",
+      "description": "更看显存容量、带宽和部署成熟度",
       "items": [
         {
           "rank": 1,
-          "name": "GB200 / B200、MI355X",
-          "bestFor": "高并发、长上下文、百B级模型",
+          "name": "NVIDIA GB200 / B200 NVL72",
+          "bestFor": "超大模型训练、万亿参数推理",
           "specs": [
-            { "label": "关键", "value": "HBM 容量" },
-            { "label": "关键", "value": "KV Cache" },
-            { "label": "低精度", "value": "FP8 / FP4" },
-            { "label": "场景", "value": "旗舰服务" }
+            {
+              "label": "显存",
+              "value": "机柜级 HBM3E"
+            },
+            {
+              "label": "互联",
+              "value": "72 GPU NVLink 域"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / FP4"
+            },
+            {
+              "label": "生态",
+              "value": "CUDA 最成熟"
+            }
           ],
-          "reason": "推理瓶颈经常在显存和带宽，尤其是长上下文和多并发。"
+          "reason": "当前 NVIDIA 最高端的大模型平台之一，强项是多卡互联、推理吞吐和完整软件栈。"
         },
         {
           "rank": 2,
-          "name": "H200、MI325X、MI300X",
-          "bestFor": "70B 到百B级部署",
+          "name": "NVIDIA B200",
+          "bestFor": "大模型训练、推理",
           "specs": [
-            { "label": "显存", "value": "141-256GB" },
-            { "label": "场景", "value": "服务化推理" },
-            { "label": "优势", "value": "减少切分" },
-            { "label": "限制", "value": "成本较高" }
+            {
+              "label": "显存",
+              "value": "约 180GB HBM3E"
+            },
+            {
+              "label": "带宽",
+              "value": "约 8TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / FP4"
+            },
+            {
+              "label": "生态",
+              "value": "CUDA / TensorRT"
+            }
           ],
-          "reason": "能显著减少模型切分和跨卡通信，部署复杂度更低。"
+          "reason": "Blackwell 单卡/节点级核心选择，推理和训练都很强，生态优势明显。"
         },
         {
           "rank": 3,
-          "name": "H100、H20、A100 80GB",
-          "bestFor": "稳定生产推理",
+          "name": "AMD Instinct MI355X",
+          "bestFor": "大模型训练、长上下文推理",
           "specs": [
-            { "label": "显存", "value": "80-96GB" },
-            { "label": "生态", "value": "成熟" },
-            { "label": "场景", "value": "量化 70B" },
-            { "label": "限制", "value": "长上下文" }
+            {
+              "label": "显存",
+              "value": "288GB HBM3E"
+            },
+            {
+              "label": "带宽",
+              "value": "约 8TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / FP6 / FP4"
+            },
+            {
+              "label": "生态",
+              "value": "ROCm"
+            }
           ],
-          "reason": "生产可用性强，但长上下文和高并发会更快碰到显存上限。"
+          "reason": "显存容量非常强，适合更大模型和长上下文；主要风险是 ROCm 适配和调优成本。"
         },
         {
           "rank": 4,
-          "name": "RTX PRO 6000、L40S、RTX 5090/4090",
-          "bestFor": "本地推理、企业轻量服务",
+          "name": "NVIDIA H200",
+          "bestFor": "大模型推理、训练",
           "specs": [
-            { "label": "显存", "value": "24-96GB" },
-            { "label": "场景", "value": "量化模型" },
-            { "label": "优势", "value": "成本可控" },
-            { "label": "限制", "value": "并发能力" }
+            {
+              "label": "显存",
+              "value": "141GB HBM3E"
+            },
+            {
+              "label": "带宽",
+              "value": "4.8TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / BF16"
+            },
+            {
+              "label": "生态",
+              "value": "CUDA 成熟"
+            }
           ],
-          "reason": "适合量化模型、RAG 和开发验证；高并发大模型服务会受限。"
+          "reason": "比 H100 更适合 70B、百B级模型推理和长上下文服务。"
+        },
+        {
+          "rank": 5,
+          "name": "AMD Instinct MI325X",
+          "bestFor": "大模型推理、训练",
+          "specs": [
+            {
+              "label": "显存",
+              "value": "256GB HBM3E"
+            },
+            {
+              "label": "带宽",
+              "value": "约 6TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / BF16"
+            },
+            {
+              "label": "生态",
+              "value": "ROCm"
+            }
+          ],
+          "reason": "显存容量领先，适合大模型部署；软件栈要提前验证。"
+        },
+        {
+          "rank": 6,
+          "name": "AMD Instinct MI300X",
+          "bestFor": "大模型推理、训练",
+          "specs": [
+            {
+              "label": "显存",
+              "value": "192GB HBM3"
+            },
+            {
+              "label": "带宽",
+              "value": "约 5.3TB/s"
+            },
+            {
+              "label": "低精度",
+              "value": "FP8 / BF16"
+            },
+            {
+              "label": "生态",
+              "value": "ROCm"
+            }
+          ],
+          "reason": "单卡能容纳更大模型，适合推理和微调，但工程适配成本高于 NVIDIA。"
         }
       ]
     }
@@ -277,17 +634,31 @@
     {
       "title": "个人/小团队",
       "text": "优先考虑单卡成本和本地可维护性，重点跑 7B、14B、32B、量化 70B 和 LoRA。",
-      "choices": ["RTX 5090", "RTX 4090", "RTX PRO 6000"]
+      "choices": [
+        "RTX 5090",
+        "RTX 4090",
+        "RTX PRO 6000"
+      ]
     },
     {
       "title": "企业推理",
-      "text": "重点看显存、带宽、稳定性和部署生态。70B 以上模型建议优先 H200 或大显存 AMD。",
-      "choices": ["H200", "H100", "MI300X", "MI325X"]
+      "text": "重点看显存、带宽、稳定性和部署生态。70B 以上模型建议优先 H200、B200 或大显存 AMD。",
+      "choices": [
+        "B200",
+        "H200",
+        "H100",
+        "MI325X",
+        "MI355X"
+      ]
     },
     {
       "title": "大模型训练",
       "text": "优先选择成熟集群方案，确认多机多卡通信、框架兼容和供应链，再比较单卡理论算力。",
-      "choices": ["GB200/B200", "H200/H100 HGX", "MI355X"]
+      "choices": [
+        "GB200/B200",
+        "H200/H100 HGX",
+        "MI355X"
+      ]
     }
   ]
 }

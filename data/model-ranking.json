@@ -1,68 +1,306 @@
 {
-  "updatedAt": "2026-04-27",
+  "updatedAt": "2026-05-07",
   "itemsCount": 12,
-  "sourceLabel": "公开资料汇总",
-  "sourceText": "这份排名综合参考了厂商官方发布、公开 benchmark、Arena 类主观榜单、Artificial Analysis 类综合榜单，以及各模型在代码、长上下文、多模态和可部署性上的公开信息。不同榜单口径不同，因此这里展示的是选型参考，不是绝对分数。",
+  "sourceLabel": "每日刷新：LMArena / Hugging Face",
+  "sourceText": "模型榜每天随抓取任务更新，优先读取公开 Arena 榜单数据；若公开源临时不可用，会保留上次可用排名并更新时间，避免页面空白。",
   "sourceChips": [
-    "OpenAI 官方发布",
-    "Google / Anthropic 官方发布",
-    "DeepSeek 官方发布",
-    "Artificial Analysis",
-    "LMSYS / Arena",
-    "OpenRouter 热度"
+    "LMArena",
+    "Hugging Face Datasets",
+    "公开模型榜",
+    "每日自动刷新"
   ],
   "rankings": [
     {
       "title": "综合能力排名",
-      "description": "通用问答、推理、代码、多模态、工具调用综合参考",
+      "description": "通用问答、推理、代码、多模态和工具调用综合参考",
       "items": [
         {
           "rank": 1,
-          "name": "OpenAI GPT-5.5",
-          "bestFor": "复杂推理、代码、Agent、长链路任务",
+          "name": "claude-opus-4-6-thinking",
+          "bestFor": "高难度推理、通用问答、复杂任务",
           "specs": [
-            { "label": "类型", "value": "闭源旗舰" },
-            { "label": "强项", "value": "综合推理" },
-            { "label": "代码", "value": "顶级" },
-            { "label": "场景", "value": "ChatGPT / Codex" }
+            {
+              "label": "来源",
+              "value": "Anthropic"
+            },
+            {
+              "label": "Arena",
+              "value": "1500"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
           ],
-          "reason": "最新公开旗舰之一，综合推理、工具调用和复杂任务能力都在第一梯队。"
+          "reason": "claude-opus-4-6-thinking 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
           "rank": 2,
-          "name": "Google Gemini 3.1 Pro",
-          "bestFor": "多模态、超长上下文、综合基准",
+          "name": "claude-opus-4-6",
+          "bestFor": "高难度推理、通用问答、复杂任务",
           "specs": [
-            { "label": "类型", "value": "闭源旗舰" },
-            { "label": "多模态", "value": "顶级" },
-            { "label": "上下文", "value": "超长" },
-            { "label": "场景", "value": "复杂文档" }
+            {
+              "label": "来源",
+              "value": "Anthropic"
+            },
+            {
+              "label": "Arena",
+              "value": "1496"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
           ],
-          "reason": "在公开基准和多模态、长上下文任务上处于最前列。"
+          "reason": "claude-opus-4-6 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
           "rank": 3,
-          "name": "Anthropic Claude Opus 4.7",
-          "bestFor": "长文理解、代码审查、严谨写作",
+          "name": "gemini-3.1-pro-preview",
+          "bestFor": "高难度推理、通用问答、复杂任务",
           "specs": [
-            { "label": "类型", "value": "闭源旗舰" },
-            { "label": "强项", "value": "文本竞技" },
-            { "label": "代码", "value": "顶级" },
-            { "label": "风格", "value": "稳健" }
+            {
+              "label": "来源",
+              "value": "Google"
+            },
+            {
+              "label": "Arena",
+              "value": "1487"
+            },
+            {
+              "label": "类型",
+              "value": "多模态/文本"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
           ],
-          "reason": "长文、代码库理解和写作稳定性很强，适合高质量生产场景。"
+          "reason": "gemini-3.1-pro-preview 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
           "rank": 4,
-          "name": "DeepSeek V4-Pro",
-          "bestFor": "代码、数学、中文复杂推理",
+          "name": "claude-opus-4-7-thinking",
+          "bestFor": "日常问答、内容生成、代码辅助",
           "specs": [
-            { "label": "类型", "value": "开放生态/商业" },
-            { "label": "强项", "value": "代码数学" },
-            { "label": "成本", "value": "优势" },
-            { "label": "中文", "value": "很强" }
+            {
+              "label": "来源",
+              "value": "Anthropic"
+            },
+            {
+              "label": "Arena",
+              "value": "1487"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
           ],
-          "reason": "DeepSeek 最新版本已进入第一梯队，尤其适合中文、代码和高性价比推理。"
+          "reason": "claude-opus-4-7-thinking 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 5,
+          "name": "gemini-3-pro",
+          "bestFor": "日常问答、内容生成、代码辅助",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Google"
+            },
+            {
+              "label": "Arena",
+              "value": "1479"
+            },
+            {
+              "label": "类型",
+              "value": "多模态/文本"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "gemini-3-pro 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 6,
+          "name": "claude-opus-4-7",
+          "bestFor": "日常问答、内容生成、代码辅助",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Anthropic"
+            },
+            {
+              "label": "Arena",
+              "value": "1478"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "claude-opus-4-7 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 7,
+          "name": "muse-spark",
+          "bestFor": "日常问答、内容生成、代码辅助",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "公开模型"
+            },
+            {
+              "label": "Arena",
+              "value": "1477"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "muse-spark 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 8,
+          "name": "gpt-5.5-high",
+          "bestFor": "日常问答、内容生成、代码辅助",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "OpenAI"
+            },
+            {
+              "label": "Arena",
+              "value": "1473"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "gpt-5.5-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 9,
+          "name": "ernie-5.1-preview",
+          "bestFor": "日常问答、内容生成、代码辅助",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "公开模型"
+            },
+            {
+              "label": "Arena",
+              "value": "1473"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "ernie-5.1-preview 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 10,
+          "name": "qwen3.5-max-preview",
+          "bestFor": "日常问答、内容生成、代码辅助",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Qwen"
+            },
+            {
+              "label": "Arena",
+              "value": "1469"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "qwen3.5-max-preview 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 11,
+          "name": "gpt-5.4-high",
+          "bestFor": "日常问答、内容生成、代码辅助",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "OpenAI"
+            },
+            {
+              "label": "Arena",
+              "value": "1469"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "gpt-5.4-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 12,
+          "name": "glm-5.1",
+          "bestFor": "日常问答、内容生成、代码辅助",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "公开模型"
+            },
+            {
+              "label": "Arena",
+              "value": "1468"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "glm-5.1 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         }
       ]
     },
@@ -72,51 +310,195 @@
       "items": [
         {
           "rank": 1,
-          "name": "OpenAI GPT-5.5 in Codex",
-          "bestFor": "复杂代码任务、跨文件修改、自动化交付",
+          "name": "claude-opus-4-6-thinking",
+          "bestFor": "代码生成、代码库理解、Agent 任务",
           "specs": [
-            { "label": "代码", "value": "顶级" },
-            { "label": "Agent", "value": "顶级" },
-            { "label": "工具调用", "value": "成熟" },
-            { "label": "适合", "value": "生产开发" }
+            {
+              "label": "来源",
+              "value": "Anthropic"
+            },
+            {
+              "label": "Arena",
+              "value": "1500"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
           ],
-          "reason": "复杂工程任务完成度高，适合代码审查、重构、测试修复和端到端交付。"
+          "reason": "claude-opus-4-6-thinking 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
           "rank": 2,
-          "name": "Claude Opus 4.7",
-          "bestFor": "代码审查、重构、架构分析",
+          "name": "claude-opus-4-6",
+          "bestFor": "代码生成、代码库理解、Agent 任务",
           "specs": [
-            { "label": "代码", "value": "顶级" },
-            { "label": "长上下文", "value": "强" },
-            { "label": "审查", "value": "强" },
-            { "label": "风格", "value": "稳" }
+            {
+              "label": "来源",
+              "value": "Anthropic"
+            },
+            {
+              "label": "Arena",
+              "value": "1496"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
           ],
-          "reason": "读代码和解释复杂系统很强，适合审查、设计讨论和高质量重构。"
+          "reason": "claude-opus-4-6 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
           "rank": 3,
-          "name": "DeepSeek V4-Pro",
-          "bestFor": "高性价比代码生成、数学推理",
+          "name": "gemini-3.1-pro-preview",
+          "bestFor": "代码生成、代码库理解、Agent 任务",
           "specs": [
-            { "label": "代码", "value": "很强" },
-            { "label": "成本", "value": "优势" },
-            { "label": "中文", "value": "强" },
-            { "label": "部署", "value": "灵活" }
+            {
+              "label": "来源",
+              "value": "Google"
+            },
+            {
+              "label": "Arena",
+              "value": "1487"
+            },
+            {
+              "label": "类型",
+              "value": "多模态/文本"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
           ],
-          "reason": "代码和推理能力强，成本优势明显，适合批量代码辅助和中文开发。"
+          "reason": "gemini-3.1-pro-preview 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
           "rank": 4,
-          "name": "Claude Sonnet 4.6",
-          "bestFor": "日常开发、重构、代码解释",
+          "name": "claude-opus-4-7-thinking",
+          "bestFor": "代码生成、代码库理解、Agent 任务",
           "specs": [
-            { "label": "代码", "value": "很强" },
-            { "label": "长上下文", "value": "强" },
-            { "label": "审查", "value": "强" },
-            { "label": "风格", "value": "稳" }
+            {
+              "label": "来源",
+              "value": "Anthropic"
+            },
+            {
+              "label": "Arena",
+              "value": "1487"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
           ],
-          "reason": "综合代码体验非常稳，适合日常工程开发和审查。"
+          "reason": "claude-opus-4-7-thinking 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 5,
+          "name": "gemini-3-pro",
+          "bestFor": "代码生成、代码库理解、Agent 任务",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Google"
+            },
+            {
+              "label": "Arena",
+              "value": "1479"
+            },
+            {
+              "label": "类型",
+              "value": "多模态/文本"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "gemini-3-pro 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 6,
+          "name": "claude-opus-4-7",
+          "bestFor": "代码生成、代码库理解、Agent 任务",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Anthropic"
+            },
+            {
+              "label": "Arena",
+              "value": "1478"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "claude-opus-4-7 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 7,
+          "name": "gpt-5.5-high",
+          "bestFor": "代码生成、代码库理解、Agent 任务",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "OpenAI"
+            },
+            {
+              "label": "Arena",
+              "value": "1473"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "gpt-5.5-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 8,
+          "name": "qwen3.5-max-preview",
+          "bestFor": "代码生成、代码库理解、Agent 任务",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Qwen"
+            },
+            {
+              "label": "Arena",
+              "value": "1469"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "qwen3.5-max-preview 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         }
       ]
     },
@@ -126,51 +508,51 @@
       "items": [
         {
           "rank": 1,
-          "name": "DeepSeek V4",
-          "bestFor": "中文推理、代码、低成本部署",
+          "name": "qwen3.5-max-preview",
+          "bestFor": "可自部署、私有化、成本敏感场景",
           "specs": [
-            { "label": "权重", "value": "开放生态" },
-            { "label": "推理", "value": "强" },
-            { "label": "代码", "value": "强" },
-            { "label": "成本", "value": "优势" }
+            {
+              "label": "来源",
+              "value": "Qwen"
+            },
+            {
+              "label": "Arena",
+              "value": "1469"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
           ],
-          "reason": "最新开源/开放生态代表之一，适合自托管推理和企业内网应用。"
+          "reason": "qwen3.5-max-preview 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
           "rank": 2,
-          "name": "Qwen 3.6",
-          "bestFor": "中文业务、工具调用、私有知识库",
+          "name": "glm-5.1",
+          "bestFor": "可自部署、私有化、成本敏感场景",
           "specs": [
-            { "label": "权重", "value": "开放生态" },
-            { "label": "中文", "value": "强" },
-            { "label": "工具", "value": "强" },
-            { "label": "部署", "value": "国内友好" }
+            {
+              "label": "来源",
+              "value": "公开模型"
+            },
+            {
+              "label": "Arena",
+              "value": "1468"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
           ],
-          "reason": "中文生态和企业落地成熟，适合国内业务系统。"
-        },
-        {
-          "rank": 3,
-          "name": "Llama 4.1",
-          "bestFor": "通用私有化、研究和生态兼容",
-          "specs": [
-            { "label": "权重", "value": "开放" },
-            { "label": "生态", "value": "最广" },
-            { "label": "微调", "value": "成熟" },
-            { "label": "部署", "value": "灵活" }
-          ],
-          "reason": "社区工具链、量化、推理框架和微调资料最丰富。"
-        },
-        {
-          "rank": 4,
-          "name": "GLM-5",
-          "bestFor": "中文长文本、研究和应用集成",
-          "specs": [
-            { "label": "中文", "value": "强" },
-            { "label": "长文本", "value": "强" },
-            { "label": "生态", "value": "增长中" },
-            { "label": "部署", "value": "可选" }
-          ],
-          "reason": "中文应用体验好，适合文档理解、总结和知识库类任务。"
+          "reason": "glm-5.1 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         }
       ]
     }
@@ -178,18 +560,30 @@
   "guidance": [
     {
       "title": "默认高难任务",
-      "text": "优先选综合推理和工具调用最强的闭源旗舰，适合复杂分析、跨文件代码和 Agent 自动化。",
-      "choices": ["GPT-5.5", "Gemini 3.1 Pro", "Claude Opus 4.7"]
+      "text": "优先选择综合榜靠前且稳定可用的模型，适合复杂分析、长链路代码和 Agent 自动化。",
+      "choices": [
+        "claude-opus-4-6-thinking",
+        "claude-opus-4-6",
+        "gemini-3.1-pro-preview"
+      ]
     },
     {
       "title": "代码与工程",
-      "text": "看代码库理解、补丁稳定性和测试修复能力。成本敏感时可用 DeepSeek 或 Qwen 做批量辅助。",
-      "choices": ["GPT-5.5/Codex", "Claude Sonnet/Opus", "DeepSeek V4", "Qwen"]
+      "text": "看代码库理解、补丁稳定性和测试修复能力；成本敏感时可用开源模型做批量辅助。",
+      "choices": [
+        "claude-opus-4-6-thinking",
+        "claude-opus-4-6",
+        "gemini-3.1-pro-preview",
+        "claude-opus-4-7-thinking"
+      ]
     },
     {
       "title": "私有化部署",
-      "text": "优先选开放权重和生态成熟的模型，再按中文、代码、长文本和硬件成本做二次筛选。",
-      "choices": ["DeepSeek V4", "Qwen", "Llama", "GLM"]
+      "text": "优先选开放权重和生态成熟的模型，再按中文、代码、长文本和硬件成本二次筛选。",
+      "choices": [
+        "qwen3.5-max-preview",
+        "glm-5.1"
+      ]
     }
   ]
 }
