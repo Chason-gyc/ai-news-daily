@@ -381,12 +381,17 @@ async function translateNewsItem(item) {
   const titleOriginal = item.titleOriginal || item.title;
   const summaryOriginal = item.summaryOriginal || item.summary;
 
+  const titleZh = await translateText(titleOriginal);
+  const summaryZh = await translateText(summaryOriginal);
+
   return {
     ...item,
     titleOriginal,
     summaryOriginal,
-    title: await translateText(titleOriginal),
-    summary: await translateText(summaryOriginal),
+    title: titleZh,
+    summary: summaryZh,
+    titleZh,
+    summaryZh,
     language: ENABLE_TRANSLATION ? TRANSLATE_TARGET : 'original'
   };
 }

@@ -26,6 +26,11 @@ function formatDate(value) {
   }).format(new Date(value));
 }
 
+function pickChineseText(...values) {
+  const texts = values.filter(Boolean);
+  return texts.find((value) => /[\u3400-\u9fff]/.test(value)) || texts[0] || '';
+}
+
 function renderNews(items) {
   list.replaceChildren();
   count.textContent = `${items.length} / 10`;
@@ -39,7 +44,7 @@ function renderNews(items) {
     title.href = item.link;
     title.target = '_blank';
     title.rel = 'noreferrer';
-    title.textContent = item.title;
+    title.textContent = pickChineseText(item.titleZh, item.title, item.titleOriginal);
 
     const byline = document.createElement('div');
     byline.className = 'byline';
@@ -47,7 +52,7 @@ function renderNews(items) {
 
     const summary = document.createElement('p');
     summary.className = 'summary';
-    summary.textContent = item.summary || '暂无摘要。';
+    summary.textContent = pickChineseText(item.summaryZh, item.summary, item.summaryOriginal) || '暂无摘要。';
 
     card.append(title, byline, summary);
     list.append(card);
