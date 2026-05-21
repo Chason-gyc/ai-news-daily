@@ -47,9 +47,12 @@ data/news.json
 - 产业媒体：VentureBeat AI、MIT Technology Review AI、The Decoder
 - 高层言论：Dwarkesh Podcast
 - 算力生态：NVIDIA Newsroom、NVIDIA Blog
+- 视频/访谈：OpenAI YouTube、Google DeepMind YouTube、Anthropic YouTube、NVIDIA Developer YouTube
 - 研究论文：arXiv cs.AI
 
 如需新增或删除来源，编辑 `src/fetch-news.js` 里的 `SOURCES` 数组即可。每个来源可以设置 `category`，采集结果会按类别做轻量均衡，避免单一高频来源占满前 10 条。
+
+YouTube 频道可以用 `type: 'youtube'` 接入，脚本会自动解析频道 ID 并读取官方视频 RSS。X 当前没有稳定的公开 RSS；建议后续通过 X API、RSSHub 或可信的 Nitter/RSS 代理接入，不建议直接爬取 X 页面。
 
 ## 每天自动采集
 

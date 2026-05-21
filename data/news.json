@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21T07:28:05.851Z",
+  "updatedAt": "2026-05-21T07:38:31.942Z",
   "count": 10,
   "sources": [
     {
@@ -56,10 +56,44 @@
       "name": "NVIDIA Blog",
       "homepage": "https://blogs.nvidia.com/",
       "category": "算力生态"
+    },
+    {
+      "name": "OpenAI YouTube",
+      "homepage": "https://www.youtube.com/@OpenAI",
+      "category": "视频/访谈"
+    },
+    {
+      "name": "Google DeepMind YouTube",
+      "homepage": "https://www.youtube.com/@googledeepmind",
+      "category": "视频/访谈"
+    },
+    {
+      "name": "Anthropic YouTube",
+      "homepage": "https://www.youtube.com/@anthropic-ai",
+      "category": "视频/访谈"
+    },
+    {
+      "name": "NVIDIA Developer YouTube",
+      "homepage": "https://www.youtube.com/@NVIDIADeveloper",
+      "category": "视频/访谈"
     }
   ],
   "failures": [],
   "items": [
+    {
+      "title": "CUDA Live ： CUDA-Q学术演示日",
+      "link": "https://www.youtube.com/watch?v=H7TE0JWJLjE",
+      "source": "NVIDIA Developer YouTube",
+      "sourceHome": "https://www.youtube.com/@NVIDIADeveloper",
+      "category": "视频/访谈",
+      "summary": "",
+      "publishedAt": "2026-05-21T05:06:47.000Z",
+      "titleOriginal": "CUDA Live: CUDA-Q Academic Demo Day",
+      "summaryOriginal": "",
+      "titleZh": "CUDA Live ： CUDA-Q学术演示日",
+      "summaryZh": "",
+      "language": "zh-CN"
+    },
     {
       "title": "职位：让我们开发数据探针，从根本上了解数据如何影响LLM绩效",
       "link": "https://arxiv.org/abs/2605.18801",
@@ -100,6 +134,20 @@
       "summaryOriginal": "arXiv:2605.18937v1 Announce Type: new Abstract: Patient-managed Personal Health Records (PHRs) promises to empower patients to better understand their health; but information in the record is complex, potentially hindering insights. In this",
       "titleZh": "评估个人健康记录在个性化健康AI中的实用性",
       "summaryZh": "arXiv: 2605.18937v1公告类型：新摘要：患者管理的个人健康记录（ PHR ）承诺让患者更好地了解自己的健康状况；但记录中的信息很复杂，可能会阻碍洞察力。在这里",
+      "language": "zh-CN"
+    },
+    {
+      "title": "使用GPT-5.5构建： Abridge Clinical AI Notes",
+      "link": "https://www.youtube.com/watch?v=z2bpPuK7eYI",
+      "source": "OpenAI YouTube",
+      "sourceHome": "https://www.youtube.com/@OpenAI",
+      "category": "视频/访谈",
+      "summary": "",
+      "publishedAt": "2026-05-20T23:09:45.000Z",
+      "titleOriginal": "Built with GPT-5.5: Abridge Clinical AI Notes",
+      "summaryOriginal": "",
+      "titleZh": "使用GPT-5.5构建： Abridge Clinical AI Notes",
+      "summaryZh": "",
       "language": "zh-CN"
     },
     {
@@ -156,34 +204,6 @@
       "summaryOriginal": "Google AI Studio can now generate native Android apps from a prompt - built in Kotlin with Jetpack Compose and testable in a browser emulator. For simple utility apps like trackers or checklists, the Play Store could become less and less re",
       "titleZh": "谷歌测试SaaSpocalypse的应用市场版本",
       "summaryZh": "Google AI Studio现在可以从提示生成原生Android应用程序，该提示是内置于Kotlin中的Jetpack Compose ，可在浏览器模拟器中进行测试。对于跟踪器或清单等简单的实用程序应用程序， Play商店可能会变得越来越少",
-      "language": "zh-CN"
-    },
-    {
-      "title": "OpenAI模型反驳了离散几何中的中心猜想",
-      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "category": "公司/实验室",
-      "summary": "OpenAI模型解决了已有80年历史的单位距离问题，推翻了离散几何中的一个主要猜想，标志着人工智能驱动数学的一个里程碑。",
-      "publishedAt": "2026-05-20T00:00:00.000Z",
-      "titleOriginal": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "summaryOriginal": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
-      "titleZh": "OpenAI模型反驳了离散几何中的中心猜想",
-      "summaryZh": "OpenAI模型解决了已有80年历史的单位距离问题，推翻了离散几何中的一个主要猜想，标志着人工智能驱动数学的一个里程碑。",
-      "language": "zh-CN"
-    },
-    {
-      "title": "OpenAI国家教育的下一阶段",
-      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "category": "公司/实验室",
-      "summary": "OpenAI推进国家教育，通过新的合作伙伴关系、教师培训和改善全球学习成果的工具，扩大人工智能在学校的采用。",
-      "publishedAt": "2026-05-20T00:00:00.000Z",
-      "titleOriginal": "The next phase of OpenAI’s Education for Countries",
-      "summaryOriginal": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "titleZh": "OpenAI国家教育的下一阶段",
-      "summaryZh": "OpenAI推进国家教育，通过新的合作伙伴关系、教师培训和改善全球学习成果的工具，扩大人工智能在学校的采用。",
       "language": "zh-CN"
     },
     {

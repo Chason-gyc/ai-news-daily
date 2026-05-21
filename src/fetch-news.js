@@ -21,7 +21,8 @@ const CATEGORY_LIMITS = {
   '产业媒体': 3,
   '研究论文': 3,
   '高层言论': 2,
-  '算力生态': 2
+  '算力生态': 2,
+  '视频/访谈': 2
 };
 const allowInsecureTls =
   process.argv.includes('--insecure-tls') || process.env.AI_NEWS_INSECURE_TLS === '1';
@@ -96,6 +97,34 @@ const SOURCES = [
     url: 'https://feeds.feedburner.com/nvidiablog',
     homepage: 'https://blogs.nvidia.com/',
     category: '算力生态'
+  },
+  {
+    name: 'OpenAI YouTube',
+    type: 'youtube',
+    url: 'https://www.youtube.com/@OpenAI',
+    homepage: 'https://www.youtube.com/@OpenAI',
+    category: '视频/访谈'
+  },
+  {
+    name: 'Google DeepMind YouTube',
+    type: 'youtube',
+    url: 'https://www.youtube.com/@googledeepmind',
+    homepage: 'https://www.youtube.com/@googledeepmind',
+    category: '视频/访谈'
+  },
+  {
+    name: 'Anthropic YouTube',
+    type: 'youtube',
+    url: 'https://www.youtube.com/@anthropic-ai',
+    homepage: 'https://www.youtube.com/@anthropic-ai',
+    category: '视频/访谈'
+  },
+  {
+    name: 'NVIDIA Developer YouTube',
+    type: 'youtube',
+    url: 'https://www.youtube.com/@NVIDIADeveloper',
+    homepage: 'https://www.youtube.com/@NVIDIADeveloper',
+    category: '视频/访谈'
   }
 ];
 
@@ -444,6 +473,22 @@ function getAtomLink(block) {
   return link ? decodeHtml(link[1]) : '';
 }
 
+async function resolveYoutubeFeedUrl(source) {
+  const page = await fetchText(source.url);
+  const channelId =
+    page.match(/"channelId":"([^"]+)"/)?.[1] ||
+    page.match(/<meta itemprop="channelId" content="([^"]+)"/i)?.[1] ||
+    page.match(/\/channel\/(UC[\w-]+)/)?.[1];
+
+  if (!channelId) {
+    throw new Error(`Unable to resolve YouTube channel id for ${source.url}`);
+  }
+
+  const feedUrl = new URL('https://www.youtube.com/feeds/videos.xml');
+  feedUrl.searchParams.set('channel_id', channelId);
+  return feedUrl.toString();
+}
+
 function normalizeUrl(url) {
   try {
     const parsed = new URL(url);
@@ -495,15 +540,16 @@ function parseFeed(xml, source) {
 
 async function fetchSource(source) {
   let xml;
+  const url = source.type === 'youtube' ? await resolveYoutubeFeedUrl(source) : source.url;
 
   try {
-    xml = await fetchText(source.url);
+    xml = await fetchText(url);
   } catch (error) {
     if (process.platform !== 'win32') {
       throw error;
     }
 
-    xml = await fetchWithPowerShell(source.url, error);
+    xml = await fetchWithPowerShell(url, error);
   }
 
   return parseFeed(xml, source);
