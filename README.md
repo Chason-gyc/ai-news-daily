@@ -39,19 +39,17 @@ npm run fetch:insecure
 data/news.json
 ```
 
-页面每次读取该文件，只展示按发布时间排序后的前 10 条。
+页面每次读取该文件，只展示按发布时间和来源类别均衡后的前 10 条。
 
 ## 当前采集源
 
-- OpenAI Blog
-- Google DeepMind
-- Anthropic News
-- Microsoft AI Blog
-- VentureBeat AI
-- MIT Technology Review AI
-- arXiv cs.AI
+- 公司/实验室：OpenAI Blog、Google DeepMind、Anthropic News、Microsoft AI Blog
+- 产业媒体：VentureBeat AI、MIT Technology Review AI、The Decoder
+- 高层言论：Dwarkesh Podcast
+- 算力生态：NVIDIA Newsroom、NVIDIA Blog
+- 研究论文：arXiv cs.AI
 
-如需新增或删除来源，编辑 `src/fetch-news.js` 里的 `SOURCES` 数组即可。
+如需新增或删除来源，编辑 `src/fetch-news.js` 里的 `SOURCES` 数组即可。每个来源可以设置 `category`，采集结果会按类别做轻量均衡，避免单一高频来源占满前 10 条。
 
 ## 每天自动采集
 

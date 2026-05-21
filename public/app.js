@@ -48,7 +48,8 @@ function renderNews(items) {
 
     const byline = document.createElement('div');
     byline.className = 'byline';
-    byline.textContent = `${item.source} · ${formatDate(item.publishedAt)}`;
+    const categoryLabel = item.category ? `${item.category} · ` : '';
+    byline.textContent = `${categoryLabel}${item.source} · ${formatDate(item.publishedAt)}`;
 
     const summary = document.createElement('p');
     summary.className = 'summary';
@@ -68,7 +69,7 @@ function renderSources(items) {
     link.href = source.homepage;
     link.target = '_blank';
     link.rel = 'noreferrer';
-    link.textContent = source.name;
+    link.textContent = source.category ? `${source.category} · ${source.name}` : source.name;
     wrapper.append(link);
   }
 

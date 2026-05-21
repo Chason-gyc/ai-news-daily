@@ -16,6 +16,13 @@ const MAX_ITEMS = 10;
 const TRANSLATE_TARGET = 'zh-CN';
 const TRANSLATE_DELAY_MS = Number(process.env.AI_NEWS_TRANSLATE_DELAY_MS || 350);
 const ENABLE_TRANSLATION = process.env.AI_NEWS_TRANSLATE !== '0';
+const CATEGORY_LIMITS = {
+  '公司/实验室': 4,
+  '产业媒体': 3,
+  '研究论文': 3,
+  '高层言论': 2,
+  '算力生态': 2
+};
 const allowInsecureTls =
   process.argv.includes('--insecure-tls') || process.env.AI_NEWS_INSECURE_TLS === '1';
 
@@ -27,37 +34,68 @@ const SOURCES = [
   {
     name: 'OpenAI Blog',
     url: 'https://openai.com/news/rss.xml',
-    homepage: 'https://openai.com/news/'
+    homepage: 'https://openai.com/news/',
+    category: '公司/实验室'
   },
   {
     name: 'Google DeepMind',
     url: 'https://deepmind.google/discover/blog/rss.xml',
-    homepage: 'https://deepmind.google/discover/blog/'
+    homepage: 'https://deepmind.google/discover/blog/',
+    category: '公司/实验室'
   },
   {
     name: 'Anthropic News',
     url: 'https://www.anthropic.com/news/rss.xml',
-    homepage: 'https://www.anthropic.com/news'
+    homepage: 'https://www.anthropic.com/news',
+    category: '公司/实验室'
   },
   {
     name: 'Microsoft AI Blog',
     url: 'https://blogs.microsoft.com/ai/feed/',
-    homepage: 'https://blogs.microsoft.com/ai/'
+    homepage: 'https://blogs.microsoft.com/ai/',
+    category: '公司/实验室'
   },
   {
     name: 'VentureBeat AI',
     url: 'https://venturebeat.com/category/ai/feed/',
-    homepage: 'https://venturebeat.com/category/ai/'
+    homepage: 'https://venturebeat.com/category/ai/',
+    category: '产业媒体'
   },
   {
     name: 'MIT Technology Review AI',
     url: 'https://www.technologyreview.com/topic/artificial-intelligence/feed',
-    homepage: 'https://www.technologyreview.com/topic/artificial-intelligence/'
+    homepage: 'https://www.technologyreview.com/topic/artificial-intelligence/',
+    category: '产业媒体'
   },
   {
     name: 'arXiv cs.AI',
     url: 'https://rss.arxiv.org/rss/cs.AI',
-    homepage: 'https://arxiv.org/list/cs.AI/recent'
+    homepage: 'https://arxiv.org/list/cs.AI/recent',
+    category: '研究论文'
+  },
+  {
+    name: 'The Decoder',
+    url: 'https://the-decoder.com/feed/',
+    homepage: 'https://the-decoder.com/',
+    category: '产业媒体'
+  },
+  {
+    name: 'Dwarkesh Podcast',
+    url: 'https://api.substack.com/feed/podcast/69345.rss',
+    homepage: 'https://www.dwarkesh.com/',
+    category: '高层言论'
+  },
+  {
+    name: 'NVIDIA Newsroom',
+    url: 'https://nvidianews.nvidia.com/releases.xml',
+    homepage: 'https://nvidianews.nvidia.com/',
+    category: '算力生态'
+  },
+  {
+    name: 'NVIDIA Blog',
+    url: 'https://feeds.feedburner.com/nvidiablog',
+    homepage: 'https://blogs.nvidia.com/',
+    category: '算力生态'
   }
 ];
 
@@ -447,6 +485,7 @@ function parseFeed(xml, source) {
         link,
         source: source.name,
         sourceHome: source.homepage,
+        category: source.category,
         summary: summary.slice(0, 240),
         publishedAt: publishedAt ? new Date(publishedAt).toISOString() : null
       };
@@ -508,16 +547,40 @@ async function readPreviousNews() {
 
 function rankItems(items) {
   const seen = new Set();
-
-  return items
+  const ranked = items
     .filter((item) => {
       const key = item.link || `${item.source}:${item.title}`;
       if (seen.has(key)) return false;
       seen.add(key);
       return true;
     })
-    .sort((a, b) => parseDate(b.publishedAt) - parseDate(a.publishedAt))
-    .slice(0, MAX_ITEMS);
+    .sort((a, b) => parseDate(b.publishedAt) - parseDate(a.publishedAt));
+
+  const selected = [];
+  const selectedKeys = new Set();
+  const categoryCounts = new Map();
+
+  for (const item of ranked) {
+    const category = item.category || '其他';
+    const limit = CATEGORY_LIMITS[category] || MAX_ITEMS;
+    const count = categoryCounts.get(category) || 0;
+    if (count >= limit) continue;
+
+    selected.push(item);
+    selectedKeys.add(item.link || `${item.source}:${item.title}`);
+    categoryCounts.set(category, count + 1);
+    if (selected.length >= MAX_ITEMS) return selected;
+  }
+
+  for (const item of ranked) {
+    const key = item.link || `${item.source}:${item.title}`;
+    if (selectedKeys.has(key)) continue;
+
+    selected.push(item);
+    if (selected.length >= MAX_ITEMS) break;
+  }
+
+  return selected;
 }
 
 async function translateNewsItems(items) {
@@ -791,7 +854,7 @@ async function main() {
   const payload = {
     updatedAt: new Date().toISOString(),
     count: items.length,
-    sources: SOURCES.map(({ name, homepage }) => ({ name, homepage })),
+    sources: SOURCES.map(({ name, homepage, category }) => ({ name, homepage, category })),
     failures,
     items
   };
