@@ -78,11 +78,11 @@ p {
 }
 
 h1 {
-  max-width: 720px;
+  max-width: 100%;
   margin-bottom: 18px;
-  font-size: clamp(2.6rem, 7vw, 5.8rem);
-  line-height: 0.92;
-  letter-spacing: -0.06em;
+  font-size: clamp(2.1rem, 5vw, 4.3rem);
+  line-height: 1.05;
+  letter-spacing: 0;
 }
 
 .intro {
@@ -420,6 +420,14 @@ button {
   .panel,
   .sources {
     border-radius: 22px;
+  }
+
+  .hero {
+    padding: 22px;
+  }
+
+  h1 {
+    font-size: clamp(1.65rem, 8vw, 2.1rem);
   }
 
   .news-card {
