@@ -1,31 +1,31 @@
 {
   "updatedAt": "2026-09-17",
-  "itemsCount": 12,
-  "sourceLabel": "每日刷新：LMArena / Hugging Face",
-  "sourceText": "模型榜每天随抓取任务更新，优先读取公开 Arena 榜单数据；若公开源临时不可用，会保留上次可用排名并更新时间，避免页面空白。",
+  "itemsCount": 25,
+  "sourceLabel": "任务分榜：LMArena / Hugging Face Open LLM Leaderboard",
+  "sourceText": "综合榜使用 LMArena Text Style Control 的 overall 分类；代码榜使用 LMArena WebDev Arena；开源榜使用 Hugging Face Open LLM Leaderboard，且不会以闭源模型替补。源不可用时仅保留该分类的上次结果。",
   "sourceChips": [
-    "LMArena",
-    "Hugging Face Datasets",
-    "公开模型榜",
+    "LMArena Text Style Control",
+    "LMArena WebDev Arena",
+    "Hugging Face Open LLM Leaderboard",
     "每日自动刷新"
   ],
   "rankings": [
     {
       "title": "综合能力排名",
-      "description": "通用问答、推理、代码、多模态和工具调用综合参考",
+      "description": "LMArena Text Style Control · overall",
       "items": [
         {
           "rank": 1,
-          "name": "claude-fable-5.1-max",
-          "bestFor": "高难度推理、通用问答、复杂任务",
+          "name": "claude-fable-5",
+          "bestFor": "通用问答、推理与多轮对话",
           "specs": [
             {
               "label": "来源",
-              "value": "Anthropic"
+              "value": "anthropic"
             },
             {
-              "label": "Arena",
-              "value": "1508"
+              "label": "Arena 评分",
+              "value": "1506"
             },
             {
               "label": "类型",
@@ -34,21 +34,25 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
             }
           ],
-          "reason": "claude-fable-5.1-max 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "claude-fable-5 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 2,
-          "name": "claude-opus-5-max",
-          "bestFor": "高难度推理、通用问答、复杂任务",
+          "name": "claude-opus-4-6-high",
+          "bestFor": "通用问答、推理与多轮对话",
           "specs": [
             {
               "label": "来源",
-              "value": "Anthropic"
+              "value": "anthropic"
             },
             {
-              "label": "Arena",
+              "label": "Arena 评分",
               "value": "1505"
             },
             {
@@ -58,22 +62,26 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
             }
           ],
-          "reason": "claude-opus-5-max 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "claude-opus-4-6-high 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 3,
-          "name": "claude-opus-5-high",
-          "bestFor": "高难度推理、通用问答、复杂任务",
+          "name": "claude-opus-4-7-high",
+          "bestFor": "通用问答、推理与多轮对话",
           "specs": [
             {
               "label": "来源",
-              "value": "Anthropic"
+              "value": "anthropic"
             },
             {
-              "label": "Arena",
-              "value": "1505"
+              "label": "Arena 评分",
+              "value": "1502"
             },
             {
               "label": "类型",
@@ -82,22 +90,26 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
             }
           ],
-          "reason": "claude-opus-5-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "claude-opus-4-7-high 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 4,
-          "name": "claude-opus-4-6-high",
-          "bestFor": "日常问答、内容生成、代码辅助",
+          "name": "muse-spark-1.2 (xHigh)",
+          "bestFor": "通用问答、推理与多轮对话",
           "specs": [
             {
               "label": "来源",
-              "value": "Anthropic"
+              "value": "meta"
             },
             {
-              "label": "Arena",
-              "value": "1503"
+              "label": "Arena 评分",
+              "value": "1500"
             },
             {
               "label": "类型",
@@ -106,21 +118,25 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
             }
           ],
-          "reason": "claude-opus-4-6-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "muse-spark-1.2 (xHigh) 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 5,
-          "name": "claude-opus-4-6",
-          "bestFor": "日常问答、内容生成、代码辅助",
+          "name": "claude-fable-5.1-max",
+          "bestFor": "通用问答、推理与多轮对话",
           "specs": [
             {
               "label": "来源",
-              "value": "Anthropic"
+              "value": "anthropic"
             },
             {
-              "label": "Arena",
+              "label": "Arena 评分",
               "value": "1498"
             },
             {
@@ -130,45 +146,81 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
             }
           ],
-          "reason": "claude-opus-4-6 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "claude-fable-5.1-max 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 6,
-          "name": "gemini-3.8-flash-high",
-          "bestFor": "日常问答、内容生成、代码辅助",
+          "name": "claude-opus-4-6",
+          "bestFor": "通用问答、推理与多轮对话",
           "specs": [
             {
               "label": "来源",
-              "value": "Google"
+              "value": "anthropic"
             },
             {
-              "label": "Arena",
-              "value": "1495"
+              "label": "Arena 评分",
+              "value": "1497"
             },
             {
               "label": "类型",
-              "value": "多模态/文本"
+              "value": "文本/推理"
             },
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
             }
           ],
-          "reason": "gemini-3.8-flash-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "claude-opus-4-6 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 7,
-          "name": "claude-fable-5",
-          "bestFor": "日常问答、内容生成、代码辅助",
+          "name": "claude-opus-4-7",
+          "bestFor": "通用问答、推理与多轮对话",
           "specs": [
             {
               "label": "来源",
-              "value": "Anthropic"
+              "value": "anthropic"
             },
             {
-              "label": "Arena",
+              "label": "Arena 评分",
+              "value": "1494"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "claude-opus-4-7 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 8,
+          "name": "muse-spark-1.3-max",
+          "bestFor": "通用问答、推理与多轮对话",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "meta"
+            },
+            {
+              "label": "Arena 评分",
               "value": "1493"
             },
             {
@@ -178,21 +230,109 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
             }
           ],
-          "reason": "claude-fable-5 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "muse-spark-1.3-max 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 8,
-          "name": "gemini-3.7-flash-high",
-          "bestFor": "日常问答、内容生成、代码辅助",
+          "rank": 9,
+          "name": "gemini-3.8-flash-high",
+          "bestFor": "通用问答、推理与多轮对话",
           "specs": [
             {
               "label": "来源",
-              "value": "Google"
+              "value": "google"
             },
             {
-              "label": "Arena",
+              "label": "Arena 评分",
+              "value": "1493"
+            },
+            {
+              "label": "类型",
+              "value": "多模态/文本"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "gemini-3.8-flash-high 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 10,
+          "name": "claude-opus-5-high",
+          "bestFor": "通用问答、推理与多轮对话",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "anthropic"
+            },
+            {
+              "label": "Arena 评分",
+              "value": "1493"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "claude-opus-5-high 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 11,
+          "name": "muse-spark-1.1",
+          "bestFor": "通用问答、推理与多轮对话",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "meta"
+            },
+            {
+              "label": "Arena 评分",
+              "value": "1493"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "muse-spark-1.1 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 12,
+          "name": "gemini-3.7-flash-high",
+          "bestFor": "通用问答、推理与多轮对话",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "google"
+            },
+            {
+              "label": "Arena 评分",
               "value": "1490"
             },
             {
@@ -202,124 +342,32 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
             }
           ],
-          "reason": "gemini-3.7-flash-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
-        },
-        {
-          "rank": 9,
-          "name": "claude-opus-4-7-high",
-          "bestFor": "日常问答、内容生成、代码辅助",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "Anthropic"
-            },
-            {
-              "label": "Arena",
-              "value": "1490"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            }
-          ],
-          "reason": "claude-opus-4-7-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
-        },
-        {
-          "rank": 10,
-          "name": "muse-spark-1.3-max",
-          "bestFor": "日常问答、内容生成、代码辅助",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "公开模型"
-            },
-            {
-              "label": "Arena",
-              "value": "1490"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            }
-          ],
-          "reason": "muse-spark-1.3-max 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
-        },
-        {
-          "rank": 11,
-          "name": "muse-spark-1.2 (xHigh)",
-          "bestFor": "日常问答、内容生成、代码辅助",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "公开模型"
-            },
-            {
-              "label": "Arena",
-              "value": "1489"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            }
-          ],
-          "reason": "muse-spark-1.2 (xHigh) 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
-        },
-        {
-          "rank": 12,
-          "name": "claude-opus-4-7",
-          "bestFor": "日常问答、内容生成、代码辅助",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "Anthropic"
-            },
-            {
-              "label": "Arena",
-              "value": "1483"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            }
-          ],
-          "reason": "claude-opus-4-7 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "gemini-3.7-flash-high 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         }
       ]
     },
     {
       "title": "代码与 Agent 排名",
-      "description": "代码生成、代码库理解、工具调用和自动化任务",
+      "description": "LMArena WebDev Arena · 代码与工具调用",
       "items": [
         {
           "rank": 1,
-          "name": "claude-fable-5.1-max",
-          "bestFor": "代码生成、代码库理解、Agent 任务",
+          "name": "gpt-6-astra-max",
+          "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
             {
               "label": "来源",
-              "value": "Anthropic"
+              "value": "openai"
             },
             {
-              "label": "Arena",
-              "value": "1508"
+              "label": "WebDev 评分",
+              "value": "1800"
             },
             {
               "label": "类型",
@@ -328,22 +376,26 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
             }
           ],
-          "reason": "claude-fable-5.1-max 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "gpt-6-astra-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 2,
-          "name": "claude-opus-5-max",
-          "bestFor": "代码生成、代码库理解、Agent 任务",
+          "name": "claude-fable-5.1-max",
+          "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
             {
               "label": "来源",
-              "value": "Anthropic"
+              "value": "anthropic"
             },
             {
-              "label": "Arena",
-              "value": "1505"
+              "label": "WebDev 评分",
+              "value": "1758"
             },
             {
               "label": "类型",
@@ -352,22 +404,26 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
             }
           ],
-          "reason": "claude-opus-5-max 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "claude-fable-5.1-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 3,
-          "name": "claude-opus-5-high",
-          "bestFor": "代码生成、代码库理解、Agent 任务",
+          "name": "claude-opus-5-max",
+          "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
             {
               "label": "来源",
-              "value": "Anthropic"
+              "value": "anthropic"
             },
             {
-              "label": "Arena",
-              "value": "1505"
+              "label": "WebDev 评分",
+              "value": "1687"
             },
             {
               "label": "类型",
@@ -376,22 +432,26 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
             }
           ],
-          "reason": "claude-opus-5-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "claude-opus-5-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 4,
-          "name": "claude-opus-4-6-high",
-          "bestFor": "代码生成、代码库理解、Agent 任务",
+          "name": "qwen3.8-max-0902",
+          "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
             {
               "label": "来源",
-              "value": "Anthropic"
+              "value": "alibaba"
             },
             {
-              "label": "Arena",
-              "value": "1503"
+              "label": "WebDev 评分",
+              "value": "1681"
             },
             {
               "label": "类型",
@@ -400,22 +460,26 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
             }
           ],
-          "reason": "claude-opus-4-6-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "qwen3.8-max-0902 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 5,
-          "name": "claude-opus-4-6",
-          "bestFor": "代码生成、代码库理解、Agent 任务",
+          "name": "kimi-k3-max",
+          "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
             {
               "label": "来源",
-              "value": "Anthropic"
+              "value": "moonshot"
             },
             {
-              "label": "Arena",
-              "value": "1498"
+              "label": "WebDev 评分",
+              "value": "1674"
             },
             {
               "label": "类型",
@@ -424,46 +488,26 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Kimi K3 license"
             }
           ],
-          "reason": "claude-opus-4-6 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "kimi-k3-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 6,
-          "name": "gemini-3.8-flash-high",
-          "bestFor": "代码生成、代码库理解、Agent 任务",
+          "name": "qwen3.8-max",
+          "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
             {
               "label": "来源",
-              "value": "Google"
+              "value": "alibaba"
             },
             {
-              "label": "Arena",
-              "value": "1495"
-            },
-            {
-              "label": "类型",
-              "value": "多模态/文本"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            }
-          ],
-          "reason": "gemini-3.8-flash-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
-        },
-        {
-          "rank": 7,
-          "name": "claude-fable-5",
-          "bestFor": "代码生成、代码库理解、Agent 任务",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "Anthropic"
-            },
-            {
-              "label": "Arena",
-              "value": "1493"
+              "label": "WebDev 评分",
+              "value": "1671"
             },
             {
               "label": "类型",
@@ -472,52 +516,88 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
             }
           ],
-          "reason": "claude-fable-5 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "qwen3.8-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 8,
-          "name": "gemini-3.7-flash-high",
-          "bestFor": "代码生成、代码库理解、Agent 任务",
+          "rank": 7,
+          "name": "claude-opus-5-high",
+          "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
             {
               "label": "来源",
-              "value": "Google"
+              "value": "anthropic"
             },
             {
-              "label": "Arena",
-              "value": "1490"
+              "label": "WebDev 评分",
+              "value": "1660"
             },
             {
               "label": "类型",
-              "value": "多模态/文本"
+              "value": "文本/推理"
             },
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
             }
           ],
-          "reason": "gemini-3.7-flash-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "claude-opus-5-high 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 8,
+          "name": "muse-spark-1.3-max",
+          "bestFor": "网页开发、代码生成与工具调用",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "meta"
+            },
+            {
+              "label": "WebDev 评分",
+              "value": "1652"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "muse-spark-1.3-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         }
       ]
     },
     {
       "title": "开源/可自部署排名",
-      "description": "更看权重可用性、社区生态、微调和私有化",
+      "description": "Hugging Face Open LLM Leaderboard · 仅开放权重模型",
       "items": [
         {
           "rank": 1,
-          "name": "claude-fable-5.1-max",
-          "bestFor": "高难度推理、通用问答、复杂任务",
+          "name": "Qwen/Qwen2.5-72B-Instruct",
+          "bestFor": "可自部署、私有化与成本敏感场景",
           "specs": [
             {
               "label": "来源",
-              "value": "Anthropic"
+              "value": "Qwen"
             },
             {
-              "label": "Arena",
-              "value": "1508"
+              "label": "Open LLM 评分",
+              "value": "48"
             },
             {
               "label": "类型",
@@ -526,22 +606,26 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "other"
             }
           ],
-          "reason": "claude-fable-5.1-max 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "Qwen/Qwen2.5-72B-Instruct 来自 Hugging Face Open LLM Leaderboard 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 2,
-          "name": "claude-opus-5-max",
-          "bestFor": "高难度推理、通用问答、复杂任务",
+          "name": "Qwen/Qwen2.5-32B-Instruct",
+          "bestFor": "可自部署、私有化与成本敏感场景",
           "specs": [
             {
               "label": "来源",
-              "value": "Anthropic"
+              "value": "Qwen"
             },
             {
-              "label": "Arena",
-              "value": "1505"
+              "label": "Open LLM 评分",
+              "value": "47"
             },
             {
               "label": "类型",
@@ -550,22 +634,26 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "apache-2.0"
             }
           ],
-          "reason": "claude-opus-5-max 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "Qwen/Qwen2.5-32B-Instruct 来自 Hugging Face Open LLM Leaderboard 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 3,
-          "name": "claude-opus-5-high",
-          "bestFor": "高难度推理、通用问答、复杂任务",
+          "name": "mistralai/Mistral-Large-Instruct-2411",
+          "bestFor": "可自部署、私有化与成本敏感场景",
           "specs": [
             {
               "label": "来源",
-              "value": "Anthropic"
+              "value": "公开模型"
             },
             {
-              "label": "Arena",
-              "value": "1505"
+              "label": "Open LLM 评分",
+              "value": "47"
             },
             {
               "label": "类型",
@@ -574,22 +662,26 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "other"
             }
           ],
-          "reason": "claude-opus-5-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "mistralai/Mistral-Large-Instruct-2411 来自 Hugging Face Open LLM Leaderboard 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 4,
-          "name": "claude-opus-4-6-high",
-          "bestFor": "日常问答、内容生成、代码辅助",
+          "name": "meta-llama/Llama-3.3-70B-Instruct",
+          "bestFor": "可自部署、私有化与成本敏感场景",
           "specs": [
             {
               "label": "来源",
-              "value": "Anthropic"
+              "value": "Meta"
             },
             {
-              "label": "Arena",
-              "value": "1503"
+              "label": "Open LLM 评分",
+              "value": "45"
             },
             {
               "label": "类型",
@@ -598,9 +690,125 @@
             {
               "label": "用途",
               "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "llama3.3"
             }
           ],
-          "reason": "claude-opus-4-6-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "meta-llama/Llama-3.3-70B-Instruct 来自 Hugging Face Open LLM Leaderboard 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 5,
+          "name": "Qwen/Qwen2-72B-Instruct",
+          "bestFor": "可自部署、私有化与成本敏感场景",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Qwen"
+            },
+            {
+              "label": "Open LLM 评分",
+              "value": "44"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "other"
+            }
+          ],
+          "reason": "Qwen/Qwen2-72B-Instruct 来自 Hugging Face Open LLM Leaderboard 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 6,
+          "name": "mlabonne/BigQwen2.5-52B-Instruct",
+          "bestFor": "可自部署、私有化与成本敏感场景",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Qwen"
+            },
+            {
+              "label": "Open LLM 评分",
+              "value": "44"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "apache-2.0"
+            }
+          ],
+          "reason": "mlabonne/BigQwen2.5-52B-Instruct 来自 Hugging Face Open LLM Leaderboard 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 7,
+          "name": "meta-llama/Llama-3.1-70B-Instruct",
+          "bestFor": "可自部署、私有化与成本敏感场景",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Meta"
+            },
+            {
+              "label": "Open LLM 评分",
+              "value": "43"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "llama3.1"
+            }
+          ],
+          "reason": "meta-llama/Llama-3.1-70B-Instruct 来自 Hugging Face Open LLM Leaderboard 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 8,
+          "name": "abacusai/Dracarys-72B-Instruct",
+          "bestFor": "可自部署、私有化与成本敏感场景",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "公开模型"
+            },
+            {
+              "label": "Open LLM 评分",
+              "value": "43"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "other"
+            }
+          ],
+          "reason": "abacusai/Dracarys-72B-Instruct 来自 Hugging Face Open LLM Leaderboard 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         }
       ]
     }
@@ -610,29 +818,29 @@
       "title": "默认高难任务",
       "text": "优先选择综合榜靠前且稳定可用的模型，适合复杂分析、长链路代码和 Agent 自动化。",
       "choices": [
-        "claude-fable-5.1-max",
-        "claude-opus-5-max",
-        "claude-opus-5-high"
+        "claude-fable-5",
+        "claude-opus-4-6-high",
+        "claude-opus-4-7-high"
       ]
     },
     {
       "title": "代码与工程",
       "text": "看代码库理解、补丁稳定性和测试修复能力；成本敏感时可用开源模型做批量辅助。",
       "choices": [
+        "gpt-6-astra-max",
         "claude-fable-5.1-max",
         "claude-opus-5-max",
-        "claude-opus-5-high",
-        "claude-opus-4-6-high"
+        "qwen3.8-max-0902"
       ]
     },
     {
       "title": "私有化部署",
       "text": "优先选开放权重和生态成熟的模型，再按中文、代码、长文本和硬件成本二次筛选。",
       "choices": [
-        "claude-fable-5.1-max",
-        "claude-opus-5-max",
-        "claude-opus-5-high",
-        "claude-opus-4-6-high"
+        "Qwen/Qwen2.5-72B-Instruct",
+        "Qwen/Qwen2.5-32B-Instruct",
+        "mistralai/Mistral-Large-Instruct-2411",
+        "meta-llama/Llama-3.3-70B-Instruct"
       ]
     }
   ]

@@ -707,49 +707,82 @@ function buildGpuRankingPayload() {
 
 function normalizeArenaModel(row) {
   const model =
+    row.model_name ||
     row.model ||
     row.name ||
     row.Model ||
-    row.model_name ||
     row['Model'] ||
     row['model_name'] ||
     '';
   const score = Number(row.score || row.rating || row.arena_score || row['Arena Score'] || row['Score'] || 0);
   return {
     model: String(model).trim(),
-    score
+    score,
+    rank: Number(row.rank || row.Rank || 0),
+    organization: String(row.organization || row.org || row.provider || '').trim(),
+    license: String(row.license || row.model_license || '').trim()
   };
 }
 
-async function fetchArenaModels() {
-  const urls = [
-    'https://datasets-server.huggingface.co/rows?dataset=lmarena-ai%2Fleaderboard-dataset&config=text&split=latest&offset=0&length=20',
-    'https://datasets-server.huggingface.co/rows?dataset=lmsys%2Fchatbot_arena_conversations&config=default&split=train&offset=0&length=20'
-  ];
-
-  for (const url of urls) {
-    try {
-      const data = await fetchJson(url);
-      const rows = (data.rows || [])
-        .map((entry) => normalizeArenaModel(entry.row || entry))
-        .filter((entry) => entry.model && Number.isFinite(entry.score) && entry.score > 0);
-
-      if (rows.length > 0) {
-        return rows
-          .sort((a, b) => b.score - a.score)
-          .filter((entry, index, all) => all.findIndex((other) => other.model === entry.model) === index)
-          .slice(0, 12);
-      }
-    } catch (error) {
-      console.warn(`Model leaderboard source failed: ${error.message}`);
-    }
-  }
-
-  return [];
+function sortArenaModels(models) {
+  return models
+    .filter((entry) => entry.model && Number.isFinite(entry.score) && entry.score > 0)
+    .sort((a, b) => (a.rank || Number.MAX_SAFE_INTEGER) - (b.rank || Number.MAX_SAFE_INTEGER) || b.score - a.score)
+    .filter((entry, index, all) => all.findIndex((other) => other.model === entry.model) === index);
 }
 
-function modelSpecs(model, score) {
-  const lower = model.toLowerCase();
+async function fetchArenaModels(config, category = 'overall') {
+  const url = new URL('https://datasets-server.huggingface.co/rows');
+  url.searchParams.set('dataset', 'lmarena-ai/leaderboard-dataset');
+  url.searchParams.set('config', config);
+  url.searchParams.set('split', 'latest');
+  url.searchParams.set('offset', '0');
+  url.searchParams.set('length', '100');
+
+  try {
+    const data = await fetchJson(url);
+    const rows = (data.rows || []).map((entry) => entry.row || entry);
+    const categoryRows = rows.filter((row) => String(row.category || '').toLowerCase() === category);
+    return sortArenaModels((categoryRows.length > 0 ? categoryRows : rows).map(normalizeArenaModel));
+  } catch (error) {
+    console.warn(`LMArena ${config} leaderboard source failed: ${error.message}`);
+    return [];
+  }
+}
+
+function normalizeOpenModel(row) {
+  const model = row?.model?.name || row?.fullname || row?.Model || row?.model || row?.eval_name || '';
+  const score = Number(row?.model?.average_score || row?.['Average ⬆️'] || row?.average_score || 0);
+  const metadata = row?.metadata || row;
+  const features = row?.features || row;
+  return {
+    model: String(model).trim(),
+    score,
+    organization: String(row?.organization || row?.provider || '').trim(),
+    license: String(metadata?.hub_license || row?.['Hub License'] || '').trim(),
+    flagged: features?.is_flagged === true || row?.Flagged === true,
+    official: features?.is_official_provider === true || row?.['Official Provider'] === true
+  };
+}
+
+async function fetchOpenModels() {
+  try {
+    const data = await fetchJson('https://open-llm-leaderboard-open-llm-leaderboard.hf.space/api/leaderboard/formatted');
+    const rows = Array.isArray(data?.models) ? data.models : Array.isArray(data) ? data : [];
+    const models = rows
+      .map(normalizeOpenModel)
+      .filter((entry) => entry.model && Number.isFinite(entry.score) && entry.score > 0 && !entry.flagged && entry.official);
+    return models
+      .sort((a, b) => b.score - a.score)
+      .filter((entry, index, all) => all.findIndex((other) => other.model === entry.model) === index);
+  } catch (error) {
+    console.warn(`Open LLM Leaderboard source failed: ${error.message}`);
+    return [];
+  }
+}
+
+function modelSpecs(entry, scoreLabel) {
+  const lower = entry.model.toLowerCase();
   const family = lower.includes('claude')
     ? 'Anthropic'
     : lower.includes('gemini')
@@ -764,68 +797,65 @@ function modelSpecs(model, score) {
               ? 'Meta'
               : '公开模型';
 
-  return [
-    { label: '来源', value: family },
-    { label: 'Arena', value: score ? String(Math.round(score)) : '每日抓取' },
+  const specs = [
+    { label: '来源', value: entry.organization || family },
+    { label: scoreLabel, value: entry.score ? String(Math.round(entry.score)) : '每日抓取' },
     { label: '类型', value: lower.includes('vision') || lower.includes('gemini') ? '多模态/文本' : '文本/推理' },
     { label: '用途', value: lower.includes('coder') || lower.includes('code') ? '代码优先' : '通用' }
   ];
+  if (entry.license) specs.push({ label: '许可证', value: entry.license });
+  return specs;
 }
 
-function modelReason(model) {
-  return `${model} 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。`;
+function rankingItems(models, limit, bestFor, scoreLabel, sourceName) {
+  return models.slice(0, limit).map((entry, index) => ({
+    rank: index + 1,
+    name: entry.model,
+    bestFor,
+    specs: modelSpecs(entry, scoreLabel),
+    reason: `${entry.model} 来自 ${sourceName} 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。`
+  }));
 }
 
 async function buildModelRankingPayload(previousPayload) {
-  const arenaModels = await fetchArenaModels();
-  const sourceModels =
-    arenaModels.length > 0
-      ? arenaModels
-      : (previousPayload?.rankings?.[0]?.items || []).map((item) => ({
-          model: item.name,
-          score: Number(item.specs?.find((spec) => spec.label === 'Arena')?.value || 0)
-        }));
-
-  const items = sourceModels.slice(0, 12).map((entry, index) => ({
-    rank: index + 1,
-    name: entry.model,
-    bestFor: index < 3 ? '高难度推理、通用问答、复杂任务' : '日常问答、内容生成、代码辅助',
-    specs: modelSpecs(entry.model, entry.score),
-    reason: modelReason(entry.model)
-  }));
-
-  const codeItems = items
-    .filter((item) => /gpt|claude|deepseek|qwen|coder|code|gemini/i.test(item.name))
-    .slice(0, 8)
-    .map((item, index) => ({ ...item, rank: index + 1, bestFor: '代码生成、代码库理解、Agent 任务' }));
-
-  const openItems = items
-    .filter((item) => /deepseek|qwen|llama|mistral|glm|yi|mixtral/i.test(item.name))
-    .slice(0, 8)
-    .map((item, index) => ({ ...item, rank: index + 1, bestFor: '可自部署、私有化、成本敏感场景' }));
+  const [overallModels, codeModels, openModels] = await Promise.all([
+    fetchArenaModels('text_style_control'),
+    fetchArenaModels('webdev'),
+    fetchOpenModels()
+  ]);
+  const previousRankings = previousPayload?.rankings || [];
+  const items = overallModels.length > 0
+    ? rankingItems(overallModels, 12, '通用问答、推理与多轮对话', 'Arena 评分', 'LMArena Text Arena')
+    : previousRankings[0]?.items || [];
+  const codeItems = codeModels.length > 0
+    ? rankingItems(codeModels, 8, '网页开发、代码生成与工具调用', 'WebDev 评分', 'LMArena WebDev Arena')
+    : previousRankings[1]?.items || [];
+  const openItems = openModels.length > 0
+    ? rankingItems(openModels, 8, '可自部署、私有化与成本敏感场景', 'Open LLM 评分', 'Hugging Face Open LLM Leaderboard')
+    : previousRankings[2]?.items || [];
 
   return {
     updatedAt: todayIsoDate(),
-    itemsCount: items.length,
-    sourceLabel: arenaModels.length > 0 ? '每日刷新：LMArena / Hugging Face' : '每日刷新：保留上次可用榜单',
+    itemsCount: new Set([...items, ...codeItems, ...openItems].map((item) => item.name)).size,
+    sourceLabel: '任务分榜：LMArena / Hugging Face Open LLM Leaderboard',
     sourceText:
-      '模型榜每天随抓取任务更新，优先读取公开 Arena 榜单数据；若公开源临时不可用，会保留上次可用排名并更新时间，避免页面空白。',
-    sourceChips: ['LMArena', 'Hugging Face Datasets', '公开模型榜', '每日自动刷新'],
+      '综合榜使用 LMArena Text Style Control 的 overall 分类；代码榜使用 LMArena WebDev Arena；开源榜使用 Hugging Face Open LLM Leaderboard，且不会以闭源模型替补。源不可用时仅保留该分类的上次结果。',
+    sourceChips: ['LMArena Text Style Control', 'LMArena WebDev Arena', 'Hugging Face Open LLM Leaderboard', '每日自动刷新'],
     rankings: [
       {
         title: '综合能力排名',
-        description: '通用问答、推理、代码、多模态和工具调用综合参考',
+        description: 'LMArena Text Style Control · overall',
         items
       },
       {
         title: '代码与 Agent 排名',
-        description: '代码生成、代码库理解、工具调用和自动化任务',
-        items: codeItems.length > 0 ? codeItems : items.slice(0, 6)
+        description: 'LMArena WebDev Arena · 代码与工具调用',
+        items: codeItems
       },
       {
         title: '开源/可自部署排名',
-        description: '更看权重可用性、社区生态、微调和私有化',
-        items: openItems.length > 0 ? openItems : items.slice(0, 4)
+        description: 'Hugging Face Open LLM Leaderboard · 仅开放权重模型',
+        items: openItems
       }
     ],
     guidance: [
@@ -837,12 +867,12 @@ async function buildModelRankingPayload(previousPayload) {
       {
         title: '代码与工程',
         text: '看代码库理解、补丁稳定性和测试修复能力；成本敏感时可用开源模型做批量辅助。',
-        choices: (codeItems.length > 0 ? codeItems : items).slice(0, 4).map((item) => item.name)
+        choices: codeItems.slice(0, 4).map((item) => item.name)
       },
       {
         title: '私有化部署',
         text: '优先选开放权重和生态成熟的模型，再按中文、代码、长文本和硬件成本二次筛选。',
-        choices: (openItems.length > 0 ? openItems : items).slice(0, 4).map((item) => item.name)
+        choices: openItems.slice(0, 4).map((item) => item.name)
       }
     ]
   };
