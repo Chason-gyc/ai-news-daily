@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21",
+  "updatedAt": "2026-09-17",
   "itemsCount": 12,
   "sourceLabel": "每日刷新：LMArena / Hugging Face",
   "sourceText": "模型榜每天随抓取任务更新，优先读取公开 Arena 榜单数据；若公开源临时不可用，会保留上次可用排名并更新时间，避免页面空白。",
@@ -16,7 +16,7 @@
       "items": [
         {
           "rank": 1,
-          "name": "claude-opus-4-6-thinking",
+          "name": "claude-fable-5.1-max",
           "bestFor": "高难度推理、通用问答、复杂任务",
           "specs": [
             {
@@ -25,7 +25,7 @@
             },
             {
               "label": "Arena",
-              "value": "1500"
+              "value": "1508"
             },
             {
               "label": "类型",
@@ -36,12 +36,84 @@
               "value": "通用"
             }
           ],
-          "reason": "claude-opus-4-6-thinking 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "claude-fable-5.1-max 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
           "rank": 2,
-          "name": "claude-opus-4-6",
+          "name": "claude-opus-5-max",
           "bestFor": "高难度推理、通用问答、复杂任务",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Anthropic"
+            },
+            {
+              "label": "Arena",
+              "value": "1505"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "claude-opus-5-max 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 3,
+          "name": "claude-opus-5-high",
+          "bestFor": "高难度推理、通用问答、复杂任务",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Anthropic"
+            },
+            {
+              "label": "Arena",
+              "value": "1505"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "claude-opus-5-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 4,
+          "name": "claude-opus-4-6-high",
+          "bestFor": "日常问答、内容生成、代码辅助",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Anthropic"
+            },
+            {
+              "label": "Arena",
+              "value": "1503"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "claude-opus-4-6-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 5,
+          "name": "claude-opus-4-6",
+          "bestFor": "日常问答、内容生成、代码辅助",
           "specs": [
             {
               "label": "来源",
@@ -63,9 +135,9 @@
           "reason": "claude-opus-4-6 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
-          "rank": 3,
-          "name": "gemini-3.5-flash",
-          "bestFor": "高难度推理、通用问答、复杂任务",
+          "rank": 6,
+          "name": "gemini-3.8-flash-high",
+          "bestFor": "日常问答、内容生成、代码辅助",
           "specs": [
             {
               "label": "来源",
@@ -73,7 +145,7 @@
             },
             {
               "label": "Arena",
-              "value": "1486"
+              "value": "1495"
             },
             {
               "label": "类型",
@@ -84,11 +156,11 @@
               "value": "通用"
             }
           ],
-          "reason": "gemini-3.5-flash 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "gemini-3.8-flash-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
-          "rank": 4,
-          "name": "claude-opus-4-7-thinking",
+          "rank": 7,
+          "name": "claude-fable-5",
           "bestFor": "日常问答、内容生成、代码辅助",
           "specs": [
             {
@@ -97,7 +169,7 @@
             },
             {
               "label": "Arena",
-              "value": "1486"
+              "value": "1493"
             },
             {
               "label": "类型",
@@ -108,11 +180,11 @@
               "value": "通用"
             }
           ],
-          "reason": "claude-opus-4-7-thinking 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "claude-fable-5 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
-          "rank": 5,
-          "name": "gemini-3.1-pro-preview",
+          "rank": 8,
+          "name": "gemini-3.7-flash-high",
           "bestFor": "日常问答、内容生成、代码辅助",
           "specs": [
             {
@@ -121,7 +193,7 @@
             },
             {
               "label": "Arena",
-              "value": "1483"
+              "value": "1490"
             },
             {
               "label": "类型",
@@ -132,34 +204,82 @@
               "value": "通用"
             }
           ],
-          "reason": "gemini-3.1-pro-preview 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "gemini-3.7-flash-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
-          "rank": 6,
-          "name": "gemini-3-pro",
+          "rank": 9,
+          "name": "claude-opus-4-7-high",
           "bestFor": "日常问答、内容生成、代码辅助",
           "specs": [
             {
               "label": "来源",
-              "value": "Google"
+              "value": "Anthropic"
             },
             {
               "label": "Arena",
-              "value": "1480"
+              "value": "1490"
             },
             {
               "label": "类型",
-              "value": "多模态/文本"
+              "value": "文本/推理"
             },
             {
               "label": "用途",
               "value": "通用"
             }
           ],
-          "reason": "gemini-3-pro 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "claude-opus-4-7-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
-          "rank": 7,
+          "rank": 10,
+          "name": "muse-spark-1.3-max",
+          "bestFor": "日常问答、内容生成、代码辅助",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "公开模型"
+            },
+            {
+              "label": "Arena",
+              "value": "1490"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "muse-spark-1.3-max 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 11,
+          "name": "muse-spark-1.2 (xHigh)",
+          "bestFor": "日常问答、内容生成、代码辅助",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "公开模型"
+            },
+            {
+              "label": "Arena",
+              "value": "1489"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "muse-spark-1.2 (xHigh) 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 12,
           "name": "claude-opus-4-7",
           "bestFor": "日常问答、内容生成、代码辅助",
           "specs": [
@@ -169,7 +289,7 @@
             },
             {
               "label": "Arena",
-              "value": "1479"
+              "value": "1483"
             },
             {
               "label": "类型",
@@ -181,126 +301,6 @@
             }
           ],
           "reason": "claude-opus-4-7 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
-        },
-        {
-          "rank": 8,
-          "name": "qwen3.7-max-preview",
-          "bestFor": "日常问答、内容生成、代码辅助",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "Qwen"
-            },
-            {
-              "label": "Arena",
-              "value": "1475"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            }
-          ],
-          "reason": "qwen3.7-max-preview 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
-        },
-        {
-          "rank": 9,
-          "name": "muse-spark",
-          "bestFor": "日常问答、内容生成、代码辅助",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "公开模型"
-            },
-            {
-              "label": "Arena",
-              "value": "1475"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            }
-          ],
-          "reason": "muse-spark 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
-        },
-        {
-          "rank": 10,
-          "name": "ernie-5.1",
-          "bestFor": "日常问答、内容生成、代码辅助",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "公开模型"
-            },
-            {
-              "label": "Arena",
-              "value": "1472"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            }
-          ],
-          "reason": "ernie-5.1 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
-        },
-        {
-          "rank": 11,
-          "name": "gpt-5.4-high",
-          "bestFor": "日常问答、内容生成、代码辅助",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "OpenAI"
-            },
-            {
-              "label": "Arena",
-              "value": "1471"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            }
-          ],
-          "reason": "gpt-5.4-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
-        },
-        {
-          "rank": 12,
-          "name": "qwen3.5-max-preview",
-          "bestFor": "日常问答、内容生成、代码辅助",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "Qwen"
-            },
-            {
-              "label": "Arena",
-              "value": "1470"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            }
-          ],
-          "reason": "qwen3.5-max-preview 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         }
       ]
     },
@@ -310,7 +310,7 @@
       "items": [
         {
           "rank": 1,
-          "name": "claude-opus-4-6-thinking",
+          "name": "claude-fable-5.1-max",
           "bestFor": "代码生成、代码库理解、Agent 任务",
           "specs": [
             {
@@ -319,7 +319,7 @@
             },
             {
               "label": "Arena",
-              "value": "1500"
+              "value": "1508"
             },
             {
               "label": "类型",
@@ -330,10 +330,82 @@
               "value": "通用"
             }
           ],
-          "reason": "claude-opus-4-6-thinking 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "claude-fable-5.1-max 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
           "rank": 2,
+          "name": "claude-opus-5-max",
+          "bestFor": "代码生成、代码库理解、Agent 任务",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Anthropic"
+            },
+            {
+              "label": "Arena",
+              "value": "1505"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "claude-opus-5-max 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 3,
+          "name": "claude-opus-5-high",
+          "bestFor": "代码生成、代码库理解、Agent 任务",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Anthropic"
+            },
+            {
+              "label": "Arena",
+              "value": "1505"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "claude-opus-5-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 4,
+          "name": "claude-opus-4-6-high",
+          "bestFor": "代码生成、代码库理解、Agent 任务",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Anthropic"
+            },
+            {
+              "label": "Arena",
+              "value": "1503"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "claude-opus-4-6-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 5,
           "name": "claude-opus-4-6",
           "bestFor": "代码生成、代码库理解、Agent 任务",
           "specs": [
@@ -357,80 +429,8 @@
           "reason": "claude-opus-4-6 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
-          "rank": 3,
-          "name": "gemini-3.5-flash",
-          "bestFor": "代码生成、代码库理解、Agent 任务",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "Google"
-            },
-            {
-              "label": "Arena",
-              "value": "1486"
-            },
-            {
-              "label": "类型",
-              "value": "多模态/文本"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            }
-          ],
-          "reason": "gemini-3.5-flash 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
-        },
-        {
-          "rank": 4,
-          "name": "claude-opus-4-7-thinking",
-          "bestFor": "代码生成、代码库理解、Agent 任务",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "Anthropic"
-            },
-            {
-              "label": "Arena",
-              "value": "1486"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            }
-          ],
-          "reason": "claude-opus-4-7-thinking 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
-        },
-        {
-          "rank": 5,
-          "name": "gemini-3.1-pro-preview",
-          "bestFor": "代码生成、代码库理解、Agent 任务",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "Google"
-            },
-            {
-              "label": "Arena",
-              "value": "1483"
-            },
-            {
-              "label": "类型",
-              "value": "多模态/文本"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            }
-          ],
-          "reason": "gemini-3.1-pro-preview 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
-        },
-        {
           "rank": 6,
-          "name": "gemini-3-pro",
+          "name": "gemini-3.8-flash-high",
           "bestFor": "代码生成、代码库理解、Agent 任务",
           "specs": [
             {
@@ -439,7 +439,7 @@
             },
             {
               "label": "Arena",
-              "value": "1480"
+              "value": "1495"
             },
             {
               "label": "类型",
@@ -450,11 +450,11 @@
               "value": "通用"
             }
           ],
-          "reason": "gemini-3-pro 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "gemini-3.8-flash-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
           "rank": 7,
-          "name": "claude-opus-4-7",
+          "name": "claude-fable-5",
           "bestFor": "代码生成、代码库理解、Agent 任务",
           "specs": [
             {
@@ -463,7 +463,7 @@
             },
             {
               "label": "Arena",
-              "value": "1479"
+              "value": "1493"
             },
             {
               "label": "类型",
@@ -474,31 +474,31 @@
               "value": "通用"
             }
           ],
-          "reason": "claude-opus-4-7 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "claude-fable-5 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
           "rank": 8,
-          "name": "qwen3.7-max-preview",
+          "name": "gemini-3.7-flash-high",
           "bestFor": "代码生成、代码库理解、Agent 任务",
           "specs": [
             {
               "label": "来源",
-              "value": "Qwen"
+              "value": "Google"
             },
             {
               "label": "Arena",
-              "value": "1475"
+              "value": "1490"
             },
             {
               "label": "类型",
-              "value": "文本/推理"
+              "value": "多模态/文本"
             },
             {
               "label": "用途",
               "value": "通用"
             }
           ],
-          "reason": "qwen3.7-max-preview 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "gemini-3.7-flash-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         }
       ]
     },
@@ -508,16 +508,16 @@
       "items": [
         {
           "rank": 1,
-          "name": "qwen3.7-max-preview",
-          "bestFor": "可自部署、私有化、成本敏感场景",
+          "name": "claude-fable-5.1-max",
+          "bestFor": "高难度推理、通用问答、复杂任务",
           "specs": [
             {
               "label": "来源",
-              "value": "Qwen"
+              "value": "Anthropic"
             },
             {
               "label": "Arena",
-              "value": "1475"
+              "value": "1508"
             },
             {
               "label": "类型",
@@ -528,20 +528,20 @@
               "value": "通用"
             }
           ],
-          "reason": "qwen3.7-max-preview 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "claude-fable-5.1-max 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         },
         {
           "rank": 2,
-          "name": "qwen3.5-max-preview",
-          "bestFor": "可自部署、私有化、成本敏感场景",
+          "name": "claude-opus-5-max",
+          "bestFor": "高难度推理、通用问答、复杂任务",
           "specs": [
             {
               "label": "来源",
-              "value": "Qwen"
+              "value": "Anthropic"
             },
             {
               "label": "Arena",
-              "value": "1470"
+              "value": "1505"
             },
             {
               "label": "类型",
@@ -552,7 +552,55 @@
               "value": "通用"
             }
           ],
-          "reason": "qwen3.5-max-preview 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+          "reason": "claude-opus-5-max 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 3,
+          "name": "claude-opus-5-high",
+          "bestFor": "高难度推理、通用问答、复杂任务",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Anthropic"
+            },
+            {
+              "label": "Arena",
+              "value": "1505"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "claude-opus-5-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
+        },
+        {
+          "rank": 4,
+          "name": "claude-opus-4-6-high",
+          "bestFor": "日常问答、内容生成、代码辅助",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "Anthropic"
+            },
+            {
+              "label": "Arena",
+              "value": "1503"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            }
+          ],
+          "reason": "claude-opus-4-6-high 来自最新公开模型榜单，适合作为当天选型参考；实际效果仍需结合价格、上下文长度、地域可用性和业务数据测试。"
         }
       ]
     }
@@ -562,27 +610,29 @@
       "title": "默认高难任务",
       "text": "优先选择综合榜靠前且稳定可用的模型，适合复杂分析、长链路代码和 Agent 自动化。",
       "choices": [
-        "claude-opus-4-6-thinking",
-        "claude-opus-4-6",
-        "gemini-3.5-flash"
+        "claude-fable-5.1-max",
+        "claude-opus-5-max",
+        "claude-opus-5-high"
       ]
     },
     {
       "title": "代码与工程",
       "text": "看代码库理解、补丁稳定性和测试修复能力；成本敏感时可用开源模型做批量辅助。",
       "choices": [
-        "claude-opus-4-6-thinking",
-        "claude-opus-4-6",
-        "gemini-3.5-flash",
-        "claude-opus-4-7-thinking"
+        "claude-fable-5.1-max",
+        "claude-opus-5-max",
+        "claude-opus-5-high",
+        "claude-opus-4-6-high"
       ]
     },
     {
       "title": "私有化部署",
       "text": "优先选开放权重和生态成熟的模型，再按中文、代码、长文本和硬件成本二次筛选。",
       "choices": [
-        "qwen3.7-max-preview",
-        "qwen3.5-max-preview"
+        "claude-fable-5.1-max",
+        "claude-opus-5-max",
+        "claude-opus-5-high",
+        "claude-opus-4-6-high"
       ]
     }
   ]
