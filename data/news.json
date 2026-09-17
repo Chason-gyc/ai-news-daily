@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T03:56:30.142Z",
+  "updatedAt": "2026-09-17T08:10:34.327Z",
   "count": 10,
   "sources": [
     {
@@ -98,25 +98,79 @@
     {
       "source": "Dwarkesh Podcast",
       "message": "https://api.substack.com/feed/podcast/69345.rss returned HTTP 403"
-    },
-    {
-      "source": "OpenAI YouTube",
-      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A returned HTTP 404"
-    },
-    {
-      "source": "Google DeepMind YouTube",
-      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A returned HTTP 404"
-    },
-    {
-      "source": "Anthropic YouTube",
-      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA returned HTTP 404"
-    },
-    {
-      "source": "NVIDIA Developer YouTube",
-      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBHcMCGaiJhv-ESTcWGJPcw returned HTTP 404"
     }
   ],
   "items": [
+    {
+      "title": "使人工智能辅助索赔具有独立挑战性：出版机构和可伪造出版记录的协议",
+      "link": "https://arxiv.org/abs/2609.17631",
+      "source": "arXiv cs.AI",
+      "sourceHome": "https://arxiv.org/list/cs.AI/recent",
+      "category": "研究论文",
+      "summary": "arXiv: 2609.17631v1公告类型：新摘要：当证据、分析、人工授权、演示和更正历史记录涉及不同状态时，人工智能辅助索赔可能具有权威性。出处、证明和透明度",
+      "publishedAt": "2026-09-17T04:00:00.000Z",
+      "titleOriginal": "Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records",
+      "summaryOriginal": "arXiv:2609.17631v1 Announce Type: new Abstract: AI-assisted claims can appear authoritative when evidence, analysis, human authorization, presentation, and correction history refer to different states. Provenance, attestation, and transpare",
+      "titleZh": "使人工智能辅助索赔具有独立挑战性：出版机构和可伪造出版记录的协议",
+      "summaryZh": "arXiv: 2609.17631v1公告类型：新摘要：当证据、分析、人工授权、演示和更正历史记录涉及不同状态时，人工智能辅助索赔可能具有权威性。出处、证明和透明度",
+      "language": "zh-CN"
+    },
+    {
+      "title": "EvolveTrade ：针对自我发展的LLM交易代理的经验驱动政策细化",
+      "link": "https://arxiv.org/abs/2609.17632",
+      "source": "arXiv cs.AI",
+      "sourceHome": "https://arxiv.org/list/cs.AI/recent",
+      "category": "研究论文",
+      "summary": "arXiv: 2609.17632v1公告类型：新摘要：大型语言模型（ LLM ）交易代理可以结合市场数据、新闻和可执行文件分析，但其行为通常由固定的静态手写工具使用策略控制",
+      "publishedAt": "2026-09-17T04:00:00.000Z",
+      "titleOriginal": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
+      "summaryOriginal": "arXiv:2609.17632v1 Announce Type: new Abstract: Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is often controlled by static hand-written tool-use policies that are fixed",
+      "titleZh": "EvolveTrade ：针对自我发展的LLM交易代理的经验驱动政策细化",
+      "summaryZh": "arXiv: 2609.17632v1公告类型：新摘要：大型语言模型（ LLM ）交易代理可以结合市场数据、新闻和可执行文件分析，但其行为通常由固定的静态手写工具使用策略控制",
+      "language": "zh-CN"
+    },
+    {
+      "title": "单色预处理改进了DSATUR",
+      "link": "https://arxiv.org/abs/2609.17633",
+      "source": "arXiv cs.AI",
+      "sourceHome": "https://arxiv.org/list/cs.AI/recent",
+      "category": "研究论文",
+      "summary": "arXiv: 2609.17633v1公告类型：新摘要：图形着色问题（ GCP ）是NP难的， DSATUR是其最快的启发式方法之一，尽管产生的着色通常比最先进的着色使用更多的颜色",
+      "publishedAt": "2026-09-17T04:00:00.000Z",
+      "titleOriginal": "One Color Preprocessing Improves DSATUR",
+      "summaryOriginal": "arXiv:2609.17633v1 Announce Type: new Abstract: The Graph Coloring Problem (GCP) is NP-hard and DSATUR stands as one of the fastest heuristics for it despite producing colorings that typically use more colors than state-of-the-art coloring ",
+      "titleZh": "单色预处理改进了DSATUR",
+      "summaryZh": "arXiv: 2609.17633v1公告类型：新摘要：图形着色问题（ GCP ）是NP难的， DSATUR是其最快的启发式方法之一，尽管产生的着色通常比最先进的着色使用更多的颜色",
+      "language": "zh-CN"
+    },
+    {
+      "title": "使用ChatGPT重新构想IT",
+      "link": "https://www.youtube.com/watch?v=Q_MEaNdMpZw",
+      "source": "OpenAI YouTube",
+      "sourceHome": "https://www.youtube.com/@OpenAI",
+      "category": "视频/访谈",
+      "summary": "",
+      "publishedAt": "2026-09-17T02:11:53.000Z",
+      "titleOriginal": "Reimagining IT with ChatGPT",
+      "summaryOriginal": "",
+      "titleZh": "使用ChatGPT重新构想IT",
+      "summaryZh": "",
+      "language": "zh-CN"
+    },
+    {
+      "title": "认识ChatGPT ：问你的第一个问题| OpenAI学院",
+      "link": "https://www.youtube.com/watch?v=4UTn7oWvSJc",
+      "source": "OpenAI YouTube",
+      "sourceHome": "https://www.youtube.com/@OpenAI",
+      "category": "视频/访谈",
+      "summary": "",
+      "publishedAt": "2026-09-16T22:29:47.000Z",
+      "titleOriginal": "Meet ChatGPT: Ask Your First Question | OpenAI Academy",
+      "summaryOriginal": "",
+      "titleZh": "认识ChatGPT ：问你的第一个问题| OpenAI学院",
+      "summaryZh": "",
+      "language": "zh-CN"
+    },
     {
       "title": "欧盟主席警告说，人工智能特工“逃离他们的环境”只是对即将发生的事情的预览",
       "link": "https://the-decoder.com/eu-president-warns-ai-agents-escaping-their-environment-are-just-a-preview-of-whats-coming/",
@@ -185,76 +239,6 @@
       "summaryOriginal": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
       "titleZh": "帮助老年人在日常生活中使用人工智能",
       "summaryZh": "OpenAI和AARP正在为美国10个城市的1000名老年人提供免费的实践ChatGPT研讨会，以安全地培养实用的人工智能技能。",
-      "language": "zh-CN"
-    },
-    {
-      "title": "NVIDIA Vera Rubin NVL72在MLPerf推理v6.1首次亮相时提供领先的性能",
-      "link": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
-      "source": "NVIDIA Newsroom",
-      "sourceHome": "https://nvidianews.nvidia.com/",
-      "category": "算力生态",
-      "summary": "系统性能、高效的基础设施扩展和持续的软件优化是决定人工智能推理经济学的关键杠杆。更高的系统性能意味着产生更多的代币，从而带来更高的收入。",
-      "publishedAt": "2026-09-16T15:00:48.000Z",
-      "titleOriginal": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
-      "summaryOriginal": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient sc",
-      "titleZh": "NVIDIA Vera Rubin NVL72在MLPerf推理v6.1首次亮相时提供领先的性能",
-      "summaryZh": "系统性能、高效的基础设施扩展和持续的软件优化是决定人工智能推理经济学的关键杠杆。更高的系统性能意味着产生更多的代币，从而带来更高的收入。",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Emerald AI、Google和NVIDIA启动联盟以推进灵活的人工智能数据中心",
-      "link": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
-      "source": "NVIDIA Newsroom",
-      "sourceHome": "https://nvidianews.nvidia.com/",
-      "category": "算力生态",
-      "summary": "人工智能工厂是智能时代的基础设施。负责任地扩展它们将取决于整个电网的创新，也取决于数据中心内部的创新。今天， Emerald AI、Google和NVIDIA宣布推出AI Energy Ma",
-      "publishedAt": "2026-09-16T13:00:33.000Z",
-      "titleOriginal": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
-      "summaryOriginal": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Ma",
-      "titleZh": "Emerald AI、Google和NVIDIA启动联盟以推进灵活的人工智能数据中心",
-      "summaryZh": "人工智能工厂是智能时代的基础设施。负责任地扩展它们将取决于整个电网的创新，也取决于数据中心内部的创新。今天， Emerald AI、Google和NVIDIA宣布推出AI Energy Ma",
-      "language": "zh-CN"
-    },
-    {
-      "title": "用人工智能重新构想广告",
-      "link": "https://openai.com/index/reimagining-advertising-with-ai",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "category": "公司/实验室",
-      "summary": "探索OpenAI新的人工智能驱动广告体验，包括赞助商、营销人员工具以及与HubSpot和Shopify的集成。",
-      "publishedAt": "2026-09-16T13:00:00.000Z",
-      "titleOriginal": "Reimagining advertising with AI",
-      "summaryOriginal": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-      "titleZh": "用人工智能重新构想广告",
-      "summaryZh": "探索OpenAI新的人工智能驱动广告体验，包括赞助商、营销人员工具以及与HubSpot和Shopify的集成。",
-      "language": "zh-CN"
-    },
-    {
-      "title": "如何将人工智能使用与业务价值联系起来",
-      "link": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "category": "公司/实验室",
-      "summary": "了解ChatGPT Work和Codex分析如何帮助团队了解人工智能的使用和支出，确定培训需求，并将采用与业务成果联系起来。",
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "titleOriginal": "How to connect AI usage to business value",
-      "summaryOriginal": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-      "titleZh": "如何将人工智能使用与业务价值联系起来",
-      "summaryZh": "了解ChatGPT Work和Codex分析如何帮助团队了解人工智能的使用和支出，确定培训需求，并将采用与业务成果联系起来。",
-      "language": "zh-CN"
-    },
-    {
-      "title": "使用Fisher信息距离的神经架构优化修剪",
-      "link": "https://arxiv.org/abs/2609.16129",
-      "source": "arXiv cs.AI",
-      "sourceHome": "https://arxiv.org/list/cs.AI/recent",
-      "category": "研究论文",
-      "summary": "arXiv: 2609.16129v1 Announce Type: new Abstract:引入了一种新的参数修剪方案，该方案源于模型空间中的微分几何距离。修剪参数将其值设置为零，表示th的位移",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "titleOriginal": "Optimal Pruning for Neural Architectures using Fisher Information Distances",
-      "summaryOriginal": "arXiv:2609.16129v1 Announce Type: new Abstract: A new scheme for parameter pruning is introduced, derived from the differential-geometric distance in model space. Pruning a parameter sets its value to zero, representing a displacement of th",
-      "titleZh": "使用Fisher信息距离的神经架构优化修剪",
-      "summaryZh": "arXiv: 2609.16129v1 Announce Type: new Abstract:引入了一种新的参数修剪方案，该方案源于模型空间中的微分几何距离。修剪参数将其值设置为零，表示th的位移",
       "language": "zh-CN"
     }
   ]
