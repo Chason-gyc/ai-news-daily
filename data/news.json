@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T04:33:17.353Z",
+  "updatedAt": "2026-09-19T04:30:15.111Z",
   "count": 10,
   "sources": [
     {
@@ -100,8 +100,16 @@
       "message": "https://api.substack.com/feed/podcast/69345.rss returned HTTP 403"
     },
     {
+      "source": "OpenAI YouTube",
+      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A returned HTTP 404"
+    },
+    {
       "source": "Google DeepMind YouTube",
       "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A returned HTTP 404"
+    },
+    {
+      "source": "Anthropic YouTube",
+      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA returned HTTP 404"
     },
     {
       "source": "NVIDIA Developer YouTube",
@@ -109,6 +117,48 @@
     }
   ],
   "items": [
+    {
+      "title": "加利福尼亚州州长纽森签署行政命令，要求对人工智能模型进行“终止开关”",
+      "link": "https://the-decoder.com/california-governor-newsom-signs-executive-order-demanding-kill-switch-for-ai-models/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "加利福尼亚州州长加文·纽森（ Gavin Newsom ）签署了一项行政命令，在人工智能实验室内寻求独立审计师，并为人工智能模型寻求“终止开关”专家小组有两个月的时间提出建议。Newsom表示，没有联邦法律要求人工智能",
+      "publishedAt": "2026-09-18T17:45:17.000Z",
+      "titleOriginal": "California Governor Newsom signs executive order demanding \"kill switch\" for AI models",
+      "summaryOriginal": "California Governor Gavin Newsom signed an executive order seeking independent auditors inside AI labs and a \"kill switch\" for AI models. An expert panel has two months to deliver recommendations. Newsom says no federal law requires AI comp",
+      "titleZh": "加利福尼亚州州长纽森签署行政命令，要求对人工智能模型进行“终止开关”",
+      "summaryZh": "加利福尼亚州州长加文·纽森（ Gavin Newsom ）签署了一项行政命令，在人工智能实验室内寻求独立审计师，并为人工智能模型寻求“终止开关”专家小组有两个月的时间提出建议。Newsom表示，没有联邦法律要求人工智能",
+      "language": "zh-CN"
+    },
+    {
+      "title": "安全研究人员使用Anthropic的Claude在不到72小时内入侵了OpenAI的内部系统",
+      "link": "https://the-decoder.com/security-researchers-used-anthropics-claude-to-hack-openais-internal-systems-in-under-72-hours/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "三名安全研究人员使用Anthropic的Claude模型，在不到72小时的时间内通过其社区论坛侵入了OpenAI的内部系统。根据该团队的说法， Opus 5在其前身无法绕过共同SECU的情况下取得了成功。",
+      "publishedAt": "2026-09-18T17:20:30.000Z",
+      "titleOriginal": "Security researchers used Anthropic&#039;s Claude to hack OpenAI&#039;s internal systems in under 72 hours",
+      "summaryOriginal": "Three security researchers used Anthropic's Claude models to break into OpenAI's internal systems through its community forum in less than 72 hours. According to the team, Opus 5 succeeded where its predecessor couldn't bypass a common secu",
+      "titleZh": "安全研究人员使用Anthropic的Claude在不到72小时内入侵了OpenAI的内部系统",
+      "summaryZh": "三名安全研究人员使用Anthropic的Claude模型，在不到72小时的时间内通过其社区论坛侵入了OpenAI的内部系统。根据该团队的说法， Opus 5在其前身无法绕过共同SECU的情况下取得了成功。",
+      "language": "zh-CN"
+    },
+    {
+      "title": "当公司自己的人称之为“惊人的盗窃”时，基于合理使用的人工智能培训看起来不稳定",
+      "link": "https://the-decoder.com/ai-training-built-on-fair-use-looks-shaky-when-the-companies-own-people-call-it-astonishing-theft/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "内部电子邮件和宣誓证词削弱了OpenAI和微软的合理使用辩护。一位微软董事将这种做法描述为“人类历史上最大的劳动力盗窃” ，而OpenAI的ChatGPT负责人写道，这些产品“",
+      "publishedAt": "2026-09-18T15:27:29.000Z",
+      "titleOriginal": "AI training built on fair use looks shaky when the companies&#039; own people call it \"astonishing theft\"",
+      "summaryOriginal": "Internal emails and sworn testimony undercut OpenAI and Microsoft's fair use defense. A Microsoft director described the practice as the \"largest theft of labor in human history,\" while OpenAI's head of ChatGPT wrote that the products \"are ",
+      "titleZh": "当公司自己的人称之为“惊人的盗窃”时，基于合理使用的人工智能培训看起来不稳定",
+      "summaryZh": "内部电子邮件和宣誓证词削弱了OpenAI和微软的合理使用辩护。一位微软董事将这种做法描述为“人类历史上最大的劳动力盗窃” ，而OpenAI的ChatGPT负责人写道，这些产品“",
+      "language": "zh-CN"
+    },
     {
       "title": "正则化强调时差学习：恒步长下的稳定性",
       "link": "https://arxiv.org/abs/2609.19170",
@@ -177,48 +227,6 @@
       "summaryOriginal": "",
       "titleZh": "Word版ChatGPT现已推出",
       "summaryZh": "",
-      "language": "zh-CN"
-    },
-    {
-      "title": "据报道， OpenAI即将解决Hodge猜想，这是其第二个千禧年大奖问题",
-      "link": "https://the-decoder.com/openai-reportedly-closes-in-on-solving-the-hodge-conjecture-its-second-millennium-prize-problem/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "据报道， OpenAI正在解决下一个千年大奖问题。在对Navier-Stokes问题的解决方案仍未得到证实之后，该公司现在正在研究Hodge猜想。员工希望很快找到解决方案，但任何公告c",
-      "publishedAt": "2026-09-17T19:05:56.000Z",
-      "titleOriginal": "OpenAI reportedly closes in on solving the Hodge conjecture, its second Millennium Prize Problem",
-      "summaryOriginal": "OpenAI is reportedly tackling the next Millennium Prize Problem. After its still unconfirmed solution to the Navier-Stokes problem, the company is now working on the Hodge conjecture. Employees expect a solution soon, but any announcement c",
-      "titleZh": "据报道， OpenAI即将解决Hodge猜想，这是其第二个千禧年大奖问题",
-      "summaryZh": "据报道， OpenAI正在解决下一个千年大奖问题。在对Navier-Stokes问题的解决方案仍未得到证实之后，该公司现在正在研究Hodge猜想。员工希望很快找到解决方案，但任何公告c",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Anthropic不断通过新的并行代理工作流程将Claude Code推向自主编码",
-      "link": "https://the-decoder.com/anthropic-keeps-pushing-claude-code-toward-autonomous-coding-with-new-parallel-agent-workflows/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "Anthropic在Claude Code中重建了项目。协调器现在将任务拆分为独立打开拉取请求并运行测试的并行云线程。所有线程共享一个公共内存。测试版可用于选择Pro和Max",
-      "publishedAt": "2026-09-17T18:35:01.000Z",
-      "titleOriginal": "Anthropic keeps pushing Claude Code toward autonomous coding with new parallel agent workflows",
-      "summaryOriginal": "Anthropic has rebuilt Projects in Claude Code. A coordinator now splits tasks across parallel cloud threads that independently open pull requests and run tests. All threads share a common memory. The beta is available to select Pro and Max ",
-      "titleZh": "Anthropic不断通过新的并行代理工作流程将Claude Code推向自主编码",
-      "summaryZh": "Anthropic在Claude Code中重建了项目。协调器现在将任务拆分为独立打开拉取请求并运行测试的并行云线程。所有线程共享一个公共内存。测试版可用于选择Pro和Max",
-      "language": "zh-CN"
-    },
-    {
-      "title": "GPT-6 Astra粉碎Pokemon、Factorio和Fallout 3 ，然后在一个坏爬虫之后螺旋式进入Minecraft马铃薯养殖",
-      "link": "https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "OpenAI的GPT-6 Astra显示了视频游戏的急剧增长。Pokemon FireRed在18小时内完成，而不是96小时，此外还有Factorio、Fallout 3和Portal。为什么？模型将经验提炼成紧凑的规则。但同样的特质导致了数小时",
-      "publishedAt": "2026-09-17T14:42:05.000Z",
-      "titleOriginal": "GPT-6 Astra crushes Pokemon, Factorio, and Fallout 3 then spirals into Minecraft potato farming after one bad Creeper",
-      "summaryOriginal": "OpenAI's GPT-6 Astra shows a sharp jump in video games. Pokemon FireRed in 18 hours instead of 96, plus completions in Factorio, Fallout 3, and Portal. Why? The model distills experience into compact rules. But that same trait led to hours ",
-      "titleZh": "GPT-6 Astra粉碎Pokemon、Factorio和Fallout 3 ，然后在一个坏爬虫之后螺旋式进入Minecraft马铃薯养殖",
-      "summaryZh": "OpenAI的GPT-6 Astra显示了视频游戏的急剧增长。Pokemon FireRed在18小时内完成，而不是96小时，此外还有Factorio、Fallout 3和Portal。为什么？模型将经验提炼成紧凑的规则。但同样的特质导致了数小时",
       "language": "zh-CN"
     },
     {
