@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-23",
-  "itemsCount": 25,
+  "updatedAt": "2026-09-24",
+  "itemsCount": 26,
   "sourceLabel": "任务分榜：LMArena / Hugging Face Open LLM Leaderboard",
   "sourceText": "综合榜使用 LMArena Text Style Control 的 overall 分类；代码榜使用 LMArena WebDev Arena；开源榜使用 Hugging Face Open LLM Leaderboard，且不会以闭源模型替补。源不可用时仅保留该分类的上次结果。",
   "sourceChips": [
@@ -358,6 +358,34 @@
       "items": [
         {
           "rank": 1,
+          "name": "claude-opus-5.5-max",
+          "bestFor": "网页开发、代码生成与工具调用",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "anthropic"
+            },
+            {
+              "label": "WebDev 评分",
+              "value": "1818"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "claude-opus-5.5-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 2,
           "name": "gpt-6-astra-max",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -367,7 +395,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1793"
+              "value": "1792"
             },
             {
               "label": "类型",
@@ -385,7 +413,7 @@
           "reason": "gpt-6-astra-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "claude-fable-5.1-max",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -413,7 +441,7 @@
           "reason": "claude-fable-5.1-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "claude-opus-5-max",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -423,7 +451,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1691"
+              "value": "1692"
             },
             {
               "label": "类型",
@@ -441,7 +469,35 @@
           "reason": "claude-opus-5-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 4,
+          "rank": 5,
+          "name": "gpt-6-sol-max",
+          "bestFor": "网页开发、代码生成与工具调用",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "openai"
+            },
+            {
+              "label": "WebDev 评分",
+              "value": "1686"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "gpt-6-sol-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 6,
           "name": "qwen3.8-max",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -469,13 +525,13 @@
           "reason": "qwen3.8-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 5,
-          "name": "qwen3.8-max-0902",
+          "rank": 7,
+          "name": "claude-opus-5-high",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
             {
               "label": "来源",
-              "value": "alibaba"
+              "value": "anthropic"
             },
             {
               "label": "WebDev 评分",
@@ -494,16 +550,16 @@
               "value": "Proprietary"
             }
           ],
-          "reason": "qwen3.8-max-0902 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+          "reason": "claude-opus-5-high 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 6,
-          "name": "claude-opus-5-high",
+          "rank": 8,
+          "name": "qwen3.8-max-0902",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
             {
               "label": "来源",
-              "value": "anthropic"
+              "value": "alibaba"
             },
             {
               "label": "WebDev 评分",
@@ -522,63 +578,7 @@
               "value": "Proprietary"
             }
           ],
-          "reason": "claude-opus-5-high 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
-        },
-        {
-          "rank": 7,
-          "name": "kimi-k3-max",
-          "bestFor": "网页开发、代码生成与工具调用",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "moonshot"
-            },
-            {
-              "label": "WebDev 评分",
-              "value": "1658"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            },
-            {
-              "label": "许可证",
-              "value": "Kimi K3 license"
-            }
-          ],
-          "reason": "kimi-k3-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
-        },
-        {
-          "rank": 8,
-          "name": "muse-spark-1.3-max",
-          "bestFor": "网页开发、代码生成与工具调用",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "meta"
-            },
-            {
-              "label": "WebDev 评分",
-              "value": "1657"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            },
-            {
-              "label": "许可证",
-              "value": "Proprietary"
-            }
-          ],
-          "reason": "muse-spark-1.3-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+          "reason": "qwen3.8-max-0902 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         }
       ]
     },
@@ -827,10 +827,10 @@
       "title": "代码与工程",
       "text": "看代码库理解、补丁稳定性和测试修复能力；成本敏感时可用开源模型做批量辅助。",
       "choices": [
+        "claude-opus-5.5-max",
         "gpt-6-astra-max",
         "claude-fable-5.1-max",
-        "claude-opus-5-max",
-        "qwen3.8-max"
+        "claude-opus-5-max"
       ]
     },
     {
