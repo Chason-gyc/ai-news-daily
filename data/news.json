@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T04:47:21.394Z",
+  "updatedAt": "2026-09-26T04:48:25.834Z",
   "count": 10,
   "sources": [
     {
@@ -118,6 +118,62 @@
   ],
   "items": [
     {
+      "title": "Proaction通过Codex提升了60%的销售额，节省了超过75个小时",
+      "link": "https://openai.com/index/proaction",
+      "source": "OpenAI Blog",
+      "sourceHome": "https://openai.com/news/",
+      "category": "公司/实验室",
+      "summary": "借助Codex、GPT-Live-1和GPT-6 Astra ， Proaction可以更快地构建、运营和销售现代车队管理。",
+      "publishedAt": "2026-09-25T19:00:00.000Z",
+      "titleOriginal": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "summaryOriginal": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "titleZh": "Proaction通过Codex提升了60%的销售额，节省了超过75个小时",
+      "summaryZh": "借助Codex、GPT-Live-1和GPT-6 Astra ， Proaction可以更快地构建、运营和销售现代车队管理。",
+      "language": "zh-CN"
+    },
+    {
+      "title": "联邦法院称，五角大楼用安全供应链风险标签来对待Anthropic是正确的",
+      "link": "https://the-decoder.com/pentagon-was-right-to-slap-anthropic-with-a-security-supply-chain-risk-label-federal-court-says/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "联邦上诉法院维持了五角大楼禁止Anthropic签订军事合同的决定。国防部长黑格塞斯认为，该公司的安全限制可能会危及军事行动。Anthropic说这个称号",
+      "publishedAt": "2026-09-25T18:40:22.000Z",
+      "titleOriginal": "Pentagon was right to slap Anthropic with a security supply chain risk label, federal court says",
+      "summaryOriginal": "A federal appeals court has upheld the Pentagon's decision to bar Anthropic from military contracts. Defense Secretary Hegseth argues the company's safety restrictions could jeopardize military operations. Anthropic says the designation has",
+      "titleZh": "联邦法院称，五角大楼用安全供应链风险标签来对待Anthropic是正确的",
+      "summaryZh": "联邦上诉法院维持了五角大楼禁止Anthropic签订军事合同的决定。国防部长黑格塞斯认为，该公司的安全限制可能会危及军事行动。Anthropic说这个称号",
+      "language": "zh-CN"
+    },
+    {
+      "title": "另一位谷歌Deepmind研究人员辞职，称很快构建超级人工智能“本质上是不负责任的”",
+      "link": "https://the-decoder.com/another-google-deepmind-researcher-quits-says-building-superintelligent-ai-soon-is-inherently-irresponsible/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "谷歌Deepmind研究员罗伯特·奥卡拉汉（ Robert O'Callahan ）已经辞职，称人工智能“目前的变化率太高了。“他致力于开发芯片设计工具，帮助人工智能变得更便宜、更快，这是他无法再证明的贡献。",
+      "publishedAt": "2026-09-25T17:55:51.000Z",
+      "titleOriginal": "Another Google Deepmind researcher quits, says building superintelligent AI soon is \"inherently irresponsible\"",
+      "summaryOriginal": "Google Deepmind researcher Robert O'Callahan has quit, saying AI's \"current rate of change is far too high.\" He worked on chip design tools that helped make AI cheaper and faster, a contribution he can no longer justify. Many colleagues sha",
+      "titleZh": "另一位谷歌Deepmind研究人员辞职，称很快构建超级人工智能“本质上是不负责任的”",
+      "summaryZh": "谷歌Deepmind研究员罗伯特·奥卡拉汉（ Robert O'Callahan ）已经辞职，称人工智能“目前的变化率太高了。“他致力于开发芯片设计工具，帮助人工智能变得更便宜、更快，这是他无法再证明的贡献。",
+      "language": "zh-CN"
+    },
+    {
+      "title": "Microsoft对Copilot进行了另一次改造，添加了Autopilot代理和基于使用情况的计费",
+      "link": "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "微软正在将其Copilot应用程序分为三个部分：主页、代码和一个名为“Autopilot”的新代理。“基于OpenClaw构建，代理在云中连续运行，在那里它可以监控Teams频道并自行完成任务，",
+      "publishedAt": "2026-09-25T16:30:57.000Z",
+      "titleOriginal": "Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing",
+      "summaryOriginal": "Microsoft is splitting its Copilot app into three sections: Home, Code, and a new agent called \"Autopilot.\" Built on OpenClaw, the agent runs continuously in the cloud, where it can monitor Teams channels and complete tasks on its own, acco",
+      "titleZh": "Microsoft对Copilot进行了另一次改造，添加了Autopilot代理和基于使用情况的计费",
+      "summaryZh": "微软正在将其Copilot应用程序分为三个部分：主页、代码和一个名为“Autopilot”的新代理。“基于OpenClaw构建，代理在云中连续运行，在那里它可以监控Teams频道并自行完成任务，",
+      "language": "zh-CN"
+    },
+    {
       "title": "预测代理何时应该说明原因？可靠性路由的行为压力测试",
       "link": "https://arxiv.org/abs/2609.28475",
       "source": "arXiv cs.AI",
@@ -160,48 +216,6 @@
       "language": "zh-CN"
     },
     {
-      "title": "研究发现，顶级人工智能专家严重低估了该领域的发展速度",
-      "link": "https://the-decoder.com/top-ai-experts-badly-underestimated-how-fast-the-field-is-moving-study-finds/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "预测研究所（ Forecasting Research Institute ）的数据显示，领先的人工智能专家一直低估了人工智能的发展速度。AI在国际数学奥林匹克竞赛中提前五年达到金牌水平",
-      "publishedAt": "2026-09-24T19:18:33.000Z",
-      "titleOriginal": "Top AI experts badly underestimated how fast the field is moving, study finds",
-      "summaryOriginal": "Leading AI experts have consistently underestimated how fast AI is advancing, according to the Forecasting Research Institute. AI reached gold-medal level at the International Mathematical Olympiad five years ahead of the median expert fore",
-      "titleZh": "研究发现，顶级人工智能专家严重低估了该领域的发展速度",
-      "summaryZh": "预测研究所（ Forecasting Research Institute ）的数据显示，领先的人工智能专家一直低估了人工智能的发展速度。AI在国际数学奥林匹克竞赛中提前五年达到金牌水平",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Sakana AI聘请深度学习、世界模型和下一次ChatGPT更新的发明者Jürgen Schmidhuber",
-      "link": "https://the-decoder.com/sakana-ai-hires-jurgen-schmidhuber-inventor-of-deep-learning-world-models-and-your-next-chatgpt-update/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "总部位于东京的Sakana AI已聘请Jürgen Schmidhuber担任首席科学顾问。萨卡纳称他为“现代人工智能之父”。“他将帮助领导公司新的RSI实验室，该实验室致力于递归自我提升，这意味着人工智能不断发展",
-      "publishedAt": "2026-09-24T18:06:13.000Z",
-      "titleOriginal": "Sakana AI hires Jürgen Schmidhuber, inventor of deep learning, world models, and your next ChatGPT update",
-      "summaryOriginal": "Tokyo-based Sakana AI has hired Jürgen Schmidhuber as Chief Scientific Advisor. Sakana calls him the \"father of modern AI.\" He'll help lead the company's new RSI Lab, which works on recursive self-improvement, meaning AI that keeps developi",
-      "titleZh": "Sakana AI聘请深度学习、世界模型和下一次ChatGPT更新的发明者Jürgen Schmidhuber",
-      "summaryZh": "总部位于东京的Sakana AI已聘请Jürgen Schmidhuber担任首席科学顾问。萨卡纳称他为“现代人工智能之父”。“他将帮助领导公司新的RSI实验室，该实验室致力于递归自我提升，这意味着人工智能不断发展",
-      "language": "zh-CN"
-    },
-    {
-      "title": "谷歌的Suncatcher项目旨在将人工智能数据中心置于由太阳能供电的轨道上",
-      "link": "https://the-decoder.com/googles-suncatcher-project-aims-to-put-ai-data-centers-in-orbit-powered-by-solar-energy/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "谷歌的“Suncatcher”项目旨在利用太阳能在轨道上运行人工智能基础设施。一颗冰箱大小的实验卫星将于10月1日在SpaceX Falcon 9上发射。但挑战是陡峭的：你需要大约1万颗卫星",
-      "publishedAt": "2026-09-24T17:45:44.000Z",
-      "titleOriginal": "Google&#039;s Suncatcher project aims to put AI data centers in orbit powered by solar energy",
-      "summaryOriginal": "Google's \"Suncatcher\" project aims to run AI infrastructure in orbit on solar power. A fridge-sized experimental satellite is set to launch on a SpaceX Falcon 9 on October 1. But the challenges are steep: you'd need around 10,000 satellites",
-      "titleZh": "谷歌的Suncatcher项目旨在将人工智能数据中心置于由太阳能供电的轨道上",
-      "summaryZh": "谷歌的“Suncatcher”项目旨在利用太阳能在轨道上运行人工智能基础设施。一颗冰箱大小的实验卫星将于10月1日在SpaceX Falcon 9上发射。但挑战是陡峭的：你需要大约1万颗卫星",
-      "language": "zh-CN"
-    },
-    {
       "title": "开放科学如何帮助研究人员为下一次大流行做好准备",
       "link": "https://blogs.nvidia.com/blog/open-protein-dataset/",
       "source": "NVIDIA Newsroom",
@@ -241,20 +255,6 @@
       "summaryOriginal": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
       "titleZh": "两年的OpenAI学院",
       "summaryZh": "标志着OpenAI学院成立两年，并将人工智能技能带给更多社区。",
-      "language": "zh-CN"
-    },
-    {
-      "title": "OpenAI将网络访问扩展到乌克兰用于民防",
-      "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "category": "公司/实验室",
-      "summary": "OpenAI正在将其Daybreak计划的访问权限扩展到乌克兰政府，以支持民用基础设施的网络防御。",
-      "publishedAt": "2026-09-23T13:00:00.000Z",
-      "titleOriginal": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "summaryOriginal": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-      "titleZh": "OpenAI将网络访问扩展到乌克兰用于民防",
-      "summaryZh": "OpenAI正在将其Daybreak计划的访问权限扩展到乌克兰政府，以支持民用基础设施的网络防御。",
       "language": "zh-CN"
     }
   ]

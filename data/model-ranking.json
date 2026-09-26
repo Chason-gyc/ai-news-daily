@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25",
+  "updatedAt": "2026-09-26",
   "itemsCount": 26,
   "sourceLabel": "任务分榜：LMArena / Hugging Face Open LLM Leaderboard",
   "sourceText": "综合榜使用 LMArena Text Style Control 的 overall 分类；代码榜使用 LMArena WebDev Arena；开源榜使用 Hugging Face Open LLM Leaderboard，且不会以闭源模型替补。源不可用时仅保留该分类的上次结果。",
@@ -16,7 +16,7 @@
       "items": [
         {
           "rank": 1,
-          "name": "claude-fable-5",
+          "name": "claude-opus-5.5-high",
           "bestFor": "通用问答、推理与多轮对话",
           "specs": [
             {
@@ -25,7 +25,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1506"
+              "value": "1509"
             },
             {
               "label": "类型",
@@ -40,7 +40,7 @@
               "value": "Proprietary"
             }
           ],
-          "reason": "claude-fable-5 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+          "reason": "claude-opus-5.5-high 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 2,
@@ -72,6 +72,34 @@
         },
         {
           "rank": 3,
+          "name": "claude-fable-5-high",
+          "bestFor": "通用问答、推理与多轮对话",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "anthropic"
+            },
+            {
+              "label": "Arena 评分",
+              "value": "1504"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "claude-fable-5-high 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 4,
           "name": "claude-opus-4-7-high",
           "bestFor": "通用问答、推理与多轮对话",
           "specs": [
@@ -99,34 +127,6 @@
           "reason": "claude-opus-4-7-high 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 4,
-          "name": "muse-spark-1.2 (xHigh)",
-          "bestFor": "通用问答、推理与多轮对话",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "meta"
-            },
-            {
-              "label": "Arena 评分",
-              "value": "1500"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            },
-            {
-              "label": "许可证",
-              "value": "Proprietary"
-            }
-          ],
-          "reason": "muse-spark-1.2 (xHigh) 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
-        },
-        {
           "rank": 5,
           "name": "claude-fable-5.1-max",
           "bestFor": "通用问答、推理与多轮对话",
@@ -137,7 +137,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1498"
+              "value": "1501"
             },
             {
               "label": "类型",
@@ -165,7 +165,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1497"
+              "value": "1498"
             },
             {
               "label": "类型",
@@ -184,12 +184,68 @@
         },
         {
           "rank": 7,
+          "name": "muse-spark-1.2 (xHigh)",
+          "bestFor": "通用问答、推理与多轮对话",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "meta"
+            },
+            {
+              "label": "Arena 评分",
+              "value": "1496"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "muse-spark-1.2 (xHigh) 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 8,
           "name": "claude-opus-4-7",
           "bestFor": "通用问答、推理与多轮对话",
           "specs": [
             {
               "label": "来源",
               "value": "anthropic"
+            },
+            {
+              "label": "Arena 评分",
+              "value": "1495"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "claude-opus-4-7 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 9,
+          "name": "muse-spark-1.3-max",
+          "bestFor": "通用问答、推理与多轮对话",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "meta"
             },
             {
               "label": "Arena 评分",
@@ -208,38 +264,10 @@
               "value": "Proprietary"
             }
           ],
-          "reason": "claude-opus-4-7 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
-        },
-        {
-          "rank": 8,
-          "name": "muse-spark-1.3-max",
-          "bestFor": "通用问答、推理与多轮对话",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "meta"
-            },
-            {
-              "label": "Arena 评分",
-              "value": "1493"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            },
-            {
-              "label": "许可证",
-              "value": "Proprietary"
-            }
-          ],
           "reason": "muse-spark-1.3-max 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "gemini-3.8-flash-high",
           "bestFor": "通用问答、推理与多轮对话",
           "specs": [
@@ -249,7 +277,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1493"
+              "value": "1492"
             },
             {
               "label": "类型",
@@ -267,7 +295,7 @@
           "reason": "gemini-3.8-flash-high 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "name": "claude-opus-5-high",
           "bestFor": "通用问答、推理与多轮对话",
           "specs": [
@@ -277,7 +305,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1493"
+              "value": "1491"
             },
             {
               "label": "类型",
@@ -295,7 +323,7 @@
           "reason": "claude-opus-5-high 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "name": "muse-spark-1.1",
           "bestFor": "通用问答、推理与多轮对话",
           "specs": [
@@ -305,7 +333,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1493"
+              "value": "1491"
             },
             {
               "label": "类型",
@@ -321,34 +349,6 @@
             }
           ],
           "reason": "muse-spark-1.1 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
-        },
-        {
-          "rank": 12,
-          "name": "gemini-3.7-flash-high",
-          "bestFor": "通用问答、推理与多轮对话",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "google"
-            },
-            {
-              "label": "Arena 评分",
-              "value": "1490"
-            },
-            {
-              "label": "类型",
-              "value": "多模态/文本"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            },
-            {
-              "label": "许可证",
-              "value": "Proprietary"
-            }
-          ],
-          "reason": "gemini-3.7-flash-high 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         }
       ]
     },
@@ -367,7 +367,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1818"
+              "value": "1827"
             },
             {
               "label": "类型",
@@ -423,7 +423,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1755"
+              "value": "1751"
             },
             {
               "label": "类型",
@@ -451,7 +451,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1692"
+              "value": "1693"
             },
             {
               "label": "类型",
@@ -479,7 +479,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1686"
+              "value": "1681"
             },
             {
               "label": "类型",
@@ -507,7 +507,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1671"
+              "value": "1672"
             },
             {
               "label": "类型",
@@ -563,7 +563,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1661"
+              "value": "1662"
             },
             {
               "label": "类型",
@@ -818,9 +818,9 @@
       "title": "默认高难任务",
       "text": "优先选择综合榜靠前且稳定可用的模型，适合复杂分析、长链路代码和 Agent 自动化。",
       "choices": [
-        "claude-fable-5",
+        "claude-opus-5.5-high",
         "claude-opus-4-6-high",
-        "claude-opus-4-7-high"
+        "claude-fable-5-high"
       ]
     },
     {
