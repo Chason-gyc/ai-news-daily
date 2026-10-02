@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-01",
-  "itemsCount": 26,
+  "updatedAt": "2026-10-02",
+  "itemsCount": 27,
   "sourceLabel": "任务分榜：LMArena / Hugging Face Open LLM Leaderboard",
   "sourceText": "综合榜使用 LMArena Text Style Control 的 overall 分类；代码榜使用 LMArena WebDev Arena；开源榜使用 Hugging Face Open LLM Leaderboard，且不会以闭源模型替补。源不可用时仅保留该分类的上次结果。",
   "sourceChips": [
@@ -367,7 +367,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1818"
+              "value": "1815"
             },
             {
               "label": "类型",
@@ -395,7 +395,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1789"
+              "value": "1788"
             },
             {
               "label": "类型",
@@ -414,6 +414,34 @@
         },
         {
           "rank": 3,
+          "name": "claude-sonnet-5.5-xhigh",
+          "bestFor": "网页开发、代码生成与工具调用",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "anthropic"
+            },
+            {
+              "label": "WebDev 评分",
+              "value": "1786"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "claude-sonnet-5.5-xhigh 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 4,
           "name": "gpt-6.1-sol-max",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -423,7 +451,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1759"
+              "value": "1758"
             },
             {
               "label": "类型",
@@ -441,7 +469,7 @@
           "reason": "gpt-6.1-sol-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "claude-fable-5.1-max",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -451,7 +479,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1751"
+              "value": "1749"
             },
             {
               "label": "类型",
@@ -469,7 +497,7 @@
           "reason": "claude-fable-5.1-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "claude-sonnet-5.5-high",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -479,7 +507,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1709"
+              "value": "1715"
             },
             {
               "label": "类型",
@@ -497,7 +525,7 @@
           "reason": "claude-sonnet-5.5-high 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "claude-opus-5-max",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -507,7 +535,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1694"
+              "value": "1695"
             },
             {
               "label": "类型",
@@ -525,7 +553,7 @@
           "reason": "claude-opus-5-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "gpt-6-sol-max",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -551,34 +579,6 @@
             }
           ],
           "reason": "gpt-6-sol-max 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
-        },
-        {
-          "rank": 8,
-          "name": "gemini-4-argon-high",
-          "bestFor": "网页开发、代码生成与工具调用",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "google"
-            },
-            {
-              "label": "WebDev 评分",
-              "value": "1679"
-            },
-            {
-              "label": "类型",
-              "value": "多模态/文本"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            },
-            {
-              "label": "许可证",
-              "value": "Proprietary"
-            }
-          ],
-          "reason": "gemini-4-argon-high 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         }
       ]
     },
@@ -829,8 +829,8 @@
       "choices": [
         "claude-opus-5.5-max",
         "gpt-6-astra-max",
-        "gpt-6.1-sol-max",
-        "claude-fable-5.1-max"
+        "claude-sonnet-5.5-xhigh",
+        "gpt-6.1-sol-max"
       ]
     },
     {
