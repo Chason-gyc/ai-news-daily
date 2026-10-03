@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T05:25:55.889Z",
+  "updatedAt": "2026-10-03T05:09:00.612Z",
   "count": 10,
   "sources": [
     {
@@ -105,10 +105,84 @@
     },
     {
       "source": "Google DeepMind YouTube",
-      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A returned HTTP 500"
+      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A returned HTTP 404"
+    },
+    {
+      "source": "NVIDIA Developer YouTube",
+      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBHcMCGaiJhv-ESTcWGJPcw returned HTTP 404"
     }
   ],
   "items": [
+    {
+      "title": "AI音乐生成器Suno现在可以创建具有匹配背景音乐的语音音频",
+      "link": "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "Suno正在其AI音乐生成器中添加一个名为“Speech”的功能，该功能可以在单个音轨中创建具有匹配背景音乐的语音文本。该公司表示，它专为诗歌、冥想和睡前故事等内容而设计。Suno ha",
+      "publishedAt": "2026-10-02T20:07:36.000Z",
+      "titleOriginal": "AI music generator Suno can now create spoken audio with matching background music",
+      "summaryOriginal": "Suno is adding a feature called \"Speech\" to its AI music generator that creates spoken text with matching background music in a single audio track. The company says it's built for things like poems, meditations, and bedtime stories. Suno ha",
+      "titleZh": "AI音乐生成器Suno现在可以创建具有匹配背景音乐的语音音频",
+      "summaryZh": "Suno正在其AI音乐生成器中添加一个名为“Speech”的功能，该功能可以在单个音轨中创建具有匹配背景音乐的语音文本。该公司表示，它专为诗歌、冥想和睡前故事等内容而设计。Suno ha",
+      "language": "zh-CN"
+    },
+    {
+      "title": "据报道， Anthropic的联合创始人告诉宗教领袖，他担心自己创造了一些“永远受苦”的东西",
+      "link": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "自2025年秋季以来，《人类学》悄悄地邀请了数十名宗教思想家讨论克劳德是否有意识。联合创始人克里斯托弗·奥拉（ Christopher Olah ）将语言模型描述为可能遭受痛苦，并要求房客",
+      "publishedAt": "2026-10-02T19:41:05.000Z",
+      "titleOriginal": "Anthropic co-founder reportedly told religious leaders he fears having created something that \"suffers perpetually\"",
+      "summaryOriginal": "Since fall 2025, Anthropic has quietly flown in dozens of religious thinkers to talk about whether Claude might be conscious. Co-founder Christopher Olah described the language model as potentially capable of suffering and asked guests to h",
+      "titleZh": "据报道， Anthropic的联合创始人告诉宗教领袖，他担心自己创造了一些“永远受苦”的东西",
+      "summaryZh": "自2025年秋季以来，《人类学》悄悄地邀请了数十名宗教思想家讨论克劳德是否有意识。联合创始人克里斯托弗·奥拉（ Christopher Olah ）将语言模型描述为可能遭受痛苦，并要求房客",
+      "language": "zh-CN"
+    },
+    {
+      "title": "Cloudflare表示，其新的Clef模型意味着人类不再需要参与人工智能代理的循环",
+      "link": "https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "借助Clef和Clef-flash ， Cloudflare正在挑战TypeSafe AI的JEV决策模型。Clef-flash在大约39毫秒内完成分类，比JEV快十倍以上。这两种型号都是基于Qwen构建的，",
+      "publishedAt": "2026-10-02T18:19:51.000Z",
+      "titleOriginal": "Cloudflare says its new Clef model means humans no longer need to be in the loop for AI agents",
+      "summaryOriginal": "With Clef and Clef-flash, Cloudflare is challenging TypeSafe AI's Jev decision model. Clef-flash delivers classifications in about 39 milliseconds, making it more than ten times faster than Jev. Both models are built on Qwen, licensed under",
+      "titleZh": "Cloudflare表示，其新的Clef模型意味着人类不再需要参与人工智能代理的循环",
+      "summaryZh": "借助Clef和Clef-flash ， Cloudflare正在挑战TypeSafe AI的JEV决策模型。Clef-flash在大约39毫秒内完成分类，比JEV快十倍以上。这两种型号都是基于Qwen构建的，",
+      "language": "zh-CN"
+    },
+    {
+      "title": "GPT-6系列的模型指南",
+      "link": "https://openai.com/index/practical-guide-building-gpt-6",
+      "source": "OpenAI Blog",
+      "sourceHome": "https://openai.com/news/",
+      "category": "公司/实验室",
+      "summary": "了解初创公司如何选择GPT-6模型、调整推理工作、改进提示和技能、协调工具以及准备生产工作流程。",
+      "publishedAt": "2026-10-02T16:15:00.000Z",
+      "titleOriginal": "A model guide for the GPT-6 family",
+      "summaryOriginal": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "titleZh": "GPT-6系列的模型指南",
+      "summaryZh": "了解初创公司如何选择GPT-6模型、调整推理工作、改进提示和技能、协调工具以及准备生产工作流程。",
+      "language": "zh-CN"
+    },
+    {
+      "title": "NVIDIA DGX Spark 64GB为开发人员提供了更多构建和扩展本地AI的方式",
+      "link": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+      "source": "NVIDIA Newsroom",
+      "sourceHome": "https://nvidianews.nvidia.com/",
+      "category": "算力生态",
+      "summary": "通过代币，本地AI变得越来越有用。随着人工智能代理从实验转向日常开发，越来越有能力的开放模型正在缩小，以适应更多的设备，为构建者提供更多的本地运行空间。本月推出NVID",
+      "publishedAt": "2026-10-02T13:00:39.000Z",
+      "titleOriginal": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+      "summaryOriginal": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVID",
+      "titleZh": "NVIDIA DGX Spark 64GB为开发人员提供了更多构建和扩展本地AI的方式",
+      "summaryZh": "通过代币，本地AI变得越来越有用。随着人工智能代理从实验转向日常开发，越来越有能力的开放模型正在缩小，以适应更多的设备，为构建者提供更多的本地运行空间。本月推出NVID",
+      "language": "zh-CN"
+    },
     {
       "title": "长视野语言代理中的重尾记忆痕迹",
       "link": "https://arxiv.org/abs/2610.00010",
@@ -152,6 +226,20 @@
       "language": "zh-CN"
     },
     {
+      "title": "Chatham通过OpenAI扩展其资本市场专业知识",
+      "link": "https://openai.com/index/chatham-financial",
+      "source": "OpenAI Blog",
+      "sourceHome": "https://openai.com/news/",
+      "category": "公司/实验室",
+      "summary": "Chatham Financial使用Codex和GPT-5.6来构建技术和重新设计工作流程，将交易验证从30分钟缩短到4分钟以下。",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "titleOriginal": "Chatham scales its capital markets expertise with OpenAI",
+      "summaryOriginal": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "titleZh": "Chatham通过OpenAI扩展其资本市场专业知识",
+      "summaryZh": "Chatham Financial使用Codex和GPT-5.6来构建技术和重新设计工作流程，将交易验证从30分钟缩短到4分钟以下。",
+      "language": "zh-CN"
+    },
+    {
       "title": "NVIDIA GPU如何帮助加速OpenAI的GPT-6 Astra Ultrafast",
       "link": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
       "source": "NVIDIA Newsroom",
@@ -163,90 +251,6 @@
       "summaryOriginal": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the N",
       "titleZh": "NVIDIA GPU如何帮助加速OpenAI的GPT-6 Astra Ultrafast",
       "summaryZh": "在NVIDIA Blackwell GPU上运行的GPT-6 Astra Ultrafast现已在OpenAI API和符合条件的ChatGPT Work和Codex用户中可用。通过OpenAI的模型进行推理优化来加速，这些模型利用了N",
-      "language": "zh-CN"
-    },
-    {
-      "title": "近一半的受试者在一分钟的通话中将Tavus的人工智能视频头像误认为是真人",
-      "link": "https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "Tavus推出了Griffin ，该公司称之为第一个“人机交互模型”。“人工智能实时保持视频通话，处理面部表情、语调和手势。在一项Tavus研究中， 48%的参与者相信",
-      "publishedAt": "2026-10-01T18:03:40.000Z",
-      "titleOriginal": "Nearly half of test subjects mistook Tavus&#039; AI video avatar for a real person on a one-minute call",
-      "summaryOriginal": "Tavus has introduced Griffin, what the company calls the first \"Human Interaction Model.\" The AI holds video calls in real time, processing facial expressions, tone of voice, and gestures. In a Tavus study, 48 percent of participants believ",
-      "titleZh": "近一半的受试者在一分钟的通话中将Tavus的人工智能视频头像误认为是真人",
-      "summaryZh": "Tavus推出了Griffin ，该公司称之为第一个“人机交互模型”。“人工智能实时保持视频通话，处理面部表情、语调和手势。在一项Tavus研究中， 48%的参与者相信",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Ideogram表示，其新模型可以编辑图像的一部分，而不会弄乱其余部分",
-      "link": "https://the-decoder.com/ideogram-says-its-new-model-can-edit-part-of-an-image-without-messing-up-the-rest/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "Ideogram的新模型Ideogram 4.5承诺只编辑您想要的区域，同时保持图像其余部分的完整性。它的原生2K分辨率为每张图像0.8美分起，而Runway、Pika和Leonardo AI等合作伙伴",
-      "publishedAt": "2026-10-01T17:33:03.000Z",
-      "titleOriginal": "Ideogram says its new model can edit part of an image without messing up the rest",
-      "summaryOriginal": "Ideogram's new model Ideogram 4.5 promises to edit only the areas you want while keeping the rest of the image intact. It ships with native 2K resolution starting at 0.8 cents per image, and partners like Runway, Pika, and Leonardo AI are a",
-      "titleZh": "Ideogram表示，其新模型可以编辑图像的一部分，而不会弄乱其余部分",
-      "summaryZh": "Ideogram的新模型Ideogram 4.5承诺只编辑您想要的区域，同时保持图像其余部分的完整性。它的原生2K分辨率为每张图像0.8美分起，而Runway、Pika和Leonardo AI等合作伙伴",
-      "language": "zh-CN"
-    },
-    {
-      "title": "使用NVIDIA Cosmos和VSS 3.3从提示符构建可视化AI代理",
-      "link": "https://www.youtube.com/watch?v=PQJKs1dyK7I",
-      "source": "NVIDIA Developer YouTube",
-      "sourceHome": "https://www.youtube.com/@NVIDIADeveloper",
-      "category": "视频/访谈",
-      "summary": "",
-      "publishedAt": "2026-10-01T17:10:41.000Z",
-      "titleOriginal": "Build Visual AI Agents From a Prompt With NVIDIA Cosmos and VSS 3.3",
-      "summaryOriginal": "",
-      "titleZh": "使用NVIDIA Cosmos和VSS 3.3从提示符构建可视化AI代理",
-      "summaryZh": "",
-      "language": "zh-CN"
-    },
-    {
-      "title": "永恒的补充",
-      "link": "https://openai.com/index/the-eternal-complement",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "category": "公司/实验室",
-      "summary": "高级人工智能对于突破性创意背后的日常工作可能最为重要。探索为什么执行可以塑造下一个经济和进步的步伐。",
-      "publishedAt": "2026-10-01T17:00:00.000Z",
-      "titleOriginal": "The eternal complement",
-      "summaryOriginal": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "titleZh": "永恒的补充",
-      "summaryZh": "高级人工智能对于突破性创意背后的日常工作可能最为重要。探索为什么执行可以塑造下一个经济和进步的步伐。",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Albertsons Companies如何从内到外重新构想零售业",
-      "link": "https://openai.com/index/albertsons-reimagining-retail",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "category": "公司/实验室",
-      "summary": "Albertsons Cos.正在使用ChatGPT Enterprise和OpenAI API来帮助团队更快地工作，让数百万客户更轻松地购物。",
-      "publishedAt": "2026-10-01T16:00:00.000Z",
-      "titleOriginal": "How Albertsons Companies is reimagining retail from the inside out",
-      "summaryOriginal": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "titleZh": "Albertsons Companies如何从内到外重新构想零售业",
-      "summaryZh": "Albertsons Cos.正在使用ChatGPT Enterprise和OpenAI API来帮助团队更快地工作，让数百万客户更轻松地购物。",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Anthropic将Claude带到民事机构，因为它与五角大楼的斗争",
-      "link": "https://the-decoder.com/anthropic-brings-claude-to-civilian-agencies-as-its-fight-with-the-pentagon-drags-on/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "Anthropic现在向美国联邦和州政府机构提供Claude for Government。该平台在FedRAMP High环境中运行，这是美国云服务最严格的安全级别。代理商获得与企业客户相同的功能， p",
-      "publishedAt": "2026-10-01T14:26:54.000Z",
-      "titleOriginal": "Anthropic brings Claude to civilian agencies as its fight with the Pentagon drags on",
-      "summaryOriginal": "Anthropic is now offering Claude for Government to US federal and state agencies. The platform runs in a FedRAMP High environment, the strictest US security level for cloud services. Agencies get the same features as enterprise customers, p",
-      "titleZh": "Anthropic将Claude带到民事机构，因为它与五角大楼的斗争",
-      "summaryZh": "Anthropic现在向美国联邦和州政府机构提供Claude for Government。该平台在FedRAMP High环境中运行，这是美国云服务最严格的安全级别。代理商获得与企业客户相同的功能， p",
       "language": "zh-CN"
     }
   ]
