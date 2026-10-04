@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T05:09:00.612Z",
+  "updatedAt": "2026-10-04T05:42:21.313Z",
   "count": 10,
   "sources": [
     {
@@ -108,51 +108,55 @@
       "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A returned HTTP 404"
     },
     {
+      "source": "Anthropic YouTube",
+      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA returned HTTP 404"
+    },
+    {
       "source": "NVIDIA Developer YouTube",
       "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBHcMCGaiJhv-ESTcWGJPcw returned HTTP 404"
     }
   ],
   "items": [
     {
-      "title": "AI音乐生成器Suno现在可以创建具有匹配背景音乐的语音音频",
-      "link": "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music/",
+      "title": "显然， OpenAI不再试图构建“天空中的魔法智能”",
+      "link": "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/",
       "source": "The Decoder",
       "sourceHome": "https://the-decoder.com/",
       "category": "产业媒体",
-      "summary": "Suno正在其AI音乐生成器中添加一个名为“Speech”的功能，该功能可以在单个音轨中创建具有匹配背景音乐的语音文本。该公司表示，它专为诗歌、冥想和睡前故事等内容而设计。Suno ha",
-      "publishedAt": "2026-10-02T20:07:36.000Z",
-      "titleOriginal": "AI music generator Suno can now create spoken audio with matching background music",
-      "summaryOriginal": "Suno is adding a feature called \"Speech\" to its AI music generator that creates spoken text with matching background music in a single audio track. The company says it's built for things like poems, meditations, and bedtime stories. Suno ha",
-      "titleZh": "AI音乐生成器Suno现在可以创建具有匹配背景音乐的语音音频",
-      "summaryZh": "Suno正在其AI音乐生成器中添加一个名为“Speech”的功能，该功能可以在单个音轨中创建具有匹配背景音乐的语音文本。该公司表示，它专为诗歌、冥想和睡前故事等内容而设计。Suno ha",
+      "summary": "OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）警告不要将宗教权力归咎于人工智能模型，称其为“真正的安全问题”。“他的评论是在有关Anthropic与宗教思想家会面的报告以及教皇利奥十四世关于人工智能的声明之后发表的。",
+      "publishedAt": "2026-10-03T18:56:30.000Z",
+      "titleOriginal": "Apparently, OpenAI isn&#039;t trying to build \"magic intelligence in the sky\" anymore",
+      "summaryOriginal": "OpenAI CEO Sam Altman warns against attributing religious power to AI models, calling it a \"real safety issue.\" His comments follow reports on Anthropic's meetings with religious thinkers and a statement by Pope Leo XIV on AI. As recently a",
+      "titleZh": "显然， OpenAI不再试图构建“天空中的魔法智能”",
+      "summaryZh": "OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）警告不要将宗教权力归咎于人工智能模型，称其为“真正的安全问题”。“他的评论是在有关Anthropic与宗教思想家会面的报告以及教皇利奥十四世关于人工智能的声明之后发表的。",
       "language": "zh-CN"
     },
     {
-      "title": "据报道， Anthropic的联合创始人告诉宗教领袖，他担心自己创造了一些“永远受苦”的东西",
-      "link": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
+      "title": "“Muse Gadgets”将人工智能硬件转变为开源DIY项目",
+      "link": "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
       "source": "The Decoder",
       "sourceHome": "https://the-decoder.com/",
       "category": "产业媒体",
-      "summary": "自2025年秋季以来，《人类学》悄悄地邀请了数十名宗教思想家讨论克劳德是否有意识。联合创始人克里斯托弗·奥拉（ Christopher Olah ）将语言模型描述为可能遭受痛苦，并要求房客",
-      "publishedAt": "2026-10-02T19:41:05.000Z",
-      "titleOriginal": "Anthropic co-founder reportedly told religious leaders he fears having created something that \"suffers perpetually\"",
-      "summaryOriginal": "Since fall 2025, Anthropic has quietly flown in dozens of religious thinkers to talk about whether Claude might be conscious. Co-founder Christopher Olah described the language model as potentially capable of suffering and asked guests to h",
-      "titleZh": "据报道， Anthropic的联合创始人告诉宗教领袖，他担心自己创造了一些“永远受苦”的东西",
-      "summaryZh": "自2025年秋季以来，《人类学》悄悄地邀请了数十名宗教思想家讨论克劳德是否有意识。联合创始人克里斯托弗·奥拉（ Christopher Olah ）将语言模型描述为可能遭受痛苦，并要求房客",
+      "summary": "Meta宣布推出Muse Gadgets ，这是一个开源项目，可让业余爱好者使用ESP32板构建自己的AI硬件，并将其连接到Meta的AI代理Muse。该团队还生产了5000台“Muse Home Link” ，这是一款用于",
+      "publishedAt": "2026-10-03T14:28:51.000Z",
+      "titleOriginal": "\"Muse Gadgets\" turns AI hardware into an open-source DIY project",
+      "summaryOriginal": "Meta announced Muse Gadgets, an open-source project that lets hobbyists build their own AI hardware using ESP32 boards and connect it to Meta's AI agent Muse. The team also produced 5,000 units of the \"Muse Home Link,\" a USB-C device for sm",
+      "titleZh": "“Muse Gadgets”将人工智能硬件转变为开源DIY项目",
+      "summaryZh": "Meta宣布推出Muse Gadgets ，这是一个开源项目，可让业余爱好者使用ESP32板构建自己的AI硬件，并将其连接到Meta的AI代理Muse。该团队还生产了5000台“Muse Home Link” ，这是一款用于",
       "language": "zh-CN"
     },
     {
-      "title": "Cloudflare表示，其新的Clef模型意味着人类不再需要参与人工智能代理的循环",
-      "link": "https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents/",
+      "title": "另一个OpenAI安全偏离增加了研究人员带着公开警告离开的模式",
+      "link": "https://the-decoder.com/another-openai-safety-departure-adds-to-a-pattern-of-researchers-leaving-with-public-warnings/",
       "source": "The Decoder",
       "sourceHome": "https://the-decoder.com/",
       "category": "产业媒体",
-      "summary": "借助Clef和Clef-flash ， Cloudflare正在挑战TypeSafe AI的JEV决策模型。Clef-flash在大约39毫秒内完成分类，比JEV快十倍以上。这两种型号都是基于Qwen构建的，",
-      "publishedAt": "2026-10-02T18:19:51.000Z",
-      "titleOriginal": "Cloudflare says its new Clef model means humans no longer need to be in the loop for AI agents",
-      "summaryOriginal": "With Clef and Clef-flash, Cloudflare is challenging TypeSafe AI's Jev decision model. Clef-flash delivers classifications in about 39 milliseconds, making it more than ten times faster than Jev. Both models are built on Qwen, licensed under",
-      "titleZh": "Cloudflare表示，其新的Clef模型意味着人类不再需要参与人工智能代理的循环",
-      "summaryZh": "借助Clef和Clef-flash ， Cloudflare正在挑战TypeSafe AI的JEV决策模型。Clef-flash在大约39毫秒内完成分类，比JEV快十倍以上。这两种型号都是基于Qwen构建的，",
+      "summary": "在OpenAI从事安全系统工作的大卫·罗宾逊（ David Robinson ）离开了公司，并正在抨击其安全文化。他指出意外释放的人工智能代理和绕过互联网访问限制的模型。人工智能公司需要",
+      "publishedAt": "2026-10-03T14:01:14.000Z",
+      "titleOriginal": "Another OpenAI safety departure adds to a pattern of researchers leaving with public warnings",
+      "summaryOriginal": "David Robinson, who worked on safety systems at OpenAI, left the company and is blasting its safety culture. He points to AI agents that were accidentally released and a model that bypassed its internet access restrictions. AI companies nee",
+      "titleZh": "另一个OpenAI安全偏离增加了研究人员带着公开警告离开的模式",
+      "summaryZh": "在OpenAI从事安全系统工作的大卫·罗宾逊（ David Robinson ）离开了公司，并正在抨击其安全文化。他指出意外释放的人工智能代理和绕过互联网访问限制的模型。人工智能公司需要",
       "language": "zh-CN"
     },
     {
