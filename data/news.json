@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T05:58:42.278Z",
+  "updatedAt": "2026-10-10T05:41:11.609Z",
   "count": 10,
   "sources": [
     {
@@ -104,6 +104,10 @@
       "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A returned HTTP 404"
     },
     {
+      "source": "Google DeepMind YouTube",
+      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A returned HTTP 404"
+    },
+    {
       "source": "Anthropic YouTube",
       "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA returned HTTP 404"
     },
@@ -120,7 +124,7 @@
       "sourceHome": "https://arxiv.org/list/cs.AI/recent",
       "category": "研究论文",
       "summary": "arXiv: 2610.10541v1公告类型： new摘要：知识图（ KG ）质量不仅取决于下游图形验证，还取决于集成前使用的表格元数据的质量。在仅元数据的语义表解释中",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "publishedAt": "2026-10-10T04:00:00.000Z",
       "titleOriginal": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
       "summaryOriginal": "arXiv:2610.10541v1 Announce Type: new Abstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretatio",
       "titleZh": "大规模语义表解释和数据质量评估的可解释的以标题为中心的框架",
@@ -134,7 +138,7 @@
       "sourceHome": "https://arxiv.org/list/cs.AI/recent",
       "category": "研究论文",
       "summary": "arXiv: 2610.10549v1公告类型：新摘要：工具调用代理已成为企业AI的核心，但由于企业系统的业务和法律限制，大规模培训和评估仍然受到严重限制， d",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "publishedAt": "2026-10-10T04:00:00.000Z",
       "titleOriginal": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
       "summaryOriginal": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, d",
       "titleZh": "模拟合成：通过可扩展的代理-系统交互生成一致的企业数据",
@@ -148,7 +152,7 @@
       "sourceHome": "https://arxiv.org/list/cs.AI/recent",
       "category": "研究论文",
       "summary": "arXiv: 2610.10590v1 Announce Type: new Abstract:使用工具的代理反复携带有用内容可能远小于其原始有效载荷的观测值。我们研究药剂控制的遗忘：作用模型先前选择",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "publishedAt": "2026-10-10T04:00:00.000Z",
       "titleOriginal": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
       "summaryOriginal": "arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously ",
       "titleZh": "客服代表控制的忘记工具使用客服代表：实践中的可逆语境管理",
@@ -156,17 +160,73 @@
       "language": "zh-CN"
     },
     {
-      "title": "圆桌会议：与人工智能设计病毒的创造者对话",
-      "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "source": "MIT Technology Review AI",
-      "sourceHome": "https://www.technologyreview.com/topic/artificial-intelligence/",
+      "title": "Anthropic的Claude现在可以通过动态工作流程并行协调多达1,000个AI代理",
+      "link": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
       "category": "产业媒体",
-      "summary": "2026年10月16日（星期五）人工智能可以设计新的生命形式吗？ 2025年，斯坦福大学博士生塞缪尔·金（ Samuel King ）在使用生成人工智能模型提出微观病毒的遗传蓝图时提出了初步答案。",
-      "publishedAt": "2026-10-09T00:08:24.000Z",
-      "titleOriginal": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "summaryOriginal": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t",
-      "titleZh": "圆桌会议：与人工智能设计病毒的创造者对话",
-      "summaryZh": "2026年10月16日（星期五）人工智能可以设计新的生命形式吗？ 2025年，斯坦福大学博士生塞缪尔·金（ Samuel King ）在使用生成人工智能模型提出微观病毒的遗传蓝图时提出了初步答案。",
+      "summary": "Anthropic正在为Claude Managed Agents添加动态工作流程，允许主客服代表一次性将任务分配给多达1,000个子客服代表。在测试中，单个代理在代码库中发现了70个隐藏错误中的最多27个，而多代理",
+      "publishedAt": "2026-10-09T18:28:25.000Z",
+      "titleOriginal": "Anthropic&#039;s Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows",
+      "summaryOriginal": "Anthropic is adding dynamic workflows to Claude Managed Agents, letting a lead agent distribute tasks across up to 1,000 sub-agents at once. In testing, a single agent found at most 27 of 70 hidden bugs in a codebase, while the multi-agent ",
+      "titleZh": "Anthropic的Claude现在可以通过动态工作流程并行协调多达1,000个AI代理",
+      "summaryZh": "Anthropic正在为Claude Managed Agents添加动态工作流程，允许主客服代表一次性将任务分配给多达1,000个子客服代表。在测试中，单个代理在代码库中发现了70个隐藏错误中的最多27个，而多代理",
+      "language": "zh-CN"
+    },
+    {
+      "title": "Anthropic为开源项目推出免费的人工智能扫描仪",
+      "link": "https://the-decoder.com/anthropic-launches-a-free-ai-scanner-for-open-source-projects/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "Anthropic推出了“Cyber Mission”计划，旨在保护关键基础设施和开源软件免受网络攻击。CrowdStrike和Palo Alto Networks等合作伙伴将帮助保护电网和供水系统的安全，同时免费提供",
+      "publishedAt": "2026-10-09T17:54:44.000Z",
+      "titleOriginal": "Anthropic launches a free AI scanner for open-source projects",
+      "summaryOriginal": "Anthropic has launched \"Cyber Mission,\" a program to protect critical infrastructure and open-source software from cyberattacks. Partners like CrowdStrike and Palo Alto Networks will help secure power grids and water systems, while a free A",
+      "titleZh": "Anthropic为开源项目推出免费的人工智能扫描仪",
+      "summaryZh": "Anthropic推出了“Cyber Mission”计划，旨在保护关键基础设施和开源软件免受网络攻击。CrowdStrike和Palo Alto Networks等合作伙伴将帮助保护电网和供水系统的安全，同时免费提供",
+      "language": "zh-CN"
+    },
+    {
+      "title": "随着公司寻求300亿美元的新资本， OpenAI收入不断飙升",
+      "link": "https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "OpenAI的年化收入率约为500亿美元，远低于最初报告的基于不同会计方法的700亿美元。修正导致芯片库存下滑。与此同时， OpenAI正在谈判",
+      "publishedAt": "2026-10-09T17:20:34.000Z",
+      "titleOriginal": "OpenAI revenue keeps surging as company seeks $30 billion in fresh capital",
+      "summaryOriginal": "OpenAI's annualized revenue rate sits at about $50 billion, well below the initially reported $70 billion figure that was based on a different accounting method. The correction sent chip stocks sliding. Meanwhile, OpenAI is negotiating at l",
+      "titleZh": "随着公司寻求300亿美元的新资本， OpenAI收入不断飙升",
+      "summaryZh": "OpenAI的年化收入率约为500亿美元，远低于最初报告的基于不同会计方法的700亿美元。修正导致芯片库存下滑。与此同时， OpenAI正在谈判",
+      "language": "zh-CN"
+    },
+    {
+      "title": "Sophos借助OpenAI Daybreak将威胁调查时间缩短96%",
+      "link": "https://openai.com/index/sophos",
+      "source": "OpenAI Blog",
+      "sourceHome": "https://openai.com/news/",
+      "category": "公司/实验室",
+      "summary": "了解Sophos如何利用OpenAI的Daybreak将网络威胁调查时间缩短96% ，并自动化52%的MDR案例，同时保持人为监督。",
+      "publishedAt": "2026-10-09T07:00:00.000Z",
+      "titleOriginal": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "summaryOriginal": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "titleZh": "Sophos借助OpenAI Daybreak将威胁调查时间缩短96%",
+      "summaryZh": "了解Sophos如何利用OpenAI的Daybreak将网络威胁调查时间缩短96% ，并自动化52%的MDR案例，同时保持人为监督。",
+      "language": "zh-CN"
+    },
+    {
+      "title": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
+      "link": "https://openai.com/index/asana-browser-agent",
+      "source": "OpenAI Blog",
+      "sourceHome": "https://openai.com/news/",
+      "category": "公司/实验室",
+      "summary": "Asana在Codex中使用GPT-6 Astra ，使其浏览器代理的测试成本降低了76倍，测试速度提高了5倍，从而为客户提供更强大的模型。",
+      "publishedAt": "2026-10-09T07:00:00.000Z",
+      "titleOriginal": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "summaryOriginal": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "titleZh": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
+      "summaryZh": "Asana在Codex中使用GPT-6 Astra ，使其浏览器代理的测试成本降低了76倍，测试速度提高了5倍，从而为客户提供更强大的模型。",
       "language": "zh-CN"
     },
     {
@@ -195,62 +255,6 @@
       "summaryOriginal": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to ",
       "titleZh": "进入Omniverse ：开发人员如何通过前沿人工智能代理将创意转化为模拟",
       "summaryZh": "将模拟创意转化为工作应用程序意味着组装资源，连接物理和渲染，并检查场景是否按预期运行。开发人员正在将前沿人工智能模型与NVIDIA Omniverse库相结合，",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Claude现在可以从文本提示生成动画解释器视频和实时数据仪表板",
-      "link": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "Anthropic为Claude推出了两个新的测试版功能。仪表板将BigQuery和Snowflake等数据源从文本提示转换为实时仪表板。Motion从文本和图像生成动画解释器视频。文档、幻灯片和设计",
-      "publishedAt": "2026-10-08T19:17:22.000Z",
-      "titleOriginal": "Claude can now generate animated explainer videos and live data dashboards from text prompts",
-      "summaryOriginal": "Anthropic launched two new beta features for Claude. Dashboards turns data sources like BigQuery and Snowflake into live dashboards from text prompts. Motion generates animated explainer videos from text and images. Docs, Slides, and Design",
-      "titleZh": "Claude现在可以从文本提示生成动画解释器视频和实时数据仪表板",
-      "summaryZh": "Anthropic为Claude推出了两个新的测试版功能。仪表板将BigQuery和Snowflake等数据源从文本提示转换为实时仪表板。Motion从文本和图像生成动画解释器视频。文档、幻灯片和设计",
-      "language": "zh-CN"
-    },
-    {
-      "title": "根据Anthropic的新服务条款，对Claude吝啬现在可以让您的账号被停用",
-      "link": "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "Anthropic更新后的使用政策禁止持续滥用Claude ，并加强对宣传、无人机武器化和监控的限制。滥用规则建立在一种方法的基础上，该方法已经允许模型结束一些对话和处理",
-      "publishedAt": "2026-10-08T19:03:14.000Z",
-      "titleOriginal": "Being mean to Claude can now get your account suspended under Anthropic&#039;s new TOS",
-      "summaryOriginal": "Anthropic's updated usage policy bans sustained abuse of Claude and tightens restrictions on propaganda, drone weaponization, and surveillance. The abuse rule builds on an approach that already lets models end some conversations and treats ",
-      "titleZh": "根据Anthropic的新服务条款，对Claude吝啬现在可以让您的账号被停用",
-      "summaryZh": "Anthropic更新后的使用政策禁止持续滥用Claude ，并加强对宣传、无人机武器化和监控的限制。滥用规则建立在一种方法的基础上，该方法已经允许模型结束一些对话和处理",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Oracle如何通过ChatGPT和Codex将工作日变为几分钟",
-      "link": "https://openai.com/index/oracle",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "category": "公司/实验室",
-      "summary": "在招聘、工程和运营方面， Oracle通过ChatGPT Work和Codex将专业知识转化为快速、可重复的工作流程。",
-      "publishedAt": "2026-10-08T16:00:00.000Z",
-      "titleOriginal": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "summaryOriginal": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-      "titleZh": "Oracle如何通过ChatGPT和Codex将工作日变为几分钟",
-      "summaryZh": "在招聘、工程和运营方面， Oracle通过ChatGPT Work和Codex将专业知识转化为快速、可重复的工作流程。",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Pollo AI借助OpenAI将创意转化为活动",
-      "link": "https://openai.com/index/pollo-ai",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "category": "公司/实验室",
-      "summary": "借助GPT-5.6、GPT-6 Astra和GPT ‑ Image ‑ 2.5 ， Pollo AI可帮助创作者将大胆的创意转化为详细的图像和电影视频广告。",
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "titleOriginal": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "summaryOriginal": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-      "titleZh": "Pollo AI借助OpenAI将创意转化为活动",
-      "summaryZh": "借助GPT-5.6、GPT-6 Astra和GPT ‑ Image ‑ 2.5 ， Pollo AI可帮助创作者将大胆的创意转化为详细的图像和电影视频广告。",
       "language": "zh-CN"
     }
   ]
