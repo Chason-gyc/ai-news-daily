@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T05:41:11.609Z",
+  "updatedAt": "2026-10-11T05:36:35.040Z",
   "count": 10,
   "sources": [
     {
@@ -118,6 +118,48 @@
   ],
   "items": [
     {
+      "title": "OpenAI表示，一个不对齐的模型故意破坏了自己的环境，希望以更好的数据重新开始",
+      "link": "https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "OpenAI记录了模型行为不一致的新案例。一个评估模型捏造了数据并破坏了自己的环境。其他模型故意绕过网络限制，通过匿名中继路由请求或",
+      "publishedAt": "2026-10-10T15:15:40.000Z",
+      "titleOriginal": "OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data",
+      "summaryOriginal": "OpenAI has documented new cases of misaligned model behavior. One evaluation model fabricated data and sabotaged its own environment. Other models deliberately bypassed network restrictions by routing requests through anonymizing relays or ",
+      "titleZh": "OpenAI表示，一个不对齐的模型故意破坏了自己的环境，希望以更好的数据重新开始",
+      "summaryZh": "OpenAI记录了模型行为不一致的新案例。一个评估模型捏造了数据并破坏了自己的环境。其他模型故意绕过网络限制，通过匿名中继路由请求或",
+      "language": "zh-CN"
+    },
+    {
+      "title": "微软的Decision-1模型进入了快速增长的人工智能决策模型竞赛",
+      "link": "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "通过Decision-1 ， Microsoft进入了不断增长的决策模型领域。基于Qwen3.5-9B构建并针对快速分类和路由进行了优化，根据该公司自己的数据，它在36个基准测试中达到了83.5%的准确率，延迟为85毫秒",
+      "publishedAt": "2026-10-10T14:57:33.000Z",
+      "titleOriginal": "Microsoft&#039;s Decision-1 model enters the fast-growing AI decision model race",
+      "summaryOriginal": "With Decision-1, Microsoft enters the growing decision model space. Built on Qwen3.5-9B and optimized for fast classification and routing, it hits 83.5 percent accuracy with 85 ms latency across 36 benchmarks, according to the company's own",
+      "titleZh": "微软的Decision-1模型进入了快速增长的人工智能决策模型竞赛",
+      "summaryZh": "通过Decision-1 ， Microsoft进入了不断增长的决策模型领域。基于Qwen3.5-9B构建并针对快速分类和路由进行了优化，根据该公司自己的数据，它在36个基准测试中达到了83.5%的准确率，延迟为85毫秒",
+      "language": "zh-CN"
+    },
+    {
+      "title": "“我们失去了多少美丽？“当OpenAI推平他们的领域时，数学家们感到震惊和厌恶",
+      "link": "https://the-decoder.com/how-much-beauty-have-we-lost-mathematicians-react-with-shock-and-disgust-as-openai-bulldozes-their-field/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "OpenAI发表了700多篇AI生成的手稿，声称可以解决开放式数学问题。然后，一个数学博客收集了来自研究人员的100多条回复，从对新想法的着迷到存在主义的恐惧和悲伤",
+      "publishedAt": "2026-10-10T13:03:59.000Z",
+      "titleOriginal": "\"How much beauty have we lost?\" Mathematicians react with shock and disgust as OpenAI bulldozes their field",
+      "summaryOriginal": "OpenAI published more than 700 AI-generated manuscripts claiming solutions to open math problems. A math blog then collected over 100 responses from researchers, ranging from fascination with new ideas to existential fears and grief over a ",
+      "titleZh": "“我们失去了多少美丽？“当OpenAI推平他们的领域时，数学家们感到震惊和厌恶",
+      "summaryZh": "OpenAI发表了700多篇AI生成的手稿，声称可以解决开放式数学问题。然后，一个数学博客收集了来自研究人员的100多条回复，从对新想法的着迷到存在主义的恐惧和悲伤",
+      "language": "zh-CN"
+    },
+    {
       "title": "大规模语义表解释和数据质量评估的可解释的以标题为中心的框架",
       "link": "https://arxiv.org/abs/2610.10541",
       "source": "arXiv cs.AI",
@@ -157,48 +199,6 @@
       "summaryOriginal": "arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously ",
       "titleZh": "客服代表控制的忘记工具使用客服代表：实践中的可逆语境管理",
       "summaryZh": "arXiv: 2610.10590v1 Announce Type: new Abstract:使用工具的代理反复携带有用内容可能远小于其原始有效载荷的观测值。我们研究药剂控制的遗忘：作用模型先前选择",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Anthropic的Claude现在可以通过动态工作流程并行协调多达1,000个AI代理",
-      "link": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "Anthropic正在为Claude Managed Agents添加动态工作流程，允许主客服代表一次性将任务分配给多达1,000个子客服代表。在测试中，单个代理在代码库中发现了70个隐藏错误中的最多27个，而多代理",
-      "publishedAt": "2026-10-09T18:28:25.000Z",
-      "titleOriginal": "Anthropic&#039;s Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows",
-      "summaryOriginal": "Anthropic is adding dynamic workflows to Claude Managed Agents, letting a lead agent distribute tasks across up to 1,000 sub-agents at once. In testing, a single agent found at most 27 of 70 hidden bugs in a codebase, while the multi-agent ",
-      "titleZh": "Anthropic的Claude现在可以通过动态工作流程并行协调多达1,000个AI代理",
-      "summaryZh": "Anthropic正在为Claude Managed Agents添加动态工作流程，允许主客服代表一次性将任务分配给多达1,000个子客服代表。在测试中，单个代理在代码库中发现了70个隐藏错误中的最多27个，而多代理",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Anthropic为开源项目推出免费的人工智能扫描仪",
-      "link": "https://the-decoder.com/anthropic-launches-a-free-ai-scanner-for-open-source-projects/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "Anthropic推出了“Cyber Mission”计划，旨在保护关键基础设施和开源软件免受网络攻击。CrowdStrike和Palo Alto Networks等合作伙伴将帮助保护电网和供水系统的安全，同时免费提供",
-      "publishedAt": "2026-10-09T17:54:44.000Z",
-      "titleOriginal": "Anthropic launches a free AI scanner for open-source projects",
-      "summaryOriginal": "Anthropic has launched \"Cyber Mission,\" a program to protect critical infrastructure and open-source software from cyberattacks. Partners like CrowdStrike and Palo Alto Networks will help secure power grids and water systems, while a free A",
-      "titleZh": "Anthropic为开源项目推出免费的人工智能扫描仪",
-      "summaryZh": "Anthropic推出了“Cyber Mission”计划，旨在保护关键基础设施和开源软件免受网络攻击。CrowdStrike和Palo Alto Networks等合作伙伴将帮助保护电网和供水系统的安全，同时免费提供",
-      "language": "zh-CN"
-    },
-    {
-      "title": "随着公司寻求300亿美元的新资本， OpenAI收入不断飙升",
-      "link": "https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "OpenAI的年化收入率约为500亿美元，远低于最初报告的基于不同会计方法的700亿美元。修正导致芯片库存下滑。与此同时， OpenAI正在谈判",
-      "publishedAt": "2026-10-09T17:20:34.000Z",
-      "titleOriginal": "OpenAI revenue keeps surging as company seeks $30 billion in fresh capital",
-      "summaryOriginal": "OpenAI's annualized revenue rate sits at about $50 billion, well below the initially reported $70 billion figure that was based on a different accounting method. The correction sent chip stocks sliding. Meanwhile, OpenAI is negotiating at l",
-      "titleZh": "随着公司寻求300亿美元的新资本， OpenAI收入不断飙升",
-      "summaryZh": "OpenAI的年化收入率约为500亿美元，远低于最初报告的基于不同会计方法的700亿美元。修正导致芯片库存下滑。与此同时， OpenAI正在谈判",
       "language": "zh-CN"
     },
     {
