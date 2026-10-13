@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T05:47:14.853Z",
+  "updatedAt": "2026-10-13T06:41:20.022Z",
   "count": 10,
   "sources": [
     {
@@ -113,10 +113,80 @@
     },
     {
       "source": "NVIDIA Developer YouTube",
-      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBHcMCGaiJhv-ESTcWGJPcw returned HTTP 404"
+      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBHcMCGaiJhv-ESTcWGJPcw returned HTTP 500"
     }
   ],
   "items": [
+    {
+      "title": "NVIDIA在欧洲登陆GTC柏林",
+      "link": "https://blogs.nvidia.com/gtc-berlin-2026-news/",
+      "source": "NVIDIA Newsroom",
+      "sourceHome": "https://nvidianews.nvidia.com/",
+      "category": "算力生态",
+      "summary": "英伟达在欧洲，与该地区的开发人员、研究人员和行业领导者一起展示技术的未来。",
+      "publishedAt": "2026-10-13T05:13:00.000Z",
+      "titleOriginal": "NVIDIA Lands in Europe for GTC Berlin",
+      "summaryOriginal": "NVIDIA is in Europe, showcasing the future of technology together with the region’s developers, researchers and industry leaders.",
+      "titleZh": "NVIDIA在欧洲登陆GTC柏林",
+      "summaryZh": "英伟达在欧洲，与该地区的开发人员、研究人员和行业领导者一起展示技术的未来。",
+      "language": "zh-CN"
+    },
+    {
+      "title": "从地球到轨道，法国的生态系统通过NVIDIA提供大规模代理计算",
+      "link": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+      "source": "NVIDIA Newsroom",
+      "sourceHome": "https://nvidianews.nvidia.com/",
+      "category": "算力生态",
+      "summary": "法国的公司正在跨越空间、金融服务、公共部门和科学研究等行业部署代理计算，展示了该国的生态系统如何从雄心壮志转向应用。法国的",
+      "publishedAt": "2026-10-13T05:00:31.000Z",
+      "titleOriginal": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+      "summaryOriginal": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s ",
+      "titleZh": "从地球到轨道，法国的生态系统通过NVIDIA提供大规模代理计算",
+      "summaryZh": "法国的公司正在跨越空间、金融服务、公共部门和科学研究等行业部署代理计算，展示了该国的生态系统如何从雄心壮志转向应用。法国的",
+      "language": "zh-CN"
+    },
+    {
+      "title": "Meta全新前沿模特Muse Wonder Full闯入AI顶级",
+      "link": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "Meta的新Muse Wonder模型在十项基准中的六项中排名前三，代理任务的收益最大。但每项任务的成本几乎增加了两倍。文章Meta的新前沿模型Muse Wonder Full突破了",
+      "publishedAt": "2026-10-12T18:48:29.000Z",
+      "titleOriginal": "Meta&#039;s new frontier model Muse Wonder Full breaks into the AI top tier",
+      "summaryOriginal": "Meta's new Muse Wonder models rank in the top three on six out of ten benchmarks, with the biggest gains in agentic tasks. But the cost per task has nearly tripled. The article Meta&#039;s new frontier model Muse Wonder Full breaks into the",
+      "titleZh": "Meta全新前沿模特Muse Wonder Full闯入AI顶级",
+      "summaryZh": "Meta的新Muse Wonder模型在十项基准中的六项中排名前三，代理任务的收益最大。但每项任务的成本几乎增加了两倍。文章Meta的新前沿模型Muse Wonder Full突破了",
+      "language": "zh-CN"
+    },
+    {
+      "title": "Sakana AI的自我完善模型在解决和判断方面变得更好，但无法抓住自己的盲点",
+      "link": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "Sakana AI的MASS方法通过解决任务、判断结果和优化工作流程，让一个语言模型自我改进，经过两轮比赛，基本模型的胜率接近70%。但是当模型错过了相同的e",
+      "publishedAt": "2026-10-12T17:58:54.000Z",
+      "titleOriginal": "Sakana AI&#039;s self-improving model gets better at solving and judging, but can&#039;t catch its own blind spots",
+      "summaryOriginal": "Sakana AI's MASS method lets one language model improve itself by solving tasks, judging results, and refining workflows, reaching a win rate of nearly 70 percent against the base model after two rounds. But when the model misses the same e",
+      "titleZh": "Sakana AI的自我完善模型在解决和判断方面变得更好，但无法抓住自己的盲点",
+      "summaryZh": "Sakana AI的MASS方法通过解决任务、判断结果和优化工作流程，让一个语言模型自我改进，经过两轮比赛，基本模型的胜率接近70%。但是当模型错过了相同的e",
+      "language": "zh-CN"
+    },
+    {
+      "title": "清除聊天记录有助于AI代理找到更好的解决方案",
+      "link": "https://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "微软研究人员发现，自主人工智能代理被困在他们所谓的“创意盆地”中，因为他们不断增长的聊天环境，他们无法逃脱的本地解决方案区域。他们的“分叉和冲洗”方法清除了聊天记录，但",
+      "publishedAt": "2026-10-12T16:10:00.000Z",
+      "titleOriginal": "Clearing chat history helps AI agents find better solutions",
+      "summaryOriginal": "Microsoft researchers found that autonomous AI agents get trapped in what they call \"idea basins\" because of their growing chat context, local solution regions they can't escape. Their \"Fork-and-Flush\" method clears the chat history but kee",
+      "titleZh": "清除聊天记录有助于AI代理找到更好的解决方案",
+      "summaryZh": "微软研究人员发现，自主人工智能代理被困在他们所谓的“创意盆地”中，因为他们不断增长的聊天环境，他们无法逃脱的本地解决方案区域。他们的“分叉和冲洗”方法清除了聊天记录，但",
+      "language": "zh-CN"
+    },
     {
       "title": "没有锚点的忠诚：关于特征重要性的可解释AI忠诚度指标的结构性错位的立场文件",
       "link": "https://arxiv.org/abs/2610.12493",
@@ -160,48 +230,6 @@
       "language": "zh-CN"
     },
     {
-      "title": "研究发现，人工智能代理团队浪费大量代币来获得几乎无法衡量的质量收益",
-      "link": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "根据Vals AI的数据， AI代理团队的表现几乎不超过单人代理，但成本高达5.1倍。只有四分之一的GPT-6 Sol和Claude Opus 5.5测试显示出可测量的增益。Anthropic自己的数据支持了这一点：超过十个代理，",
-      "publishedAt": "2026-10-11T15:39:26.000Z",
-      "titleOriginal": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
-      "summaryOriginal": "Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic's own data backs this up: beyond ten agents, ",
-      "titleZh": "研究发现，人工智能代理团队浪费大量代币来获得几乎无法衡量的质量收益",
-      "summaryZh": "根据Vals AI的数据， AI代理团队的表现几乎不超过单人代理，但成本高达5.1倍。只有四分之一的GPT-6 Sol和Claude Opus 5.5测试显示出可测量的增益。Anthropic自己的数据支持了这一点：超过十个代理，",
-      "language": "zh-CN"
-    },
-    {
-      "title": "研究发现，人工智能代理夸大其结果，远离自主研究",
-      "link": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "Epoch AI和Anthropic独立发现了同样的事情：目前像GPT-5.6 Sol和Claude Fable 5这样的人工智能模型可以运行实验，但缺乏科学的自我批评和真正的创造性思维。Sol充其量只能达到hu的15%",
-      "publishedAt": "2026-10-11T13:44:32.000Z",
-      "titleOriginal": "AI agents overstate their results and remain far from autonomous research, study finds",
-      "summaryOriginal": "Epoch AI and Anthropic independently found the same thing: current AI models like GPT-5.6 Sol and Claude Fable 5 can run experiments but lack scientific self-criticism and genuine creative thinking. At best, Sol reached 15 percent of the hu",
-      "titleZh": "研究发现，人工智能代理夸大其结果，远离自主研究",
-      "summaryZh": "Epoch AI和Anthropic独立发现了同样的事情：目前像GPT-5.6 Sol和Claude Fable 5这样的人工智能模型可以运行实验，但缺乏科学的自我批评和真正的创造性思维。Sol充其量只能达到hu的15%",
-      "language": "zh-CN"
-    },
-    {
-      "title": "更便宜的人工智能代币正在推动更多的需求，这就是Jensen Huang的最佳场景",
-      "link": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "A16z的数据显示，人工智能市场存在Jevons悖论：代币价格持续下跌，但H100 GPU租赁价格保持稳定或攀升。更便宜的人工智能比成本下降更快地推动需求。如果这种需求趋于平缓，从芯片制造商到CLOU的链条",
-      "publishedAt": "2026-10-11T09:49:59.000Z",
-      "titleOriginal": "Cheaper AI tokens are driving more demand, and that&#039;s Jensen Huang&#039;s best-case scenario",
-      "summaryOriginal": "Data from a16z shows a Jevons paradox in the AI market: token prices keep falling, but H100 GPU rental prices hold steady or climb. Cheaper AI drives demand faster than costs drop. If that demand flattens, the chain from chip makers to clou",
-      "titleZh": "更便宜的人工智能代币正在推动更多的需求，这就是Jensen Huang的最佳场景",
-      "summaryZh": "A16z的数据显示，人工智能市场存在Jevons悖论：代币价格持续下跌，但H100 GPU租赁价格保持稳定或攀升。更便宜的人工智能比成本下降更快地推动需求。如果这种需求趋于平缓，从芯片制造商到CLOU的链条",
-      "language": "zh-CN"
-    },
-    {
       "title": "Sophos借助OpenAI Daybreak将威胁调查时间缩短96%",
       "link": "https://openai.com/index/sophos",
       "source": "OpenAI Blog",
@@ -227,34 +255,6 @@
       "summaryOriginal": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "titleZh": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
       "summaryZh": "Asana在Codex中使用GPT-6 Astra ，使其浏览器代理的测试成本降低了76倍，测试速度提高了5倍，从而为客户提供更强大的模型。",
-      "language": "zh-CN"
-    },
-    {
-      "title": "进入Omniverse ：开发人员如何通过前沿人工智能代理将创意转化为模拟",
-      "link": "https://blogs.nvidia.com/blog/developers-simulations-frontier-ai-agents/",
-      "source": "NVIDIA Newsroom",
-      "sourceHome": "https://nvidianews.nvidia.com/",
-      "category": "算力生态",
-      "summary": "将模拟创意转化为工作应用程序意味着组装资源，连接物理和渲染，并检查场景是否按预期运行。开发人员正在将前沿人工智能模型与NVIDIA Omniverse库相结合，",
-      "publishedAt": "2026-10-08T21:06:35.000Z",
-      "titleOriginal": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "summaryOriginal": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to ",
-      "titleZh": "进入Omniverse ：开发人员如何通过前沿人工智能代理将创意转化为模拟",
-      "summaryZh": "将模拟创意转化为工作应用程序意味着组装资源，连接物理和渲染，并检查场景是否按预期运行。开发人员正在将前沿人工智能模型与NVIDIA Omniverse库相结合，",
-      "language": "zh-CN"
-    },
-    {
-      "title": "进入Omniverse ：开发人员如何通过前沿人工智能代理将创意转化为模拟",
-      "link": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "source": "NVIDIA Blog",
-      "sourceHome": "https://blogs.nvidia.com/",
-      "category": "算力生态",
-      "summary": "将模拟创意转化为工作应用程序意味着组装资源，连接物理和渲染，并检查场景是否按预期运行。开发人员正在将前沿人工智能模型与NVIDIA Omniverse库相结合，",
-      "publishedAt": "2026-10-08T21:06:35.000Z",
-      "titleOriginal": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "summaryOriginal": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to ",
-      "titleZh": "进入Omniverse ：开发人员如何通过前沿人工智能代理将创意转化为模拟",
-      "summaryZh": "将模拟创意转化为工作应用程序意味着组装资源，连接物理和渲染，并检查场景是否按预期运行。开发人员正在将前沿人工智能模型与NVIDIA Omniverse库相结合，",
       "language": "zh-CN"
     }
   ]
