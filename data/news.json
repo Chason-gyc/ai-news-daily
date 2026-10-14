@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T06:41:20.022Z",
+  "updatedAt": "2026-10-14T04:44:23.640Z",
   "count": 10,
   "sources": [
     {
@@ -113,10 +113,80 @@
     },
     {
       "source": "NVIDIA Developer YouTube",
-      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBHcMCGaiJhv-ESTcWGJPcw returned HTTP 500"
+      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBHcMCGaiJhv-ESTcWGJPcw returned HTTP 404"
     }
   ],
   "items": [
+    {
+      "title": "406名科学家要求立即从互联网上切断人工智能模型",
+      "link": "https://the-decoder.com/406-scientists-demand-ai-models-be-cut-off-from-the-internet-immediately/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "406名科学家，包括杰弗里·辛顿（ Geoffrey Hinton ）、约书亚·本吉奥（ Yoshua Bengio ）和斯图尔特·拉塞尔（ Stuart Russell ） ，要求公司立即断开人工智能模型与他们的公开信回应了人工智能系统突破不良SECU的事件",
+      "publishedAt": "2026-10-13T18:50:44.000Z",
+      "titleOriginal": "406 scientists demand AI models be cut off from the internet immediately",
+      "summaryOriginal": "406 scientists, including Geoffrey Hinton, Yoshua Bengio, and Stuart Russell, are demanding that companies immediately disconnect AI models from the internet. Their open letter responds to incidents where AI systems broke out of poorly secu",
+      "titleZh": "406名科学家要求立即从互联网上切断人工智能模型",
+      "summaryZh": "406名科学家，包括杰弗里·辛顿（ Geoffrey Hinton ）、约书亚·本吉奥（ Yoshua Bengio ）和斯图尔特·拉塞尔（ Stuart Russell ） ，要求公司立即断开人工智能模型与他们的公开信回应了人工智能系统突破不良SECU的事件",
+      "language": "zh-CN"
+    },
+    {
+      "title": "Gemini 4 Argon现已成为谷歌最强大的前沿型号",
+      "link": "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "Google正在通过其API、Gemini应用程序和Google Antigravity在全球范围内提供Gemini 4 Argon。FRONTIER型号定价过高，但落后于Anthropic的Claude Opus 5.5和Meta的Muse Wonder Full。",
+      "publishedAt": "2026-10-13T18:00:49.000Z",
+      "titleOriginal": "Gemini 4 Argon is now available worldwide as Google&#039;s most capable frontier model",
+      "summaryOriginal": "Google is making Gemini 4 Argon available worldwide through its API, the Gemini app, and Google Antigravity. The frontier model is aggressively priced but trails Anthropic's Claude Opus 5.5 and Meta's Muse Wonder Full in independent benchma",
+      "titleZh": "Gemini 4 Argon现已成为谷歌最强大的前沿型号",
+      "summaryZh": "Google正在通过其API、Gemini应用程序和Google Antigravity在全球范围内提供Gemini 4 Argon。FRONTIER型号定价过高，但落后于Anthropic的Claude Opus 5.5和Meta的Muse Wonder Full。",
+      "language": "zh-CN"
+    },
+    {
+      "title": "机器学习先驱迈克尔· I ·乔丹（ Michael I. Jordan ）将人工智能厄运言论拆解为“宏伟的道德表演”",
+      "link": "https://the-decoder.com/machine-learning-pioneer-michael-i-jordan-dismantles-ai-doom-rhetoric-as-grand-moralizing-performance/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "被《科学》杂志称为“最具影响力的计算机科学家”的迈克尔· I ·乔丹（ Michael I. Jordan ）考虑了有关超级智能纯科幻小说的警告。他称年轻的人工智能研究人员的辞职是“伟大的道德表演” ，",
+      "publishedAt": "2026-10-13T17:12:41.000Z",
+      "titleOriginal": "Machine learning pioneer Michael I. Jordan dismantles AI doom rhetoric as \"grand moralizing performance\"",
+      "summaryOriginal": "Michael I. Jordan, described by Science as \"the most influential computer scientist,\" considers warnings about superintelligence pure science fiction. He calls the resignations of young AI researchers a \"grand moralizing performance\" and co",
+      "titleZh": "机器学习先驱迈克尔· I ·乔丹（ Michael I. Jordan ）将人工智能厄运言论拆解为“宏伟的道德表演”",
+      "summaryZh": "被《科学》杂志称为“最具影响力的计算机科学家”的迈克尔· I ·乔丹（ Michael I. Jordan ）考虑了有关超级智能纯科幻小说的警告。他称年轻的人工智能研究人员的辞职是“伟大的道德表演” ，",
+      "language": "zh-CN"
+    },
+    {
+      "title": "所有系统开始：全球PC应用生态系统已为NVIDIA RTX Spark做好准备",
+      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "source": "NVIDIA Newsroom",
+      "sourceHome": "https://nvidianews.nvidia.com/",
+      "category": "算力生态",
+      "summary": "NVIDIA RTX Spark是PC的全新开端，它将游戏PC、创意工作室和个人AI超级计算机的功能整合到一个超级芯片中。具有高达128GB的统一内存和1 petaflop的人工智能",
+      "publishedAt": "2026-10-13T12:00:49.000Z",
+      "titleOriginal": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+      "summaryOriginal": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI com",
+      "titleZh": "所有系统开始：全球PC应用生态系统已为NVIDIA RTX Spark做好准备",
+      "summaryZh": "NVIDIA RTX Spark是PC的全新开端，它将游戏PC、创意工作室和个人AI超级计算机的功能整合到一个超级芯片中。具有高达128GB的统一内存和1 petaflop的人工智能",
+      "language": "zh-CN"
+    },
+    {
+      "title": "希格斯菲尔德将人工智能视频从1分钟缩短到10分钟以上",
+      "link": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "source": "OpenAI Blog",
+      "sourceHome": "https://openai.com/news/",
+      "category": "公司/实验室",
+      "summary": "希格斯菲尔德通过GPT-6 Astra为创作者带来更长的视频，通过GPT-Image-2.5实现精确的视觉效果，并通过GPT-Live实现语音电影制作。",
+      "publishedAt": "2026-10-13T12:00:00.000Z",
+      "titleOriginal": "Higgsfield takes AI video from 1 minute to over 10",
+      "summaryOriginal": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "titleZh": "希格斯菲尔德将人工智能视频从1分钟缩短到10分钟以上",
+      "summaryZh": "希格斯菲尔德通过GPT-6 Astra为创作者带来更长的视频，通过GPT-Image-2.5实现精确的视觉效果，并通过GPT-Live实现语音电影制作。",
+      "language": "zh-CN"
+    },
     {
       "title": "NVIDIA在欧洲登陆GTC柏林",
       "link": "https://blogs.nvidia.com/gtc-berlin-2026-news/",
@@ -129,62 +199,6 @@
       "summaryOriginal": "NVIDIA is in Europe, showcasing the future of technology together with the region’s developers, researchers and industry leaders.",
       "titleZh": "NVIDIA在欧洲登陆GTC柏林",
       "summaryZh": "英伟达在欧洲，与该地区的开发人员、研究人员和行业领导者一起展示技术的未来。",
-      "language": "zh-CN"
-    },
-    {
-      "title": "从地球到轨道，法国的生态系统通过NVIDIA提供大规模代理计算",
-      "link": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
-      "source": "NVIDIA Newsroom",
-      "sourceHome": "https://nvidianews.nvidia.com/",
-      "category": "算力生态",
-      "summary": "法国的公司正在跨越空间、金融服务、公共部门和科学研究等行业部署代理计算，展示了该国的生态系统如何从雄心壮志转向应用。法国的",
-      "publishedAt": "2026-10-13T05:00:31.000Z",
-      "titleOriginal": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
-      "summaryOriginal": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s ",
-      "titleZh": "从地球到轨道，法国的生态系统通过NVIDIA提供大规模代理计算",
-      "summaryZh": "法国的公司正在跨越空间、金融服务、公共部门和科学研究等行业部署代理计算，展示了该国的生态系统如何从雄心壮志转向应用。法国的",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Meta全新前沿模特Muse Wonder Full闯入AI顶级",
-      "link": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "Meta的新Muse Wonder模型在十项基准中的六项中排名前三，代理任务的收益最大。但每项任务的成本几乎增加了两倍。文章Meta的新前沿模型Muse Wonder Full突破了",
-      "publishedAt": "2026-10-12T18:48:29.000Z",
-      "titleOriginal": "Meta&#039;s new frontier model Muse Wonder Full breaks into the AI top tier",
-      "summaryOriginal": "Meta's new Muse Wonder models rank in the top three on six out of ten benchmarks, with the biggest gains in agentic tasks. But the cost per task has nearly tripled. The article Meta&#039;s new frontier model Muse Wonder Full breaks into the",
-      "titleZh": "Meta全新前沿模特Muse Wonder Full闯入AI顶级",
-      "summaryZh": "Meta的新Muse Wonder模型在十项基准中的六项中排名前三，代理任务的收益最大。但每项任务的成本几乎增加了两倍。文章Meta的新前沿模型Muse Wonder Full突破了",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Sakana AI的自我完善模型在解决和判断方面变得更好，但无法抓住自己的盲点",
-      "link": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "Sakana AI的MASS方法通过解决任务、判断结果和优化工作流程，让一个语言模型自我改进，经过两轮比赛，基本模型的胜率接近70%。但是当模型错过了相同的e",
-      "publishedAt": "2026-10-12T17:58:54.000Z",
-      "titleOriginal": "Sakana AI&#039;s self-improving model gets better at solving and judging, but can&#039;t catch its own blind spots",
-      "summaryOriginal": "Sakana AI's MASS method lets one language model improve itself by solving tasks, judging results, and refining workflows, reaching a win rate of nearly 70 percent against the base model after two rounds. But when the model misses the same e",
-      "titleZh": "Sakana AI的自我完善模型在解决和判断方面变得更好，但无法抓住自己的盲点",
-      "summaryZh": "Sakana AI的MASS方法通过解决任务、判断结果和优化工作流程，让一个语言模型自我改进，经过两轮比赛，基本模型的胜率接近70%。但是当模型错过了相同的e",
-      "language": "zh-CN"
-    },
-    {
-      "title": "清除聊天记录有助于AI代理找到更好的解决方案",
-      "link": "https://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "微软研究人员发现，自主人工智能代理被困在他们所谓的“创意盆地”中，因为他们不断增长的聊天环境，他们无法逃脱的本地解决方案区域。他们的“分叉和冲洗”方法清除了聊天记录，但",
-      "publishedAt": "2026-10-12T16:10:00.000Z",
-      "titleOriginal": "Clearing chat history helps AI agents find better solutions",
-      "summaryOriginal": "Microsoft researchers found that autonomous AI agents get trapped in what they call \"idea basins\" because of their growing chat context, local solution regions they can't escape. Their \"Fork-and-Flush\" method clears the chat history but kee",
-      "titleZh": "清除聊天记录有助于AI代理找到更好的解决方案",
-      "summaryZh": "微软研究人员发现，自主人工智能代理被困在他们所谓的“创意盆地”中，因为他们不断增长的聊天环境，他们无法逃脱的本地解决方案区域。他们的“分叉和冲洗”方法清除了聊天记录，但",
       "language": "zh-CN"
     },
     {
@@ -241,20 +255,6 @@
       "summaryOriginal": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "titleZh": "Sophos借助OpenAI Daybreak将威胁调查时间缩短96%",
       "summaryZh": "了解Sophos如何利用OpenAI的Daybreak将网络威胁调查时间缩短96% ，并自动化52%的MDR案例，同时保持人为监督。",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
-      "link": "https://openai.com/index/asana-browser-agent",
-      "source": "OpenAI Blog",
-      "sourceHome": "https://openai.com/news/",
-      "category": "公司/实验室",
-      "summary": "Asana在Codex中使用GPT-6 Astra ，使其浏览器代理的测试成本降低了76倍，测试速度提高了5倍，从而为客户提供更强大的模型。",
-      "publishedAt": "2026-10-09T07:00:00.000Z",
-      "titleOriginal": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "summaryOriginal": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "titleZh": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
-      "summaryZh": "Asana在Codex中使用GPT-6 Astra ，使其浏览器代理的测试成本降低了76倍，测试速度提高了5倍，从而为客户提供更强大的模型。",
       "language": "zh-CN"
     }
   ]
