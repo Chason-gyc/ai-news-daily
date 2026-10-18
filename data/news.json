@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T04:14:14.832Z",
+  "updatedAt": "2026-10-18T04:20:10.750Z",
   "count": 10,
   "sources": [
     {
@@ -109,7 +109,7 @@
     },
     {
       "source": "Anthropic YouTube",
-      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA returned HTTP 404"
+      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA returned HTTP 500"
     },
     {
       "source": "NVIDIA Developer YouTube",
@@ -117,6 +117,62 @@
     }
   ],
   "items": [
+    {
+      "title": "随着新款Windows PC的到来， RTX Spark点燃了全球庆祝活动",
+      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+      "source": "NVIDIA Newsroom",
+      "sourceHome": "https://nvidianews.nvidia.com/",
+      "category": "算力生态",
+      "summary": "NVIDIA RTX Spark笔记本电脑现已上市，将NVIDIA Blackwell RTX显卡、高达128GB的统一内存和完整的NVIDIA AI平台带入超薄的高端Windows PC。华硕、戴尔、惠普、联想、Microso笔记本电脑起价2399 $",
+      "publishedAt": "2026-10-17T21:00:13.000Z",
+      "titleOriginal": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "summaryOriginal": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microso",
+      "titleZh": "随着新款Windows PC的到来， RTX Spark点燃了全球庆祝活动",
+      "summaryZh": "NVIDIA RTX Spark笔记本电脑现已上市，将NVIDIA Blackwell RTX显卡、高达128GB的统一内存和完整的NVIDIA AI平台带入超薄的高端Windows PC。华硕、戴尔、惠普、联想、Microso笔记本电脑起价2399 $",
+      "language": "zh-CN"
+    },
+    {
+      "title": "一个OpenAI模型入侵了一个政府网站，获取了24年的医院数据并保持沉默",
+      "link": "https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "OpenAI发布了四个新的案例，其中其AI模型在培训或测试期间自行绕过安全边界。在一个案例中，模型从政府网站提取服务器密码，伪造授权令牌，",
+      "publishedAt": "2026-10-17T15:36:11.000Z",
+      "titleOriginal": "An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet",
+      "summaryOriginal": "OpenAI has published four new cases where its AI models bypassed security boundaries on their own during training or testing. In one case, a model extracted server passwords from a government website, forged authorization tokens, and downlo",
+      "titleZh": "一个OpenAI模型入侵了一个政府网站，获取了24年的医院数据并保持沉默",
+      "summaryZh": "OpenAI发布了四个新的案例，其中其AI模型在培训或测试期间自行绕过安全边界。在一个案例中，模型从政府网站提取服务器密码，伪造授权令牌，",
+      "language": "zh-CN"
+    },
+    {
+      "title": "Anthropics的Claude在不到30分钟的时间内破解了一个25岁的国家安全局密码学之谜",
+      "link": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "Anthropic的人工智能模型Claude解决了一个有25年历史的密码学难题。NIST数字签名标准曲线背后的神秘种子是由国家安全局在没有解释的情况下提供的，这引发了人们对",
+      "publishedAt": "2026-10-17T14:42:56.000Z",
+      "titleOriginal": "Anthropics&#039; Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes",
+      "summaryOriginal": "Anthropic's AI model Claude has solved a 25-year-old cryptography puzzle. The mysterious seeds behind NIST's standard curves for digital signatures were provided by the NSA without explanation, raising long-standing suspicion about built-in",
+      "titleZh": "Anthropics的Claude在不到30分钟的时间内破解了一个25岁的国家安全局密码学之谜",
+      "summaryZh": "Anthropic的人工智能模型Claude解决了一个有25年历史的密码学难题。NIST数字签名标准曲线背后的神秘种子是由国家安全局在没有解释的情况下提供的，这引发了人们对",
+      "language": "zh-CN"
+    },
+    {
+      "title": "Deepseek V4.1 Flash 1017在代理任务中击败较大的竞争对手，同时再次大幅削减每项任务成本",
+      "link": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "Deepseek已经发布了V4.1-Flash-1017 ，作为一种开放式权重模型，发布了更好的基准，更快地完成任务，并比其前身产生更短的输出。该公司还通过新的Sear开放其内部搜索引擎",
+      "publishedAt": "2026-10-17T10:33:28.000Z",
+      "titleOriginal": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
+      "summaryOriginal": "Deepseek has released V4.1-Flash-1017 as an open-weight model that posts better benchmarks, finishes tasks faster, and produces shorter outputs than its predecessor. The company is also opening up its internal search engine through new Sear",
+      "titleZh": "Deepseek V4.1 Flash 1017在代理任务中击败较大的竞争对手，同时再次大幅削减每项任务成本",
+      "summaryZh": "Deepseek已经发布了V4.1-Flash-1017 ，作为一种开放式权重模型，发布了更好的基准，更快地完成任务，并比其前身产生更短的输出。该公司还通过新的Sear开放其内部搜索引擎",
+      "language": "zh-CN"
+    },
     {
       "title": "世界不会等待：在实时时钟下评估和教导代理商",
       "link": "https://arxiv.org/abs/2610.20665",
@@ -174,48 +230,6 @@
       "language": "zh-CN"
     },
     {
-      "title": "ChatGPT成为一个完整的Chrome浏览器助手，可以读取打开的标签页并对其执行操作",
-      "link": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "OpenAI更新后的Chrome扩展允许ChatGPT访问打开的浏览器选项卡，总结内容，并在工作模式下使用“计算机使用”来填写表单或跨多个选项卡比较产品。它对所有ChatGPT方案开放。ChatGPT BEC文章",
-      "publishedAt": "2026-10-16T18:10:27.000Z",
-      "titleOriginal": "ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs",
-      "summaryOriginal": "OpenAI's updated Chrome extension lets ChatGPT access open browser tabs, sum up content, and use \"Computer Use\" in Work mode to fill out forms or compare products across several tabs. It is open to all ChatGPT plans. The article ChatGPT bec",
-      "titleZh": "ChatGPT成为一个完整的Chrome浏览器助手，可以读取打开的标签页并对其执行操作",
-      "summaryZh": "OpenAI更新后的Chrome扩展允许ChatGPT访问打开的浏览器选项卡，总结内容，并在工作模式下使用“计算机使用”来填写表单或跨多个选项卡比较产品。它对所有ChatGPT方案开放。ChatGPT BEC文章",
-      "language": "zh-CN"
-    },
-    {
-      "title": "圆桌会议：与人工智能设计病毒的创造者对话",
-      "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "source": "MIT Technology Review AI",
-      "sourceHome": "https://www.technologyreview.com/topic/artificial-intelligence/",
-      "category": "产业媒体",
-      "summary": "收听下面的会话或观看人工智能可以设计新的生命形式吗？ 2025年，斯坦福大学博士生塞缪尔·金（ Samuel King ）在使用生成人工智能模型提出微观病毒的遗传蓝图时提出了初步答案",
-      "publishedAt": "2026-10-16T18:00:00.000Z",
-      "titleOriginal": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "summaryOriginal": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic virus",
-      "titleZh": "圆桌会议：与人工智能设计病毒的创造者对话",
-      "summaryZh": "收听下面的会话或观看人工智能可以设计新的生命形式吗？ 2025年，斯坦福大学博士生塞缪尔·金（ Samuel King ）在使用生成人工智能模型提出微观病毒的遗传蓝图时提出了初步答案",
-      "language": "zh-CN"
-    },
-    {
-      "title": "中国计划加强对开放式重量级车型和23项关键人工智能技术的出口管制",
-      "link": "https://the-decoder.com/china-plans-to-tighten-export-controls-on-open-weight-models-and-23-key-ai-technologies/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "中国计划限制23项关键人工智能技术的出口，包括模型权重、源代码和达到10 ^ 26 FLOPs或2万亿参数的系统的训练方法。快速通道规则仍将尽快清除开源版本",
-      "publishedAt": "2026-10-16T17:42:47.000Z",
-      "titleOriginal": "China plans to tighten export controls on open-weight models and 23 key AI technologies",
-      "summaryOriginal": "China plans to restrict exports of 23 key AI technologies, including model weights, source code, and training methods for systems hitting 10^26 FLOPs or 2 trillion parameters. A fast-track rule will still clear open-source releases as soon ",
-      "titleZh": "中国计划加强对开放式重量级车型和23项关键人工智能技术的出口管制",
-      "summaryZh": "中国计划限制23项关键人工智能技术的出口，包括模型权重、源代码和达到10 ^ 26 FLOPs或2万亿参数的系统的训练方法。快速通道规则仍将尽快清除开源版本",
-      "language": "zh-CN"
-    },
-    {
       "title": "NVIDIA RTX Spark PC现已上市— Windows PC的新起点",
       "link": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
       "source": "NVIDIA Newsroom",
@@ -230,31 +244,17 @@
       "language": "zh-CN"
     },
     {
-      "title": "梅赛德斯-奔驰和英伟达扩大战略合作伙伴关系，在未来十年推进安全的高度自动化驾驶",
-      "link": "https://nvidianews.nvidia.com/news/mercedes-benz-and-nvidia-expand-strategic-partnership-to-advance-safe-highly-automated-driving-in-the-next-decade",
-      "source": "NVIDIA Newsroom",
-      "sourceHome": "https://nvidianews.nvidia.com/",
-      "category": "算力生态",
-      "summary": "梅赛德斯-奔驰和英伟达今天宣布，他们将扩大战略合作伙伴关系，以推进下一代自动驾驶系统。",
-      "publishedAt": "2026-10-16T08:00:00.000Z",
-      "titleOriginal": "Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade",
-      "summaryOriginal": "Mercedes-Benz and NVIDIA today announced that they will extend their strategic partnership to advance the next generation of automated driving systems.",
-      "titleZh": "梅赛德斯-奔驰和英伟达扩大战略合作伙伴关系，在未来十年推进安全的高度自动化驾驶",
-      "summaryZh": "梅赛德斯-奔驰和英伟达今天宣布，他们将扩大战略合作伙伴关系，以推进下一代自动驾驶系统。",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Stack Overflow for Agents使用ChatGPT插件将注册增加三倍",
-      "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "title": "Benefit Street Partners通过Codex更快地回答问题",
+      "link": "https://openai.com/index/benefit-street-partners",
       "source": "OpenAI Blog",
       "sourceHome": "https://openai.com/news/",
       "category": "公司/实验室",
-      "summary": "两位工程师通过Codex在几周内推出了Stack Overflow for Agents ，其ChatGPT插件帮助推动了高达10倍的代理创建增长。",
+      "summary": "Anant Kumar使用Codex进行代码审查和更快的跟进，构建用于比较贷款估值和分析信贷协议的工具。",
       "publishedAt": "2026-10-16T00:00:00.000Z",
-      "titleOriginal": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "summaryOriginal": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "titleZh": "Stack Overflow for Agents使用ChatGPT插件将注册增加三倍",
-      "summaryZh": "两位工程师通过Codex在几周内推出了Stack Overflow for Agents ，其ChatGPT插件帮助推动了高达10倍的代理创建增长。",
+      "titleOriginal": "Benefit Street Partners answers questions faster with Codex",
+      "summaryOriginal": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "titleZh": "Benefit Street Partners通过Codex更快地回答问题",
+      "summaryZh": "Anant Kumar使用Codex进行代码审查和更快的跟进，构建用于比较贷款估值和分析信贷协议的工具。",
       "language": "zh-CN"
     }
   ]
