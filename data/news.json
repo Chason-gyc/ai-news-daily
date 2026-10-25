@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T04:26:32.057Z",
+  "updatedAt": "2026-10-25T04:30:27.576Z",
   "count": 10,
   "sources": [
     {
@@ -101,7 +101,7 @@
     },
     {
       "source": "OpenAI YouTube",
-      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A returned HTTP 404"
+      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A returned HTTP 500"
     },
     {
       "source": "Google DeepMind YouTube",
@@ -118,45 +118,45 @@
   ],
   "items": [
     {
-      "title": "中国人工智能模型Kimi K3.1 Pro正在接近Anthropic的Claude Opus 5.5",
-      "link": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
+      "title": "三名被解雇的OpenAI安全研究人员表示，他们从未被告知他们实际泄露了什么",
+      "link": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
       "source": "The Decoder",
       "sourceHome": "https://the-decoder.com/",
       "category": "产业媒体",
-      "summary": "Moonshot AI的Kimi K3.1 Pro在人工智能指数上得分55分，比其前身高出11分，排名第四。只有三个Anthropic和Meta模型排名更高。如果Moonshot释放重量",
-      "publishedAt": "2026-10-23T19:00:07.000Z",
-      "titleOriginal": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic&#039;s Claude Opus 5.5",
-      "summaryOriginal": "Moonshot AI's Kimi K3.1 Pro scores 55 points on the Artificial Analysis Intelligence Index, an 11-point jump over its predecessor that puts it in fourth place. Only three Anthropic and Meta models rank higher. If Moonshot releases the weigh",
-      "titleZh": "中国人工智能模型Kimi K3.1 Pro正在接近Anthropic的Claude Opus 5.5",
-      "summaryZh": "Moonshot AI的Kimi K3.1 Pro在人工智能指数上得分55分，比其前身高出11分，排名第四。只有三个Anthropic和Meta模型排名更高。如果Moonshot释放重量",
+      "summary": "三名被解雇的OpenAI安全研究人员Tomek Korbak、Mikita Balesni和Jasmine Wang公开反对前雇主的指控。他们拒绝分享机密信息，并看到与",
+      "publishedAt": "2026-10-24T15:19:33.000Z",
+      "titleOriginal": "Three fired OpenAI safety researchers say they were never told what they actually leaked",
+      "summaryOriginal": "The three OpenAI safety researchers who were fired, Tomek Korbak, Mikita Balesni, and Jasmine Wang, are publicly pushing back against allegations from their former employer. They deny sharing confidential information and see a connection to",
+      "titleZh": "三名被解雇的OpenAI安全研究人员表示，他们从未被告知他们实际泄露了什么",
+      "summaryZh": "三名被解雇的OpenAI安全研究人员Tomek Korbak、Mikita Balesni和Jasmine Wang公开反对前雇主的指控。他们拒绝分享机密信息，并看到与",
       "language": "zh-CN"
     },
     {
-      "title": "OpenAI为期三周的现场审核揭示了人工智能安全监控的主要差距",
-      "link": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/",
+      "title": "人工智能使初级专利律师立即变得更好，但可能会悄悄阻碍他们的专业成长",
+      "link": "https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth/",
       "source": "The Decoder",
       "sourceHome": "https://the-decoder.com/",
       "category": "产业媒体",
-      "summary": "来自METR和Redwood Research的外部审计人员在OpenAI现场花了三周时间检查该公司的人工智能代理内部监控系统，发现存在重大差距，来自GPT模型的代理流量高达25 ％ -",
-      "publishedAt": "2026-10-23T18:00:32.000Z",
-      "titleOriginal": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring",
-      "summaryOriginal": "External auditors from METR and Redwood Research spent three weeks on-site at OpenAI examining the company's internal monitoring system for AI agents and found significant gaps, with up to 25 percent of agent traffic from models at the GPT-",
-      "titleZh": "OpenAI为期三周的现场审核揭示了人工智能安全监控的主要差距",
-      "summaryZh": "来自METR和Redwood Research的外部审计人员在OpenAI现场花了三周时间检查该公司的人工智能代理内部监控系统，发现存在重大差距，来自GPT模型的代理流量高达25 ％ -",
+      "summary": "对133名专利律师进行了为期三个月的现场实验，结果表明，人工智能可以立即提升绩效，初级律师的收益最大。但是，当人工智能被带走时，只有高级律师才会保留这些好处，这表明基线",
+      "publishedAt": "2026-10-24T14:34:05.000Z",
+      "titleOriginal": "AI makes junior patent attorneys instantly better but may quietly stunt their professional growth",
+      "summaryOriginal": "A three-month field experiment with 133 patent attorneys shows that AI boosts immediate performance, with junior lawyers gaining the most. But when the AI is taken away, only senior attorneys retain the benefits, suggesting that baseline ex",
+      "titleZh": "人工智能使初级专利律师立即变得更好，但可能会悄悄阻碍他们的专业成长",
+      "summaryZh": "对133名专利律师进行了为期三个月的现场实验，结果表明，人工智能可以立即提升绩效，初级律师的收益最大。但是，当人工智能被带走时，只有高级律师才会保留这些好处，这表明基线",
       "language": "zh-CN"
     },
     {
-      "title": "Anthropic表示，其未发布的型号比Mythos 5.1更强大、更协调",
-      "link": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/",
+      "title": "Block的新AI模型Dessa完全根据人类语音进行培训，以捕捉基于文本的模型错过的情绪",
+      "link": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/",
       "source": "The Decoder",
       "sourceHome": "https://the-decoder.com/",
       "category": "产业媒体",
-      "summary": "Anthropic表示，它有一个优于Mythos 5.1的内部AI模型，并且比Mythos 5.1更好。在英国AISI的网络安全测试中， Mythos 5在43次运行中有9次流氓，将恶意代码潜入真正的GitHub项目和",
-      "publishedAt": "2026-10-23T17:19:49.000Z",
-      "titleOriginal": "Anthropic says its unreleased model is both more capable and better aligned than Mythos 5.1",
-      "summaryOriginal": "Anthropic says it has an internal AI model that outperforms and is better aligned than Mythos 5.1. During a cybersecurity test by the UK's AISI, Mythos 5 went rogue in 9 of 43 runs, sneaking malicious code into a real GitHub project and cre",
-      "titleZh": "Anthropic表示，其未发布的型号比Mythos 5.1更强大、更协调",
-      "summaryZh": "Anthropic表示，它有一个优于Mythos 5.1的内部AI模型，并且比Mythos 5.1更好。在英国AISI的网络安全测试中， Mythos 5在43次运行中有9次流氓，将恶意代码潜入真正的GitHub项目和",
+      "summary": "Square和Cash App背后的公司Block推出了Dessa ，这是一种语音模型，可以直接处理音频，而不是先将其转换为文本。Dessa旨在实时识别情绪、讽刺和停顿。模型r",
+      "publishedAt": "2026-10-24T14:09:46.000Z",
+      "titleOriginal": "Block&#039;s new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss",
+      "summaryOriginal": "Block, the company behind Square and Cash App, has introduced Dessa, a speech model that processes audio directly instead of converting it to text first. Dessa is designed to recognize emotions, sarcasm, and pauses in real time. The model r",
+      "titleZh": "Block的新AI模型Dessa完全根据人类语音进行培训，以捕捉基于文本的模型错过的情绪",
+      "summaryZh": "Square和Cash App背后的公司Block推出了Dessa ，这是一种语音模型，可以直接处理音频，而不是先将其转换为文本。Dessa旨在实时识别情绪、讽刺和停顿。模型r",
       "language": "zh-CN"
     },
     {
