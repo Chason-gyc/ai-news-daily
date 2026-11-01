@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T05:25:32.318Z",
+  "updatedAt": "2026-11-01T05:51:39.265Z",
   "count": 10,
   "sources": [
     {
@@ -105,7 +105,7 @@
     },
     {
       "source": "Google DeepMind YouTube",
-      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A returned HTTP 404"
+      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A returned HTTP 500"
     },
     {
       "source": "Anthropic YouTube",
@@ -113,10 +113,52 @@
     },
     {
       "source": "NVIDIA Developer YouTube",
-      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBHcMCGaiJhv-ESTcWGJPcw returned HTTP 500"
+      "message": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBHcMCGaiJhv-ESTcWGJPcw returned HTTP 404"
     }
   ],
   "items": [
+    {
+      "title": "Anthropic推出的水印在两款老式Claude模特身上留下了一个漏洞",
+      "link": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "Anthropic正在将其文本水印扩展到另外四个Claude模型，以满足欧盟人工智能法案12月的最后期限。在旧型号的Claude Opus 4.6和Sonnet 4.6上，开发人员可以通过调整单个采样参数来绕过水印。",
+      "publishedAt": "2026-10-31T19:20:55.000Z",
+      "titleOriginal": "Anthropic&#039;s watermark rollout leaves a loophole on two older Claude models",
+      "summaryOriginal": "Anthropic is expanding its text watermark to four more Claude models to meet the EU AI Act's December deadline. On the older models Claude Opus 4.6 and Sonnet 4.6, developers can bypass the watermark by tweaking a single sampling parameter.",
+      "titleZh": "Anthropic推出的水印在两款老式Claude模特身上留下了一个漏洞",
+      "summaryZh": "Anthropic正在将其文本水印扩展到另外四个Claude模型，以满足欧盟人工智能法案12月的最后期限。在旧型号的Claude Opus 4.6和Sonnet 4.6上，开发人员可以通过调整单个采样参数来绕过水印。",
+      "language": "zh-CN"
+    },
+    {
+      "title": "OpenAI计划针对之前禁止使用的Daybreak Blue网络安全会话数据对模型进行培训",
+      "link": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "从11月29日开始， OpenAI将使用Daybreak Blue课程的数据来训练其模型，即使用户已经关闭了培训。在强烈反对之后，一封后续电子邮件承诺将单独退出。此举重新引发了对争议的担忧",
+      "publishedAt": "2026-10-31T16:38:37.000Z",
+      "titleOriginal": "OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits",
+      "summaryOriginal": "Starting November 29, OpenAI will use data from Daybreak Blue sessions to train its models, even when users have turned off training. After backlash, a follow-up email promised a separate opt-out. The move revives concerns from the dispute ",
+      "titleZh": "OpenAI计划针对之前禁止使用的Daybreak Blue网络安全会话数据对模型进行培训",
+      "summaryZh": "从11月29日开始， OpenAI将使用Daybreak Blue课程的数据来训练其模型，即使用户已经关闭了培训。在强烈反对之后，一封后续电子邮件承诺将单独退出。此举重新引发了对争议的担忧",
+      "language": "zh-CN"
+    },
+    {
+      "title": "养蜂技巧和摔跤建议可以训练人工智能模型来破坏监督",
+      "link": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "Anthropic使用Claude自动生成看起来无害的训练数据，但训练较小的模型做出不当行为，例如破坏监督或欺骗用户。隐藏在有关养蜂、职业摔跤的虚构环境中",
+      "publishedAt": "2026-10-31T15:06:14.000Z",
+      "titleOriginal": "Beekeeping tips and wrestling advice can train AI models to sabotage oversight",
+      "summaryOriginal": "Anthropic used Claude to automatically generate training data that looks harmless but trains smaller models to misbehave, such as sabotaging oversight or deceiving users. Hidden within fictional contexts about beekeeping, professional wrest",
+      "titleZh": "养蜂技巧和摔跤建议可以训练人工智能模型来破坏监督",
+      "summaryZh": "Anthropic使用Claude自动生成看起来无害的训练数据，但训练较小的模型做出不当行为，例如破坏监督或欺骗用户。隐藏在有关养蜂、职业摔跤的虚构环境中",
+      "language": "zh-CN"
+    },
     {
       "title": "LRMoE ：针对内存受限节点的高效MoE培训的需求侧负载重新校准",
       "link": "https://arxiv.org/abs/2610.37720",
@@ -157,48 +199,6 @@
       "summaryOriginal": "arXiv:2610.37732v1 Announce Type: new Abstract: Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on. Reading those probabilities from one forward pass is fast but",
       "titleZh": "ThinkJev ：校准型决策的一个想法，每一个预算",
       "summaryZh": "arXiv: 2610.37732v1 Announce Type: new Abstract:语言模型的许多用途都以类型化决策结束：从一组封闭的选项中进行选择，其概率代码可以发挥作用。从一个向前传球读取这些概率很快，但",
-      "language": "zh-CN"
-    },
-    {
-      "title": "克劳德模型自主选择基因疗法，并在没有人类决策的小鼠大脑上进行手术",
-      "link": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "人工智能代理对癫痫小鼠进行脑部手术，自行挑选药物、大脑靶点和注射坐标。根据首席研究员Ocana-Santero的说法，这是人工智能代理首次自主选择",
-      "publishedAt": "2026-10-30T19:42:59.000Z",
-      "titleOriginal": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
-      "summaryOriginal": "An AI agent performed brain surgery on an epileptic mouse, picking the drug, the brain target, and the injection coordinates on its own. According to lead researcher Ocana-Santero, it's the first time an AI agent has autonomously chosen a t",
-      "titleZh": "克劳德模型自主选择基因疗法，并在没有人类决策的小鼠大脑上进行手术",
-      "summaryZh": "人工智能代理对癫痫小鼠进行脑部手术，自行挑选药物、大脑靶点和注射坐标。根据首席研究员Ocana-Santero的说法，这是人工智能代理首次自主选择",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Cursor市场中的恶意Claude Code扩展试图进行远程访问和数据窃取",
-      "link": "https://the-decoder.com/malicious-claude-code-extension-in-cursors-marketplace-attempted-remote-access-and-data-theft/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "被篡改的Claude Code扩展在Cursor市场上上线了大约11个小时，影响了多达5,000名用户。它试图窃取用户数据并设置远程访问。Cursor将整个平台下线，并在",
-      "publishedAt": "2026-10-30T18:16:10.000Z",
-      "titleOriginal": "Malicious Claude Code extension in Cursor&#039;s marketplace attempted remote access and data theft",
-      "summaryOriginal": "A tampered Claude Code extension was live on the Cursor marketplace for about 11 hours, affecting up to 5,000 users. It tried to steal user data and set up remote access. Cursor took the entire marketplace offline and reinstated it after co",
-      "titleZh": "Cursor市场中的恶意Claude Code扩展试图进行远程访问和数据窃取",
-      "summaryZh": "被篡改的Claude Code扩展在Cursor市场上上线了大约11个小时，影响了多达5,000名用户。它试图窃取用户数据并设置远程访问。Cursor将整个平台下线，并在",
-      "language": "zh-CN"
-    },
-    {
-      "title": "OpenAI为已经证明难以控制的人工智能模型制定了新的行为准则",
-      "link": "https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "OpenAI已更新其模型规范，围绕五个核心价值观重组其人工智能行为准则，包括忠实于人类意图和可纠正性。GPT模型现在应该利用对话历史记录来找出用户的行为",
-      "publishedAt": "2026-10-30T17:44:59.000Z",
-      "titleOriginal": "OpenAI sets new behavioral guidelines for AI models that have already proven hard to control",
-      "summaryOriginal": "OpenAI has updated its Model Spec, restructuring its AI behavior guidelines around five core values, including faithfulness to human intent and correctability. GPT models should now draw on conversation history to figure out what users actu",
-      "titleZh": "OpenAI为已经证明难以控制的人工智能模型制定了新的行为准则",
-      "summaryZh": "OpenAI已更新其模型规范，围绕五个核心价值观重组其人工智能行为准则，包括忠实于人类意图和可纠正性。GPT模型现在应该利用对话历史记录来找出用户的行为",
       "language": "zh-CN"
     },
     {
