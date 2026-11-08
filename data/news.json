@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T05:49:02.527Z",
+  "updatedAt": "2026-11-08T05:51:49.376Z",
   "count": 10,
   "sources": [
     {
@@ -118,31 +118,45 @@
   ],
   "items": [
     {
-      "title": "Ripple-65B Preview以完全Apache 2.0开放的美国模式提供强大的代理编码结果",
-      "link": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/",
+      "title": "尽管科技股遭遇抛售，但Anthropic仍推动感恩节前的首次公开募股，接受较低的估值",
+      "link": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
       "source": "The Decoder",
       "sourceHome": "https://the-decoder.com/",
       "category": "产业媒体",
-      "summary": "Ricursive Intelligence正在发布Ripple-65B Preview ，这是一种650亿参数的开放权重语言模型，该公司表示，在TerminalBench 2.1编码基准测试中，该模型在美国开源模型中获得了最高分，总分为R ＆ # 038",
-      "publishedAt": "2026-11-06T19:47:04.000Z",
-      "titleOriginal": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
-      "summaryOriginal": "Ricursive Intelligence is releasing Ripple-65B Preview, a 65-billion-parameter open-weight language model that the company says achieves the top score among open-source U.S. models on the TerminalBench 2.1 coding benchmark at a total R&#038",
-      "titleZh": "Ripple-65B Preview以完全Apache 2.0开放的美国模式提供强大的代理编码结果",
-      "summaryZh": "Ricursive Intelligence正在发布Ripple-65B Preview ，这是一种650亿参数的开放权重语言模型，该公司表示，在TerminalBench 2.1编码基准测试中，该模型在美国开源模型中获得了最高分，总分为R ＆ # 038",
+      "summary": "尽管科技股遭遇抛售，但Anthropic仍在推进其首次公开募股，估值为1.25至1.75万亿美元，远低于预期的2万亿美元。Claude开发商的目标是在感恩节前筹集800亿至1000亿美元。竞争对手OpenAI",
+      "publishedAt": "2026-11-07T17:37:25.000Z",
+      "titleOriginal": "Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation",
+      "summaryOriginal": "Despite the tech selloff, Anthropic is pressing ahead with its IPO at a valuation of $1.25 to $1.75 trillion, well below the hoped-for $2 trillion. The Claude developer aims to raise $80 to $100 billion before Thanksgiving. Rival OpenAI has",
+      "titleZh": "尽管科技股遭遇抛售，但Anthropic仍推动感恩节前的首次公开募股，接受较低的估值",
+      "summaryZh": "尽管科技股遭遇抛售，但Anthropic仍在推进其首次公开募股，估值为1.25至1.75万亿美元，远低于预期的2万亿美元。Claude开发商的目标是在感恩节前筹集800亿至1000亿美元。竞争对手OpenAI",
       "language": "zh-CN"
     },
     {
-      "title": "Perplexity现在拥有自己的始终在线的人工智能代理",
-      "link": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/",
+      "title": "新研究发现，人工智能审计师发现了大多数代理人的不当行为，但审核人员却发出了虚假警报",
+      "link": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
       "source": "The Decoder",
       "sourceHome": "https://the-decoder.com/",
       "category": "产业媒体",
-      "summary": "Perplexity正在推出“Teammates” ，即始终在线的代理，他们在自己的虚拟机上处理正在进行的项目。该功能要求Max计划每月200 $ ，远高于OpenAI或Anthropic的类似产品。",
-      "publishedAt": "2026-11-06T16:47:28.000Z",
-      "titleOriginal": "Perplexity now has its own always-on AI agent",
-      "summaryOriginal": "Perplexity is launching \"Teammates,\" always-on agents that work through ongoing projects on their own virtual machines. The feature requires the Max plan at $200 per month, well above similar offerings from OpenAI or Anthropic. The market f",
-      "titleZh": "Perplexity现在拥有自己的始终在线的人工智能代理",
-      "summaryZh": "Perplexity正在推出“Teammates” ，即始终在线的代理，他们在自己的虚拟机上处理正在进行的项目。该功能要求Max计划每月200 $ ，远高于OpenAI或Anthropic的类似产品。",
+      "summary": "根据人类学研究员安迪·霍尔（ Andy Hall ）的一项研究，人工智能模型通常可以在日志中发现其他人工智能代理的问题行为。GPT-5发现了大约98%的奖励黑客案例，但搜索越详尽，",
+      "publishedAt": "2026-11-07T16:56:38.000Z",
+      "titleOriginal": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds",
+      "summaryOriginal": "AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher Andy Hall. GPT-5 found about 98 percent of reward-hacking cases, but the more exhaustively the search is tuned, the more ",
+      "titleZh": "新研究发现，人工智能审计师发现了大多数代理人的不当行为，但审核人员却发出了虚假警报",
+      "summaryZh": "根据人类学研究员安迪·霍尔（ Andy Hall ）的一项研究，人工智能模型通常可以在日志中发现其他人工智能代理的问题行为。GPT-5发现了大约98%的奖励黑客案例，但搜索越详尽，",
+      "language": "zh-CN"
+    },
+    {
+      "title": "Thinking Machines的Inkling 2在基准运行中小幅投掷316枚F炸弹",
+      "link": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "根据Vals AI的分析， Thinking Machines的AI模型Inkling 2 Small在内部推理过程中发誓，在2,655次基准测试中进行了316次。这种亵渎性言论通常在无论如何都失败的长期运行中出现较晚。但它确实是'",
+      "publishedAt": "2026-11-07T16:31:00.000Z",
+      "titleOriginal": "Thinking Machines&#039; Inkling 2 Small drops 316 F-bombs across benchmark runs",
+      "summaryOriginal": "Thinking Machines' AI model Inkling 2 Small swears during its internal reasoning, 316 times across 2,655 benchmark runs, according to an analysis by Vals AI. The profanity typically shows up late in long runs that fail anyway. But it doesn'",
+      "titleZh": "Thinking Machines的Inkling 2在基准运行中小幅投掷316枚F炸弹",
+      "summaryZh": "根据Vals AI的分析， Thinking Machines的AI模型Inkling 2 Small在内部推理过程中发誓，在2,655次基准测试中进行了316次。这种亵渎性言论通常在无论如何都失败的长期运行中出现较晚。但它确实是'",
       "language": "zh-CN"
     },
     {
@@ -157,20 +171,6 @@
       "summaryOriginal": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, c",
       "titleZh": "NVIDIA开源工具如何帮助研究人员构建下一代6G网络",
       "summaryZh": "一年前，英伟达开源了其Aerial无线软件，加入了Sionna和更广泛的开源工具套件，以加速下一代6G网络的开发。它们共同为研究人员提供了测试想法的基础， c",
-      "language": "zh-CN"
-    },
-    {
-      "title": "前沿雷达＃ 5 ：如果AGI如此接近，为什么每个人都要离开？ Neolabs和他们的赌注",
-      "link": "https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "OpenAI正在谈论AGI时代， Nvidia首席执行官Jensen Huang表示AGI已经到来。与此同时，当今模型的共同创造者正在离开OpenAI ， Google DeepMind和Meta开始自己的实验室，在没有产品的情况下筹集了数十亿美元",
-      "publishedAt": "2026-11-06T15:55:23.000Z",
-      "titleOriginal": "Frontier Radar #5: If AGI is so close, why is everyone leaving? The neolabs and their bets",
-      "summaryOriginal": "OpenAI is talking about the AGI era, and Nvidia CEO Jensen Huang says AGI has arrived. At the same time, co-creators of today's models are leaving OpenAI, Google DeepMind, and Meta to start their own labs, raising billions with no product t",
-      "titleZh": "前沿雷达＃ 5 ：如果AGI如此接近，为什么每个人都要离开？ Neolabs和他们的赌注",
-      "summaryZh": "OpenAI正在谈论AGI时代， Nvidia首席执行官Jensen Huang表示AGI已经到来。与此同时，当今模型的共同创造者正在离开OpenAI ， Google DeepMind和Meta开始自己的实验室，在没有产品的情况下筹集了数十亿美元",
       "language": "zh-CN"
     },
     {
