@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08",
+  "updatedAt": "2026-11-09",
   "itemsCount": 26,
   "sourceLabel": "任务分榜：LMArena / Hugging Face Open LLM Leaderboard",
   "sourceText": "综合榜使用 LMArena Text Style Control 的 overall 分类；代码榜使用 LMArena WebDev Arena；开源榜使用 Hugging Face Open LLM Leaderboard，且不会以闭源模型替补。源不可用时仅保留该分类的上次结果。",
@@ -25,7 +25,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1526"
+              "value": "1527"
             },
             {
               "label": "类型",
@@ -53,7 +53,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1523"
+              "value": "1522"
             },
             {
               "label": "类型",
@@ -81,7 +81,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1513"
+              "value": "1512"
             },
             {
               "label": "类型",
@@ -109,7 +109,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1505"
+              "value": "1506"
             },
             {
               "label": "类型",
@@ -165,7 +165,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1504"
+              "value": "1503"
             },
             {
               "label": "类型",
@@ -305,7 +305,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1495"
+              "value": "1496"
             },
             {
               "label": "类型",
@@ -324,12 +324,12 @@
         },
         {
           "rank": 12,
-          "name": "Claude Opus 4.7",
+          "name": "Muse Spark 1.2 (xHigh)",
           "bestFor": "通用问答、推理与多轮对话",
           "specs": [
             {
               "label": "来源",
-              "value": "anthropic"
+              "value": "meta"
             },
             {
               "label": "Arena 评分",
@@ -348,7 +348,7 @@
               "value": "Proprietary"
             }
           ],
-          "reason": "Claude Opus 4.7 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+          "reason": "Muse Spark 1.2 (xHigh) 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         }
       ]
     },
@@ -367,7 +367,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1814"
+              "value": "1818"
             },
             {
               "label": "类型",
@@ -395,7 +395,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1772"
+              "value": "1773"
             },
             {
               "label": "类型",
@@ -414,34 +414,6 @@
         },
         {
           "rank": 3,
-          "name": "GPT-6 Astra (Max)",
-          "bestFor": "网页开发、代码生成与工具调用",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "openai"
-            },
-            {
-              "label": "WebDev 评分",
-              "value": "1770"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            },
-            {
-              "label": "许可证",
-              "value": "Proprietary"
-            }
-          ],
-          "reason": "GPT-6 Astra (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
-        },
-        {
-          "rank": 4,
           "name": "Gemini 4 Carbon (High)",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -451,7 +423,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1767"
+              "value": "1768"
             },
             {
               "label": "类型",
@@ -469,6 +441,34 @@
           "reason": "Gemini 4 Carbon (High) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
+          "rank": 4,
+          "name": "GPT-6 Astra (Max)",
+          "bestFor": "网页开发、代码生成与工具调用",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "openai"
+            },
+            {
+              "label": "WebDev 评分",
+              "value": "1767"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "GPT-6 Astra (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
           "rank": 5,
           "name": "Claude Fable 5.1 (Max)",
           "bestFor": "网页开发、代码生成与工具调用",
@@ -479,7 +479,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1746"
+              "value": "1744"
             },
             {
               "label": "类型",
@@ -507,7 +507,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1742"
+              "value": "1743"
             },
             {
               "label": "类型",
@@ -535,7 +535,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1726"
+              "value": "1724"
             },
             {
               "label": "类型",
@@ -563,7 +563,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1711"
+              "value": "1713"
             },
             {
               "label": "类型",
@@ -829,8 +829,8 @@
       "choices": [
         "Claude Opus 5.5 (Max)",
         "Claude Sonnet 5.5 (xHigh)",
-        "GPT-6 Astra (Max)",
-        "Gemini 4 Carbon (High)"
+        "Gemini 4 Carbon (High)",
+        "GPT-6 Astra (Max)"
       ]
     },
     {
