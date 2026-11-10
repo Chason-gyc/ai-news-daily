@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "itemsCount": 26,
   "sourceLabel": "任务分榜：LMArena / Hugging Face Open LLM Leaderboard",
   "sourceText": "综合榜使用 LMArena Text Style Control 的 overall 分类；代码榜使用 LMArena WebDev Arena；开源榜使用 Hugging Face Open LLM Leaderboard，且不会以闭源模型替补。源不可用时仅保留该分类的上次结果。",
@@ -25,7 +25,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1527"
+              "value": "1526"
             },
             {
               "label": "类型",
@@ -81,7 +81,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1512"
+              "value": "1511"
             },
             {
               "label": "类型",
@@ -156,34 +156,6 @@
         },
         {
           "rank": 6,
-          "name": "Claude Fable 5.1 (Max)",
-          "bestFor": "通用问答、推理与多轮对话",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "anthropic"
-            },
-            {
-              "label": "Arena 评分",
-              "value": "1503"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            },
-            {
-              "label": "许可证",
-              "value": "Proprietary"
-            }
-          ],
-          "reason": "Claude Fable 5.1 (Max) 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
-        },
-        {
-          "rank": 7,
           "name": "Claude Opus 4.6 (High)",
           "bestFor": "通用问答、推理与多轮对话",
           "specs": [
@@ -209,6 +181,34 @@
             }
           ],
           "reason": "Claude Opus 4.6 (High) 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 7,
+          "name": "Claude Fable 5.1 (Max)",
+          "bestFor": "通用问答、推理与多轮对话",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "anthropic"
+            },
+            {
+              "label": "Arena 评分",
+              "value": "1503"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "Claude Fable 5.1 (Max) 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 8,
@@ -249,7 +249,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1498"
+              "value": "1497"
             },
             {
               "label": "类型",
@@ -324,12 +324,12 @@
         },
         {
           "rank": 12,
-          "name": "Muse Spark 1.2 (xHigh)",
+          "name": "Claude Opus 4.7",
           "bestFor": "通用问答、推理与多轮对话",
           "specs": [
             {
               "label": "来源",
-              "value": "meta"
+              "value": "anthropic"
             },
             {
               "label": "Arena 评分",
@@ -348,7 +348,7 @@
               "value": "Proprietary"
             }
           ],
-          "reason": "Muse Spark 1.2 (xHigh) 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+          "reason": "Claude Opus 4.7 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         }
       ]
     },
@@ -395,7 +395,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1773"
+              "value": "1774"
             },
             {
               "label": "类型",
@@ -479,7 +479,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1744"
+              "value": "1745"
             },
             {
               "label": "类型",
