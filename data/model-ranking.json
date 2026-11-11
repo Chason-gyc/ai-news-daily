@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-11",
   "itemsCount": 26,
   "sourceLabel": "任务分榜：LMArena / Hugging Face Open LLM Leaderboard",
   "sourceText": "综合榜使用 LMArena Text Style Control 的 overall 分类；代码榜使用 LMArena WebDev Arena；开源榜使用 Hugging Face Open LLM Leaderboard，且不会以闭源模型替补。源不可用时仅保留该分类的上次结果。",
@@ -358,6 +358,34 @@
       "items": [
         {
           "rank": 1,
+          "name": "Claude Fable 5.2 (xHigh)",
+          "bestFor": "网页开发、代码生成与工具调用",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "anthropic"
+            },
+            {
+              "label": "WebDev 评分",
+              "value": "1836"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "Claude Fable 5.2 (xHigh) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 2,
           "name": "Claude Opus 5.5 (Max)",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -367,7 +395,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1818"
+              "value": "1814"
             },
             {
               "label": "类型",
@@ -385,7 +413,7 @@
           "reason": "Claude Opus 5.5 (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Claude Sonnet 5.5 (xHigh)",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -395,7 +423,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1774"
+              "value": "1773"
             },
             {
               "label": "类型",
@@ -413,7 +441,7 @@
           "reason": "Claude Sonnet 5.5 (xHigh) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Gemini 4 Carbon (High)",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -441,7 +469,7 @@
           "reason": "Gemini 4 Carbon (High) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "GPT-6 Astra (Max)",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -451,7 +479,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1767"
+              "value": "1764"
             },
             {
               "label": "类型",
@@ -467,34 +495,6 @@
             }
           ],
           "reason": "GPT-6 Astra (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
-        },
-        {
-          "rank": 5,
-          "name": "Claude Fable 5.1 (Max)",
-          "bestFor": "网页开发、代码生成与工具调用",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "anthropic"
-            },
-            {
-              "label": "WebDev 评分",
-              "value": "1745"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            },
-            {
-              "label": "许可证",
-              "value": "Proprietary"
-            }
-          ],
-          "reason": "Claude Fable 5.1 (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
           "rank": 6,
@@ -526,6 +526,34 @@
         },
         {
           "rank": 7,
+          "name": "Claude Fable 5.1 (Max)",
+          "bestFor": "网页开发、代码生成与工具调用",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "anthropic"
+            },
+            {
+              "label": "WebDev 评分",
+              "value": "1742"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "Claude Fable 5.1 (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 8,
           "name": "Muse Wonder Full (Max)",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -535,7 +563,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1724"
+              "value": "1723"
             },
             {
               "label": "类型",
@@ -551,34 +579,6 @@
             }
           ],
           "reason": "Muse Wonder Full (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
-        },
-        {
-          "rank": 8,
-          "name": "Claude Sonnet 5.5 (High)",
-          "bestFor": "网页开发、代码生成与工具调用",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "anthropic"
-            },
-            {
-              "label": "WebDev 评分",
-              "value": "1713"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            },
-            {
-              "label": "许可证",
-              "value": "Proprietary"
-            }
-          ],
-          "reason": "Claude Sonnet 5.5 (High) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         }
       ]
     },
@@ -827,10 +827,10 @@
       "title": "代码与工程",
       "text": "看代码库理解、补丁稳定性和测试修复能力；成本敏感时可用开源模型做批量辅助。",
       "choices": [
+        "Claude Fable 5.2 (xHigh)",
         "Claude Opus 5.5 (Max)",
         "Claude Sonnet 5.5 (xHigh)",
-        "Gemini 4 Carbon (High)",
-        "GPT-6 Astra (Max)"
+        "Gemini 4 Carbon (High)"
       ]
     },
     {
