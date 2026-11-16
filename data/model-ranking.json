@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15",
+  "updatedAt": "2026-11-16",
   "itemsCount": 26,
   "sourceLabel": "任务分榜：LMArena / Hugging Face Open LLM Leaderboard",
   "sourceText": "综合榜使用 LMArena Text Style Control 的 overall 分类；代码榜使用 LMArena WebDev Arena；开源榜使用 Hugging Face Open LLM Leaderboard，且不会以闭源模型替补。源不可用时仅保留该分类的上次结果。",
@@ -367,7 +367,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1838"
+              "value": "1826"
             },
             {
               "label": "类型",
@@ -395,7 +395,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1815"
+              "value": "1816"
             },
             {
               "label": "类型",
@@ -479,7 +479,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1764"
+              "value": "1763"
             },
             {
               "label": "类型",
@@ -498,12 +498,40 @@
         },
         {
           "rank": 6,
-          "name": "GPT-6.1 Sol (Max)",
+          "name": "Qwen4-Max (xHigh)",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
             {
               "label": "来源",
-              "value": "openai"
+              "value": "alibaba"
+            },
+            {
+              "label": "WebDev 评分",
+              "value": "1750"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "Qwen4-Max (xHigh) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 7,
+          "name": "Claude Fable 5.1 (Max)",
+          "bestFor": "网页开发、代码生成与工具调用",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "anthropic"
             },
             {
               "label": "WebDev 评分",
@@ -522,16 +550,16 @@
               "value": "Proprietary"
             }
           ],
-          "reason": "GPT-6.1 Sol (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+          "reason": "Claude Fable 5.1 (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 7,
-          "name": "Claude Fable 5.1 (Max)",
+          "rank": 8,
+          "name": "GPT-6.1 Sol (Max)",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
             {
               "label": "来源",
-              "value": "anthropic"
+              "value": "openai"
             },
             {
               "label": "WebDev 评分",
@@ -550,35 +578,7 @@
               "value": "Proprietary"
             }
           ],
-          "reason": "Claude Fable 5.1 (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
-        },
-        {
-          "rank": 8,
-          "name": "Muse Wonder Full (Max)",
-          "bestFor": "网页开发、代码生成与工具调用",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "meta"
-            },
-            {
-              "label": "WebDev 评分",
-              "value": "1723"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            },
-            {
-              "label": "许可证",
-              "value": "Proprietary"
-            }
-          ],
-          "reason": "Muse Wonder Full (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+          "reason": "GPT-6.1 Sol (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         }
       ]
     },
