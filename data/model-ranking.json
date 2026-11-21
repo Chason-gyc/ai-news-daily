@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20",
+  "updatedAt": "2026-11-21",
   "itemsCount": 26,
   "sourceLabel": "任务分榜：LMArena / Hugging Face Open LLM Leaderboard",
   "sourceText": "综合榜使用 LMArena Text Style Control 的 overall 分类；代码榜使用 LMArena WebDev Arena；开源榜使用 Hugging Face Open LLM Leaderboard，且不会以闭源模型替补。源不可用时仅保留该分类的上次结果。",
@@ -367,7 +367,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1823"
+              "value": "1824"
             },
             {
               "label": "类型",
@@ -395,7 +395,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1818"
+              "value": "1819"
             },
             {
               "label": "类型",
@@ -423,7 +423,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1771"
+              "value": "1772"
             },
             {
               "label": "类型",
@@ -470,62 +470,6 @@
         },
         {
           "rank": 5,
-          "name": "Gemini 4 Neon (High)",
-          "bestFor": "网页开发、代码生成与工具调用",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "google"
-            },
-            {
-              "label": "WebDev 评分",
-              "value": "1763"
-            },
-            {
-              "label": "类型",
-              "value": "多模态/文本"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            },
-            {
-              "label": "许可证",
-              "value": "Proprietary"
-            }
-          ],
-          "reason": "Gemini 4 Neon (High) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
-        },
-        {
-          "rank": 6,
-          "name": "GPT-6 Astra (Max)",
-          "bestFor": "网页开发、代码生成与工具调用",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "openai"
-            },
-            {
-              "label": "WebDev 评分",
-              "value": "1763"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            },
-            {
-              "label": "许可证",
-              "value": "Proprietary"
-            }
-          ],
-          "reason": "GPT-6 Astra (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
-        },
-        {
-          "rank": 7,
           "name": "GPT-6.2 Astra (Max)",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -535,7 +479,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1759"
+              "value": "1766"
             },
             {
               "label": "类型",
@@ -553,6 +497,62 @@
           "reason": "GPT-6.2 Astra (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
+          "rank": 6,
+          "name": "Gemini 4 Neon (High)",
+          "bestFor": "网页开发、代码生成与工具调用",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "google"
+            },
+            {
+              "label": "WebDev 评分",
+              "value": "1765"
+            },
+            {
+              "label": "类型",
+              "value": "多模态/文本"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "Gemini 4 Neon (High) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 7,
+          "name": "GPT-6 Astra (Max)",
+          "bestFor": "网页开发、代码生成与工具调用",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "openai"
+            },
+            {
+              "label": "WebDev 评分",
+              "value": "1764"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "GPT-6 Astra (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
           "rank": 8,
           "name": "GPT-6.2 Sol (Max)",
           "bestFor": "网页开发、代码生成与工具调用",
@@ -563,7 +563,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1755"
+              "value": "1754"
             },
             {
               "label": "类型",
