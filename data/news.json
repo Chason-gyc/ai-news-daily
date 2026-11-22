@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T06:56:01.259Z",
+  "updatedAt": "2026-11-22T06:33:23.778Z",
   "count": 10,
   "sources": [
     {
@@ -102,6 +102,48 @@
   ],
   "items": [
     {
+      "title": "Nvidia 研究人员认为，超大 AI 上下文窗口是一条死路",
+      "link": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "Nvidia 研究人员认为，语言模型通常不需要完整的上下文窗口（速度慢、成本高且容易出错），并提出了一个替代方案。在测试中，定期摘要和有针对性的关键词搜索通常与……相匹配。",
+      "publishedAt": "2026-11-21T16:23:45.000Z",
+      "titleOriginal": "Nvidia researchers argue huge AI context windows are a dead end",
+      "summaryOriginal": "Nvidia researchers argue that language models often don't need their full context windows—which are slow, expensive, and prone to errors—and propose an alternative. In tests, periodic summaries and targeted keyword search usually matched fu",
+      "titleZh": "Nvidia 研究人员认为，超大 AI 上下文窗口是一条死路",
+      "summaryZh": "Nvidia 研究人员认为，语言模型通常不需要完整的上下文窗口（速度慢、成本高且容易出错），并提出了一个替代方案。在测试中，定期摘要和有针对性的关键词搜索通常与……相匹配。",
+      "language": "zh-CN"
+    },
+    {
+      "title": "硅谷对人工智能末日的痴迷与日俱增，正使科技行业的部分人士表现出近乎狂热的虔诚。",
+      "link": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "佛蒙特州的一座名为“枫叶”的佛教寺院希望将自己打造成硅谷的精神权威，同时创造出自己的AI神。据《纽约客》报道，领袖Soryu Forall的团体记录了其成员的每一次呼吸。",
+      "publishedAt": "2026-11-21T16:04:29.000Z",
+      "titleOriginal": "Silicon Valley&#039;s growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
+      "summaryOriginal": "A Buddhist monastery in Vermont called Maple wants to establish itself as Silicon Valley's spiritual authority while creating its own AI god. According to a New Yorker report, leader Soryu Forall's group records every breath its members tak",
+      "titleZh": "硅谷对人工智能末日的痴迷与日俱增，正使科技行业的部分人士表现出近乎狂热的虔诚。",
+      "summaryZh": "佛蒙特州的一座名为“枫叶”的佛教寺院希望将自己打造成硅谷的精神权威，同时创造出自己的AI神。据《纽约客》报道，领袖Soryu Forall的团体记录了其成员的每一次呼吸。",
+      "language": "zh-CN"
+    },
+    {
+      "title": "OpenAI 分享了 GPT-6.2 Astra 和 Sol 的新提示技巧，以解决答案过于简短和出现不必要问题的情况",
+      "link": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+      "source": "The Decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "category": "产业媒体",
+      "summary": "OpenAI 发布了适用于 GPT-6.2 Astra 和 Sol 的新提示模板，旨在纠正常见的模型行为，例如答案过于简短、不必要的跟进问题以及编码时过度测试。API 也在发生变化，因为编辑",
+      "publishedAt": "2026-11-21T13:32:35.000Z",
+      "titleOriginal": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+      "summaryOriginal": "OpenAI has released new prompt templates for GPT-6.2 Astra and Sol meant to fix common model behaviors such as overly brief answers, unnecessary follow-up questions, and excessive testing when coding. The API is changing as well, since edit",
+      "titleZh": "OpenAI 分享了 GPT-6.2 Astra 和 Sol 的新提示技巧，以解决答案过于简短和出现不必要问题的情况",
+      "summaryZh": "OpenAI 发布了适用于 GPT-6.2 Astra 和 Sol 的新提示模板，旨在纠正常见的模型行为，例如答案过于简短、不必要的跟进问题以及编码时过度测试。API 也在发生变化，因为编辑",
+      "language": "zh-CN"
+    },
+    {
       "title": "如何在 ChatGPT 中使用 Shopify 认领您的商家",
       "link": "https://www.youtube.com/watch?v=mX7wHNnsghs",
       "source": "OpenAI YouTube",
@@ -113,34 +155,6 @@
       "summaryOriginal": "",
       "titleZh": "如何在 ChatGPT 中使用 Shopify 认领您的商家",
       "summaryZh": "",
-      "language": "zh-CN"
-    },
-    {
-      "title": "OpenAI 让攻击者更难弄清其最新人工智能模型的思考方式",
-      "link": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "OpenAI 大幅加强了防止从 GPT-6.2 Astra 和 GPT-6.2 Sol 中提取内部推理的防护措施。在自适应红队测试中，提取受保护推理的成功率从 54% 下降至 0.2%。",
-      "publishedAt": "2026-11-20T20:31:50.000Z",
-      "titleOriginal": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
-      "summaryOriginal": "OpenAI has significantly strengthened safeguards against extracting internal reasoning from GPT-6.2 Astra and GPT-6.2 Sol. In adaptive red-teaming tests, the success rate for extracting protected reasoning fell from 54 percent to 0.2 percen",
-      "titleZh": "OpenAI 让攻击者更难弄清其最新人工智能模型的思考方式",
-      "summaryZh": "OpenAI 大幅加强了防止从 GPT-6.2 Astra 和 GPT-6.2 Sol 中提取内部推理的防护措施。在自适应红队测试中，提取受保护推理的成功率从 54% 下降至 0.2%。",
-      "language": "zh-CN"
-    },
-    {
-      "title": "Signal在iOS 27和Android上屏蔽截图，以阻止AI代理读取私人聊天内容",
-      "link": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "Signal正在屏蔽屏幕截图，以阻止苹果的Siri AI、谷歌的Gemini Intelligence和Meta的Muse等AI代理读取私人聊天内容。该应用将此称为对隐私的“生存威胁”，但承认其保护措施仍不完善。",
-      "publishedAt": "2026-11-20T19:50:27.000Z",
-      "titleOriginal": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
-      "summaryOriginal": "Signal is blocking screenshots to stop AI agents like Apple's Siri AI, Google's Gemini Intelligence, and Meta's Muse from reading private chats. The app calls it an \"existential threat\" to privacy, but admits its protections remain incomple",
-      "titleZh": "Signal在iOS 27和Android上屏蔽截图，以阻止AI代理读取私人聊天内容",
-      "summaryZh": "Signal正在屏蔽屏幕截图，以阻止苹果的Siri AI、谷歌的Gemini Intelligence和Meta的Muse等AI代理读取私人聊天内容。该应用将此称为对隐私的“生存威胁”，但承认其保护措施仍不完善。",
       "language": "zh-CN"
     },
     {
@@ -158,45 +172,31 @@
       "language": "zh-CN"
     },
     {
-      "title": "Google的Gemini现在可以在您继续工作的同时，在后台运行Mac应用程序并完成桌面任务",
-      "link": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
-      "source": "The Decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "category": "产业媒体",
-      "summary": "Google正将“计算机使用”功能引入Mac版Gemini，让AI能够在独立的后台窗口中操作桌面应用程序、本地文件和网站，并提供实时预览，同时用户可以继续工作。文章《Google 的 Gemini 现在可以运行",
-      "publishedAt": "2026-11-20T18:50:31.000Z",
-      "titleOriginal": "Google&#039;s Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
-      "summaryOriginal": "Google is bringing \"Computer Use\" to Gemini for Mac, letting the AI operate desktop apps, local files, and websites in an isolated background window with a live preview while users keep working. The article Google&#039;s Gemini can now run ",
-      "titleZh": "Google的Gemini现在可以在您继续工作的同时，在后台运行Mac应用程序并完成桌面任务",
-      "summaryZh": "Google正将“计算机使用”功能引入Mac版Gemini，让AI能够在独立的后台窗口中操作桌面应用程序、本地文件和网站，并提供实时预览，同时用户可以继续工作。文章《Google 的 Gemini 现在可以运行",
-      "language": "zh-CN"
-    },
-    {
       "title": "对抗对抗性蒸馏",
       "link": "https://openai.com/index/combatting-adversarial-distillation",
       "source": "OpenAI Blog",
       "sourceHome": "https://openai.com/news/",
       "category": "公司/实验室",
-      "summary": "OpenAI 对对抗性蒸馏的分层方法将模型训练、保障措施、检测和执行相结合，以防范能力提取。",
+      "summary": "OpenAI 对对抗性蒸馏的分层方法结合了模型训练、保障措施、检测和执行，以防范能力提取。",
       "publishedAt": "2026-11-20T10:00:00.000Z",
       "titleOriginal": "Combatting adversarial distillation",
       "summaryOriginal": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
       "titleZh": "对抗对抗性蒸馏",
-      "summaryZh": "OpenAI 对对抗性蒸馏的分层方法将模型训练、保障措施、检测和执行相结合，以防范能力提取。",
+      "summaryZh": "OpenAI 对对抗性蒸馏的分层方法结合了模型训练、保障措施、检测和执行，以防范能力提取。",
       "language": "zh-CN"
     },
     {
-      "title": "弥合分析与设计之间的鸿沟：一种受授权约束的智能体，用于自动驾驶实验室",
+      "title": "弥合分析与设计之间的鸿沟：一种受授权约束的代理，用于自动驾驶实验室",
       "link": "https://arxiv.org/abs/2611.25043",
       "source": "arXiv cs.AI",
       "sourceHome": "https://arxiv.org/list/cs.AI/recent",
       "category": "研究论文",
-      "summary": "arXiv:2611.25043v1 公告类型：新文摘要：人工智能 (AI) 代理正日益被集成到自驱动实验室 (SDL) 中，用于规划实验和解释结果。然而，仅靠分析推理并不足以……",
+      "summary": "arXiv:2611.25043v1 公告类型：新文摘要：人工智能（AI）代理正日益被集成到自驱动实验室（SDL）中，用于规划实验和解释结果。然而，仅靠分析推理并不能……",
       "publishedAt": "2026-11-20T05:00:00.000Z",
       "titleOriginal": "Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories",
       "summaryOriginal": "arXiv:2611.25043v1 Announce Type: new Abstract: Artificial intelligence (AI) agents are increasingly integrated into self-driving laboratories (SDLs) to plan experiments and interpret results. However, analytical reasoning alone does not ma",
-      "titleZh": "弥合分析与设计之间的鸿沟：一种受授权约束的智能体，用于自动驾驶实验室",
-      "summaryZh": "arXiv:2611.25043v1 公告类型：新文摘要：人工智能 (AI) 代理正日益被集成到自驱动实验室 (SDL) 中，用于规划实验和解释结果。然而，仅靠分析推理并不足以……",
+      "titleZh": "弥合分析与设计之间的鸿沟：一种受授权约束的代理，用于自动驾驶实验室",
+      "summaryZh": "arXiv:2611.25043v1 公告类型：新文摘要：人工智能（AI）代理正日益被集成到自驱动实验室（SDL）中，用于规划实验和解释结果。然而，仅靠分析推理并不能……",
       "language": "zh-CN"
     },
     {
@@ -219,12 +219,12 @@
       "source": "arXiv cs.AI",
       "sourceHome": "https://arxiv.org/list/cs.AI/recent",
       "category": "研究论文",
-      "summary": "arXiv:2611.25087v1 公告类型：新 摘要：我们介绍了 SailSearch，这是一个由人类引导的算法研究工作流程，其中包含两个语言模型智能体，并报告了关于市场分割（Market Split）和最大独立集（MIS）的结果。对于市场分割，",
+      "summary": "arXiv:2611.25087v1 公告类型：新摘要：我们介绍了 SailSearch，这是一个由人类引导的算法研究工作流程，其中包含两个语言模型智能体，并报告了关于市场分割和最大独立集（MIS）的结果。对于市场分割，",
       "publishedAt": "2026-11-20T05:00:00.000Z",
       "titleOriginal": "SailSearch: Agent-Assisted Discovery in Combinatorial Optimization",
       "summaryOriginal": "arXiv:2611.25087v1 Announce Type: new Abstract: We present SailSearch, a human-guided workflow for algorithmic research with two language-model agents, and report results on Market Split and maximum independent set (MIS). For Market Split, ",
       "titleZh": "SailSearch：组合优化中的代理辅助发现",
-      "summaryZh": "arXiv:2611.25087v1 公告类型：新 摘要：我们介绍了 SailSearch，这是一个由人类引导的算法研究工作流程，其中包含两个语言模型智能体，并报告了关于市场分割（Market Split）和最大独立集（MIS）的结果。对于市场分割，",
+      "summaryZh": "arXiv:2611.25087v1 公告类型：新摘要：我们介绍了 SailSearch，这是一个由人类引导的算法研究工作流程，其中包含两个语言模型智能体，并报告了关于市场分割和最大独立集（MIS）的结果。对于市场分割，",
       "language": "zh-CN"
     },
     {
