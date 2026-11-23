@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22",
+  "updatedAt": "2026-11-23",
   "itemsCount": 26,
   "sourceLabel": "任务分榜：LMArena / Hugging Face Open LLM Leaderboard",
   "sourceText": "综合榜使用 LMArena Text Style Control 的 overall 分类；代码榜使用 LMArena WebDev Arena；开源榜使用 Hugging Face Open LLM Leaderboard，且不会以闭源模型替补。源不可用时仅保留该分类的上次结果。",
@@ -81,7 +81,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1513"
+              "value": "1512"
             },
             {
               "label": "类型",
@@ -109,7 +109,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1511"
+              "value": "1512"
             },
             {
               "label": "类型",
@@ -137,7 +137,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1506"
+              "value": "1507"
             },
             {
               "label": "类型",
@@ -184,34 +184,6 @@
         },
         {
           "rank": 7,
-          "name": "Claude Fable 5.2 (Max)",
-          "bestFor": "通用问答、推理与多轮对话",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "anthropic"
-            },
-            {
-              "label": "Arena 评分",
-              "value": "1503"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            },
-            {
-              "label": "许可证",
-              "value": "Proprietary"
-            }
-          ],
-          "reason": "Claude Fable 5.2 (Max) 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
-        },
-        {
-          "rank": 8,
           "name": "Claude Opus 4.6 (High)",
           "bestFor": "通用问答、推理与多轮对话",
           "specs": [
@@ -239,6 +211,34 @@
           "reason": "Claude Opus 4.6 (High) 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
+          "rank": 8,
+          "name": "Claude Fable 5.2 (Max)",
+          "bestFor": "通用问答、推理与多轮对话",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "anthropic"
+            },
+            {
+              "label": "Arena 评分",
+              "value": "1502"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "Claude Fable 5.2 (Max) 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
           "rank": 9,
           "name": "Claude Fable 5.1 (Max)",
           "bestFor": "通用问答、推理与多轮对话",
@@ -249,7 +249,7 @@
             },
             {
               "label": "Arena 评分",
-              "value": "1503"
+              "value": "1502"
             },
             {
               "label": "类型",
@@ -296,6 +296,34 @@
         },
         {
           "rank": 11,
+          "name": "Gemini 3.8 Flash (High)",
+          "bestFor": "通用问答、推理与多轮对话",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "google"
+            },
+            {
+              "label": "Arena 评分",
+              "value": "1498"
+            },
+            {
+              "label": "类型",
+              "value": "多模态/文本"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "Gemini 3.8 Flash (High) 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
+          "rank": 12,
           "name": "Muse Spark 1.3 (Max)",
           "bestFor": "通用问答、推理与多轮对话",
           "specs": [
@@ -321,34 +349,6 @@
             }
           ],
           "reason": "Muse Spark 1.3 (Max) 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
-        },
-        {
-          "rank": 12,
-          "name": "Gemini 3.8 Flash (High)",
-          "bestFor": "通用问答、推理与多轮对话",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "google"
-            },
-            {
-              "label": "Arena 评分",
-              "value": "1497"
-            },
-            {
-              "label": "类型",
-              "value": "多模态/文本"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            },
-            {
-              "label": "许可证",
-              "value": "Proprietary"
-            }
-          ],
-          "reason": "Gemini 3.8 Flash (High) 来自 LMArena Text Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         }
       ]
     },
@@ -367,7 +367,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1824"
+              "value": "1822"
             },
             {
               "label": "类型",
@@ -395,7 +395,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1819"
+              "value": "1820"
             },
             {
               "label": "类型",
@@ -470,34 +470,6 @@
         },
         {
           "rank": 5,
-          "name": "GPT-6.2 Astra (Max)",
-          "bestFor": "网页开发、代码生成与工具调用",
-          "specs": [
-            {
-              "label": "来源",
-              "value": "openai"
-            },
-            {
-              "label": "WebDev 评分",
-              "value": "1766"
-            },
-            {
-              "label": "类型",
-              "value": "文本/推理"
-            },
-            {
-              "label": "用途",
-              "value": "通用"
-            },
-            {
-              "label": "许可证",
-              "value": "Proprietary"
-            }
-          ],
-          "reason": "GPT-6.2 Astra (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
-        },
-        {
-          "rank": 6,
           "name": "Gemini 4 Neon (High)",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -507,7 +479,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1765"
+              "value": "1766"
             },
             {
               "label": "类型",
@@ -525,7 +497,7 @@
           "reason": "Gemini 4 Neon (High) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "name": "GPT-6 Astra (Max)",
           "bestFor": "网页开发、代码生成与工具调用",
           "specs": [
@@ -553,6 +525,34 @@
           "reason": "GPT-6 Astra (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
         },
         {
+          "rank": 7,
+          "name": "GPT-6.2 Astra (Max)",
+          "bestFor": "网页开发、代码生成与工具调用",
+          "specs": [
+            {
+              "label": "来源",
+              "value": "openai"
+            },
+            {
+              "label": "WebDev 评分",
+              "value": "1759"
+            },
+            {
+              "label": "类型",
+              "value": "文本/推理"
+            },
+            {
+              "label": "用途",
+              "value": "通用"
+            },
+            {
+              "label": "许可证",
+              "value": "Proprietary"
+            }
+          ],
+          "reason": "GPT-6.2 Astra (Max) 来自 LMArena WebDev Arena 最新公开榜单；不同榜单衡量的任务不同，不应与其他榜单分数直接比较。"
+        },
+        {
           "rank": 8,
           "name": "GPT-6.2 Sol (Max)",
           "bestFor": "网页开发、代码生成与工具调用",
@@ -563,7 +563,7 @@
             },
             {
               "label": "WebDev 评分",
-              "value": "1754"
+              "value": "1755"
             },
             {
               "label": "类型",
